@@ -7,6 +7,7 @@ import time
 from const import sampled_ticker_date
 import datetime
 import json
+import pandas as pd
 
 #%%
 load_dotenv()
@@ -73,37 +74,98 @@ with open('company_peers.json', 'w') as f:
     json.dump(peers_dict, f, indent=4)
 #%%
 
-# # Company Profile 2
-# profile = []
-# for tk in tqdm(sampled_data, desc="Downloading company profile"):
-#     profile.append(finnhub_client.company_profile2(symbol=tk))
-#     time.sleep(1.1) # 1.1 second sleep to avoid rate
+# Company Profile 2
+profile = []
+for tk in tqdm(sampled_data, desc="Downloading company profile"):
+    profile.append(finnhub_client.company_profile2(symbol=tk))
+    time.sleep(1.1) # 1.1 second sleep to avoid rate
 
-# profile_df = pd.concat([pd.DataFrame(p) for p in profile], axis=0)
-
-# # Revenue Estimates
-
-
-
-# # Filings
-# print(finnhub_client.filings(symbol='AAPL', _from="2020-01-01", to="2020-06-11"))
+profile_df = pd.concat([pd.DataFrame(p, index=[0]) for p in profile if p != {}], axis=0)
+profile_df = profile_df[['ticker', 'name', 'marketCapitalization', 'ipo', 'country', 'exchange', 'weburl']]
+profile_df.to_csv('company_profile.csv')
 
 
 # # Financials as reported
-# print(finnhub_client.financials_reported(symbol='AAPL', freq='annual'))
+financials = []
+for tk in tqdm(sampled_data, desc="Downloading financials"):
+    financials.append(
+        finnhub_client
+        .financials_reported(
+            symbol=tk, 
+            freq='quarterly', 
+            _from=sampled_ticker_date['start_date'], 
+            to=sampled_ticker_date['end_date']
+        )
+    )
+    time.sleep(1.1) # 1.1 second sleep to avoid rate limit
+#%%
+all_fin_prepoc = []
+for fin in financials:
+    if fin['data'] == []:
+        continue
+    date = [dt['filedDate'] for dt in fin['data'] if dt['report']['bs'] != []]
+    enddate = [dt['endDate'] for dt in fin['data'] if dt['report']['bs'] != []]
+    symbol = fin['data'][0]['symbol']
 
-# # General news
-# print(finnhub_client.general_news('AAPL', min_id=0))
+    bs = [
+        pd.DataFrame(bs['report']['bs'])[['concept', 'value']]
+        .pivot_table(values = 'value', columns='concept', aggfunc='sum') 
+        for bs in fin['data']  if bs['report']['bs'] != []
+    ]
+
+    bs = pd.concat(bs, ignore_index=True)
+    bs['date'] = date
+    bs['enddate'] = enddate
+    bs['symbol'] = symbol
+
+    date = [dt['filedDate'] for dt in fin['data'] if dt['report']['ic'] != []]
+    ic = [
+        pd.DataFrame(ic['report']['ic'])[['concept', 'value']]
+        .pivot_table(values = 'value', columns='concept', aggfunc='sum') 
+        for ic in fin['data'] if ic['report']['ic'] != []
+    ]
+    ic = pd.concat(ic, ignore_index=True)
+    ic['date'] = date
+
+    date = [dt['filedDate'] for dt in fin['data'] if dt['report']['cf'] != []]
+
+    cf = [
+        pd.DataFrame(cf['report']['cf'])[['concept', 'value']]
+        .pivot_table(values = 'value', columns='concept', aggfunc='sum') 
+        for cf in fin['data'] if cf['report']['cf'] != []
+    ]
+    cf = pd.concat(cf, ignore_index=True)
+    cf['date'] = date
+    all_fin_prepoc.append(
+        bs
+        .merge(ic, on='date', how='outer')
+        .merge(cf, on='date', how='outer')
+    )
+#%%
+fin_reported_df = pd.concat(all_fin_prepoc, ignore_index=True)
+fin_reported_df.to_csv('financials_reported.csv')
 
 # # IPO calendar
-# print(finnhub_client.ipo_calendar(_from="2020-05-01", to="2020-06-01"))
+ipo = (finnhub_client
+       .ipo_calendar(_from=sampled_ticker_date['start_date'], 
+                                  to=sampled_ticker_date['end_date'])
+)
+ipo_df = pd.concat([pd.DataFrame([ip]) for ip in ipo['ipoCalendar']])
+ipo_df.to_csv('ipo_calendar.csv')
 
-
-# # Quote
-# print(finnhub_client.quote('AAPL'))
 
 # # Recommendation trends
 # print(finnhub_client.recommendation_trends('AAPL'))
+trend = []
+for tk in tqdm(sampled_data, desc="Downloading recommendation trends"):
+    trend_list = finnhub_client.recommendation_trends(tk)
+    if trend_list == []:
+        continue
+    trend.append(pd.concat([pd.DataFrame([tr]) for tr in  trend_list]))
+    time.sleep(1.1) # 1.1 second sleep to avoid rate limit
+
+trend_df = pd.concat(trend, axis=0)
+trend_df.to_csv('recommendation_trends.csv')
 
 # # Covid-19
 # print(finnhub_client.covid19())

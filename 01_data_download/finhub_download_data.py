@@ -2,24 +2,25 @@
 import finnhub
 from dotenv import load_dotenv
 import os
+import sys
 from tqdm import tqdm
 import time
-from const import sampled_ticker_date
 import datetime
 import json
 import pandas as pd
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from const import sampled_ticker_date
 
-#%%
 load_dotenv()
-#FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")
+FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")
 
 # Setup client
 finnhub_client = finnhub.Client(api_key=FINNHUB_API_KEY)
 #%%
 # Load ticker the data
-ticker_data = pd.read_json('company_tickers.json')
+ticker_data = pd.read_json('02_downloaded_data/company_tickers.json')
 # Sample 2000 random ticker to download from ticker_data.loc['ticker']
-sampled_data = ticker_data.loc['ticker'].sample(n=20, random_state=42).to_list()
+sampled_data = ticker_data.loc['ticker'].sample(n=2000, random_state=42).to_list()
 
 
 # download basic financials informations
@@ -167,35 +168,60 @@ for tk in tqdm(sampled_data, desc="Downloading recommendation trends"):
 trend_df = pd.concat(trend, axis=0)
 trend_df.to_csv('recommendation_trends.csv')
 
-# # Covid-19
-# print(finnhub_client.covid19())
 
-# # FDA Calendar
-# print(finnhub_client.fda_calendar())
+# patent 
+patent = []
+for tk in tqdm(sampled_data, desc="Downloading patent"):
+    patent_df = pd.DataFrame(finnhub_client.stock_uspto_patent(tk, sampled_ticker_date['start_date'], sampled_ticker_date['end_date'])['data'])
+    patent_df['ticker'] = tk
+    patent.append(patent_df)
+    time.sleep(1.1) # 1.1 second sleep to avoid rate limit
 
-
-# # Insider transactions
-# print(finnhub_client.stock_insider_transactions('AAPL', '2021-01-01', '2021-03-01'))
-
-# # USPTO Patent
-# print(finnhub_client.stock_uspto_patent("AAPL", "2021-01-01", "2021-12-31"))
-
-# # Visa application
-# print(finnhub_client.stock_visa_application("AAPL", "2021-01-01", "2022-06-15"))
-
-# # Insider sentiment
-# print(finnhub_client.stock_insider_sentiment('AAPL', '2021-01-01', '2022-03-01'))
-
-# # Lobbying
-# print(finnhub_client.stock_lobbying("AAPL", "2021-01-01", "2022-06-15"))
-
-# # USA Spending
-# print(finnhub_client.stock_usa_spending("LMT", "2021-01-01", "2022-06-15"))
-
-# ## Market Holday / Status
-# print(finnhub_client.market_holiday(exchange='US'))
-# print(finnhub_client.market_status(exchange='US'))
+patent_df = pd.concat(patent, axis=0)
+patent_df.to_csv('patent.csv')
 
 
+visa = []
+for tk in tqdm(sampled_data, desc="Downloading visa"):
+    visa_df = pd.DataFrame(finnhub_client.stock_visa_application(tk, sampled_ticker_date['start_date'], sampled_ticker_date['end_date'])['data'])
+    visa_df['ticker'] = tk
+    visa.append(visa_df)
+    time.sleep(1.1) # 1.1 second sleep to avoid rate limit
 
-# %%
+visa_df = pd.concat(visa, axis=0)
+visa_df.to_csv('visa.csv')
+
+# Insider sentiment
+insider_stock = []
+for tk in tqdm(sampled_data, desc="Downloading insider sentiment"):
+    insider_stock_df = pd.DataFrame(finnhub_client.stock_insider_sentiment(tk, sampled_ticker_date['start_date'], sampled_ticker_date['end_date'])['data'])
+    insider_stock_df['ticker'] = tk
+    insider_stock.append(insider_stock_df)
+    time.sleep(1.1) # 1.1 second sleep to avoid rate limit
+
+insider_stock_df = pd.concat(insider_stock, axis=0)
+insider_stock_df.to_csv('insider_sentiment.csv')
+
+
+# Lobbying
+lobbying = []
+for tk in tqdm(sampled_data, desc="Downloading lobbying"):
+    lobbying_df = pd.DataFrame(finnhub_client.stock_lobbying(tk, sampled_ticker_date['start_date'], sampled_ticker_date['end_date'])['data'])
+    lobbying_df['ticker'] = tk
+    lobbying.append(lobbying_df)
+    time.sleep(1.1) # 1.1 second sleep to avoid rate limit
+
+lobbying_df = pd.concat(lobbying, axis=0)
+lobbying_df.to_csv('lobbying.csv')
+
+
+# insider transaction
+insider_transaction = []
+for tk in tqdm(sampled_data, desc="Downloading lobbying"):
+    insider_transaction_df = pd.DataFrame(finnhub_client.stock_insider_transactions(tk, sampled_ticker_date['start_date'], sampled_ticker_date['end_date'])['data'])
+    insider_transaction_df['ticker'] = tk
+    insider_transaction.append(insider_transaction_df)
+    time.sleep(1.1) # 1.1 second sleep to avoid rate limit
+
+insider_transaction_df = pd.concat(insider_transaction, axis=0)
+insider_transaction_df.to_csv('insider_transaction.csv')

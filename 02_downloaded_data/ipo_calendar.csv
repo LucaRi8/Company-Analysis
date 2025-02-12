@@ -1,0 +1,201 @@
+,date,exchange,name,numberOfShares,price,status,symbol,totalSharesValue
+0,2025-02-12,NASDAQ Capital,Aureus Greenway Holdings Inc,3750000,4.00-6.00,expected,AGH,22500000.0
+0,2025-02-11,NASDAQ Global,Archimedes Tech SPAC Partners II Co.,20000000,10.00,expected,ATIIU,200000000.0
+0,2025-02-10,,Texas Ventures Acquisition III Corp,,,filed,TVACU,230000000.0
+0,2025-02-10,,"KESTRA MEDICAL TECHNOLOGIES, LTD.",,,filed,KMTS,100000000.0
+0,2025-02-07,NASDAQ Global,"Sionna Therapeutics, Inc.",10588233,18.00,priced,SION,190588194.0
+0,2025-02-07,NYSE,Titan America SA,24000000,16.00,priced,TTAM,384000000.0
+0,2025-02-07,,Newsmax Inc.,,,filed,NMAX,75000000.0
+0,2025-02-07,,Digital Asset Acquisition Corp.,,,filed,DAAQU,172500000.0
+0,2025-02-07,,Real Asset Acquisition Corp.,,,filed,RAAQU,172500000.0
+0,2025-02-07,,AMBITIONS ENTERPRISE MANAGEMENT CO. L.L.C,,,filed,AHMA,11500000.0
+0,2025-02-07,NASDAQ Capital,"Wellgistics Health, Inc.",900000,4.50-5.50,expected,WGRX,4950000.0
+0,2025-02-06,NASDAQ Capital,FBS Global Ltd,2250000,4.50,priced,FBGL,10125000.0
+0,2025-02-06,NASDAQ Global,EPWK Holdings Ltd.,2750000,4.10,priced,EPWK,11275000.0
+0,2025-02-06,,Nomadar Corp.,,,filed,NOMA,1050849.91
+0,2025-02-06,NASDAQ Capital,RedCloud Holdings plc,11000000,4.00-6.00,expected,RCT,75900000.0
+0,2025-02-05,NASDAQ Global,K&F GROWTH ACQUISITION CORP. II,25000000,10.00,priced,KFIIU,250000000.0
+0,2025-02-05,NASDAQ Capital,CALLAN JMB INC.,1280000,4.00,priced,CJMB,5120000.0
+0,2025-02-05,NASDAQ Capital,"Huachen AI Parking Management Technology Holding Co., Ltd",1500000,4.00,priced,HCAI,6000000.0
+0,2025-02-05,NASDAQ Capital,Plutus Financial Group Ltd,2100000,4.00,priced,PLUT,8400000.0
+0,2025-02-04,,BRK International Holding Group Ltd,,,filed,BRKHM,1000000.0
+0,2025-02-03,,Rithm Acquisition Corp.,,,filed,RAC'U,230000000.0
+0,2025-01-31,NASDAQ Global Select,"Metsera, Inc.",15277778,18.00,priced,MTSR,275000004.0
+0,2025-01-31,NASDAQ Global,"Maze Therapeutics, Inc.",8750000,16.00,priced,MAZE,140000000.0
+0,2025-01-31,NYSE,"INFINITY NATURAL RESOURCES, INC.",13250000,20.00,priced,INR,265000000.0
+0,2025-01-31,,Fifth Era Acquisition Corp I,,,filed,FERAU,230000000.0
+0,2025-01-31,,TV Channels Network Inc.,,,filed,TVCN,8625000.0
+0,2025-01-30,NASDAQ Global,"Beta Bionics, Inc.",12000000,17.00,priced,BBNX,204000000.0
+0,2025-01-30,NASDAQ Global,Stellar V Capital Corp. (Cayman Islands),15000000,10.00,priced,SVCCU,150000000.0
+0,2025-01-30,NASDAQ Capital,"CLOUDASTRUCTURE, INC.",1701338,,priced,CSAI,3315167.0
+0,2025-01-29,NASDAQ Global,FG Merger II Corp.,8000000,10.00,priced,FGMCU,80000000.0
+0,2025-01-29,,Cartesian Growth Corp III,,,filed,,230000000.0
+0,2025-01-28,NASDAQ Global Select,SMITHFIELD FOODS INC,26086958,20.00,priced,SFD,521739160.0
+0,2025-01-28,NASDAQ Global,Drugs Made In America Acquisition Corp.,20000000,10.00,priced,DMAAU,200000000.0
+0,2025-01-28,,"Bialgo Commercial Operation Management CO., Ltd",,,filed,BGO,8000000.0
+0,2025-01-28,,"QMSK Technology Co., Ltd",,,filed,QMSK,10350000.0
+0,2025-01-28,,Gesher Acquisition Corp. II,,,filed,GSHRU,143750000.0
+0,2025-01-28,,VISTEK LTD,,,filed,VTEK,11250000.0
+0,2025-01-24,NASDAQ Global,ASCENTAGE PHARMA GROUP INTERNATIONAL,7325000,17.25,priced,AAPG,126356250.0
+0,2025-01-24,NYSE,"Venture Global, Inc.",70000000,25.00,priced,VG,1750000000.0
+0,2025-01-24,,Soulpower Acquisition Corp.,,,filed,SOULU,230000000.0
+0,2025-01-24,,"Aurion Biotech, Inc.",,,filed,AURN,100000000.0
+0,2025-01-24,,Softto Inc,,,filed,SFTO,20700000.0
+0,2025-01-24,NYSE MKT,"Cortigent, Inc.",1500000,10.00,expected,CRGT,17250000.0
+0,2025-01-23,,HTL Capital Ltd.,,,withdrawn,,
+0,2025-01-23,NASDAQ Global,Columbus Acquisition Corp/Cayman Islands,6000000,10.00,priced,COLAU,60000000.0
+0,2025-01-23,NASDAQ Capital,Skyline Builders Group Holding Ltd,1500000,4.00,priced,SKBL,6000000.0
+0,2025-01-23,,One Power Co,,,filed,ONE,100000000.0
+0,2025-01-22,NASDAQ Capital,Decent Holding Inc.,1250000,4.00,priced,DXST,5000000.0
+0,2025-01-22,NASDAQ Capital,Diginex Ltd,2250000,4.10,priced,DGNX,9225000.0
+0,2025-01-22,NYSE MKT,Toppoint Holdings Inc.,2500000,4.00,priced,TOPP,10000000.0
+0,2025-01-22,NASDAQ Capital,CTRL GROUP Ltd,2000000,4.00,priced,MCTR,8000000.0
+0,2025-01-22,,"Center Mobile Co., Ltd.",,,filed,CTMB,17250000.0
+0,2025-01-22,NASDAQ Capital,Maverick Lifestyle Inc.,1222222,4.50-5.00,expected,MVRK,7027775.0
+0,2025-01-21,,One & one Green Technologies. INC,,,filed,YDDL,13800000.0
+0,2025-01-21,,Silver Pegasus Acquisition Corp.,,,filed,SPEGU,172500000.0
+0,2025-01-17,NASDAQ Global,Hennessy Capital Investment Corp. VII,17500000,10.00,priced,HVIIU,175000000.0
+0,2025-01-17,,Iron Horse Acquisition Corp. II,,,filed,,287500000.0
+0,2025-01-17,,"Odyssey Therapeutics, Inc.",,,filed,ODTX,100000000.0
+0,2025-01-16,NYSE,Flowco Holdings Inc.,17800000,24.00,priced,FLOC,427200000.0
+0,2025-01-16,NASDAQ Capital,PicoCELA Inc.,1750000,4.00,priced,PCLA,7000000.0
+0,2025-01-16,,Agroz Inc.,,,filed,AGRZ,11500000.0
+0,2025-01-16,NYSE MKT,LOGPROSTYLE INC.,2500000,4.00-6.00,expected,LGPS,17250000.0
+0,2025-01-15,NASDAQ Capital,Hong Kong Pharma Digital Technology Holdings Ltd,1403685,4.00,priced,HKPD,5614740.0
+0,2025-01-15,NASDAQ Capital,Ribbon Acquisition Corp.,5000000,10.00,priced,RIBBU,50000000.0
+0,2025-01-15,NASDAQ Global,"Plum Acquisition Corp, IV",15000000,10.00,priced,PLMKU,150000000.0
+0,2025-01-15,,Antharas Inc,,,filed,AAS,7187500.0
+0,2025-01-14,,RanMarine Technology B.V.,,,withdrawn,,
+0,2025-01-14,NASDAQ Capital,Uni-Fuels Holdings Ltd,2100000,4.00,priced,UFG,8400000.0
+0,2025-01-13,,"Marwynn Holdings, Inc.",,,filed,MWYN,11500000.0
+0,2025-01-13,,Phoenix Asia Holdings Ltd,,,filed,PHOE,11040000.0
+0,2025-01-10,NASDAQ Capital,Mint Inc Ltd,1750000,4.00,priced,MIMI,7000000.0
+0,2025-01-10,,"Aspargo Labs, Inc.",,,filed,AAGO,153978683.91
+0,2025-01-10,,Origin Investment Corp I,,,filed,,69000000.0
+0,2025-01-10,,CH4 Natural Solutions Acquisition Corp,,,filed,MTNEU,287500000.0
+0,2025-01-10,,Live Oak Acquisition Corp. V,,,filed,LOKVU,230000000.0
+0,2025-01-08,NASDAQ Capital,3 E Network Technology Group Ltd,1250000,4.00,priced,MASK,5000000.0
+0,2025-01-08,,Functional Brands Inc.,,,filed,MEHA,7331250.0
+0,2025-01-07,NASDAQ Global,"Cantor Equity Partners I, Inc.",20000000,10.00,priced,CEPO,200000000.0
+0,2025-01-07,NASDAQ Capital,Zhengye Biotechnology Holding Ltd,1500000,4.00,priced,ZYBT,6000000.0
+0,2025-01-07,,"Molida Holding Group Co., Ltd",,,filed,MOLD,120000000.0
+0,2025-01-06,,Clarios International Inc.,,,withdrawn,,
+0,2025-01-06,,Phaos Technology (Cayman) Holdings Ltd,,,filed,POAS,15525000.0
+0,2025-01-06,,Zenta Group Co Ltd,,,filed,ZGM,8625000.0
+0,2025-01-03,,"NEONC TECHNOLOGIES HOLDINGS, INC.",,,filed,NTHI,0.0
+0,2025-01-03,,Everfront Biotech Holding Co Ltd,,,filed,EFB,10000000.0
+0,2025-01-02,NASDAQ Capital,INLIF Ltd,2000000,4.00,priced,INLF,8000000.0
+0,2025-01-02,,NewHold Investment Corp. III,,,filed,NHICU,201250000.0
+0,2024-12-31,NASDAQ Capital,OneConstruction Group Ltd,1750000,4.00,priced,ONEG,7000000.0
+0,2024-12-31,,Anbio Biotechnology,,,filed,NNNN,9600000.0
+0,2024-12-30,,"Aether Holdings, Inc.",,,filed,ATHR,10350000.0
+0,2024-12-30,,Maywood Acquisition Corp.,,,filed,MAYAU,86250000.0
+0,2024-12-27,NASDAQ Capital,"Park Ha Biological Technology Co., Ltd.",1200000,4.00,priced,PHH,4800000.0
+0,2024-12-27,,Helio Corp /FL/,,,filed,,19166670.0
+0,2024-12-26,,Pictureworks International Holdings Ltd,,,filed,PICW,13225000.0
+0,2024-12-26,,SAGTEC GLOBAL Ltd,,,filed,SAGT,9056250.0
+0,2024-12-23,NASDAQ Global,Translational Development Acquisition Corp.,15000000,10.00,priced,TDACU,150000000.0
+0,2024-12-23,NASDAQ Capital,"Health In Tech, Inc.",2300000,4.00,priced,HIT,9200000.0
+0,2024-12-23,,Arrive AI Inc.,,,filed,ARAI,372700000.0
+0,2024-12-23,,"Aimei Health Technology II Co., Ltd.",,,filed,AHJKU,69000000.0
+0,2024-12-23,,"SFIDA X, Inc.",,,filed,SFDX,11500000.0
+0,2024-12-20,NASDAQ Global,Range Capital Acquisition Corp.,10000000,10.00,priced,RANGU,100000000.0
+0,2024-12-20,NASDAQ Capital,Youxin Technology Ltd,2300000,4.50,priced,YAAS,10350000.0
+0,2024-12-20,,Copley Acquisition Corp,,,filed,,172500000.0
+0,2024-12-19,NASDAQ Capital,"Leishen Energy Holding Co., Ltd.",1375000,4.00,priced,LSE,5500000.0
+0,2024-12-19,,PEAR WORKSHOP LTD.,,,filed,CLGF,5000000.0
+0,2024-12-18,,Clean Vision Corp,,,withdrawn,,
+0,2024-12-18,NASDAQ Capital,"YSX Tech Co., Ltd",1250000,4.00,priced,YSXT,5000000.0
+0,2024-12-18,NASDAQ Capital,New Century Logistics (BVI) Ltd,1500000,4.00,priced,NCEW,6000000.0
+0,2024-12-18,,JAJI Global Inc,,,filed,JAJI,11040000.0
+0,2024-12-16,,"Metros Development Co., Ltd.",,,withdrawn,,
+0,2024-12-16,,JuHe KC Holdings Ltd,,,filed,JHKC,5000000.0
+0,2024-12-13,NASDAQ Global,Anteris Technologies Global Corp.,14800000,6.00,priced,AVR,88800000.0
+0,2024-12-13,NASDAQ Global,Roman DBDR Acquisition Corp. II,20000000,10.00,priced,DRDBU,200000000.0
+0,2024-12-13,NASDAQ Global,Mountain Lake Acquisition Corp.,21000000,10.00,priced,MLACU,210000000.0
+0,2024-12-13,NASDAQ Capital,NetClass Technology Inc,1800000,5.00,priced,NTCL,9000000.0
+0,2024-12-13,,"Gansu Yunzhao Ruyi Technology Development Co., Ltd.",,,filed,YZRY,60000000.0
+0,2024-12-12,NASDAQ Global Select,"ServiceTitan, Inc.",8800000,71.00,priced,TTAN,624800000.0
+0,2024-12-10,NYSE,Jackson Acquisition Co II,20000000,10.00,priced,JACSU,200000000.0
+0,2024-12-10,,TMD Energy Ltd,,,filed,TMDE,13368750.0
+0,2024-12-10,,Grande Group Ltd/HK,,,filed,GRAN,12937500.0
+0,2024-12-10,,"LEIFRAS Co., Ltd.",,,filed,LFS,9200000.0
+0,2024-12-09,,"SS Innovations International, Inc.",,,withdrawn,,
+0,2024-12-09,,ChampionsGate Acquisition Corp,,,filed,CHPGU,230000000.0
+0,2024-12-06,,Cuprina Holdings (Cayman) LTD,,,withdrawn,,
+0,2024-12-06,,Luda Technology Group Ltd,,,withdrawn,,
+0,2024-12-06,NASDAQ Capital,Jinxin Technology Holding Co,1250000,4.00,priced,NAMI,5000000.0
+0,2024-12-06,,Luda Technology Group Ltd,,,filed,LUD,11500000.0
+0,2024-12-06,,Cuprina Holdings (Cayman) LTD,,,filed,CUPR,19406250.0
+0,2024-12-06,,Great Restaurant Development Holdings Ltd,,,filed,HPOT,12600000.0
+0,2024-12-05,NASDAQ Global,Shepherd Ave Capital Acquisition Corp,7500000,10.00,priced,SPHAU,75000000.0
+0,2024-12-05,NASDAQ Global,"zSpace, Inc.",1875000,5.00,priced,ZSPC,9375000.0
+0,2024-12-05,NASDAQ Capital,Linkers Industries Ltd,1900000,4.00,priced,LNKS,7600000.0
+0,2024-12-05,,"Punk Code International Group Co., Ltd.",,,filed,PKCD,15000000.0
+0,2024-12-04,NASDAQ Global,Tavia Acquisition Corp.,10000000,10.00,priced,TAVIU,100000000.0
+0,2024-12-03,NASDAQ Capital,"JUPITER NEUROSCIENCES, INC.",2750000,4.00,priced,JUNS,11000000.0
+0,2024-12-03,,Mountain&Sea Health Inc.,,,filed,SYH,8625000.0
+0,2024-12-02,,GATES GROUP Inc.,,,filed,GTSG,7475000.0
+0,2024-11-29,,"YIZHIHUI TECHNOLOGY ELDERLY CARE GROUP CO., LTD",,,filed,DYZH,1000000.0
+0,2024-11-27,NASDAQ Global Select,Pony AI Inc.,20000000,13.00,priced,PONY,260000000.0
+0,2024-11-27,NYSE MKT,BrilliA Inc,2500000,4.00,priced,BRIA,10000000.0
+0,2024-11-27,NYSE MKT,Brazil Potash Corp.,2000000,15.00,priced,GRO,30000000.0
+0,2024-11-27,NYSE MKT,Venu Holding Corp,1200000,10.00,priced,VENU,12000000.0
+0,2024-11-26,NASDAQ Global,FACT II Acquisition Corp.,17500000,10.00,priced,FACTU,175000000.0
+0,2024-11-26,NASDAQ Capital,Wing Yip Food Holdings Group Ltd,2050000,4.00,priced,WYHG,8200000.0
+0,2024-11-26,NASDAQ Capital,Creative Global Technology Holdings Ltd,1250000,4.00,priced,CGTL,5000000.0
+0,2024-11-25,,Inflection Point Acquisition Corp. III,,,filed,IPCXU,253000000.0
+0,2024-11-25,,Top Win International Ltd,,,filed,TOPW,18381600.0
+0,2024-11-22,NASDAQ Capital,"Heritage Distilling Holding Company, Inc.",1687500,4.00,priced,CASK,6750000.0
+0,2024-11-22,NASDAQ Capital,Ming Shing Group Holdings Ltd,1500000,5.50,priced,MSW,8250000.0
+0,2024-11-22,,Papa Medical Inc.,,,filed,PAPA,27600000.0
+0,2024-11-22,,Waton Financial Ltd,,,filed,WTF,40000000.0
+0,2024-11-21,,FG Merger III Corp.,,,withdrawn,,
+0,2024-11-21,,REGENTIS BIOMATERIALS LTD.,,,withdrawn,,
+0,2024-11-21,NASDAQ Global,Dynamix Corp,15000000,10.00,priced,DYNXU,150000000.0
+0,2024-11-21,NASDAQ Global,CO2 Energy Transition Corp.,6000000,10.00,priced,NOEMU,60000000.0
+0,2024-11-21,NASDAQ Capital,Fitness Champs Holdings Ltd,2000000,4.00-5.00,expected,FCHL,10000000.0
+0,2024-11-19,,NUSATRIP Inc,,,filed,NUTR,15525000.0
+0,2024-11-18,NASDAQ Global,Damon Inc.,1015383,,priced,DMN,191597.64
+0,2024-11-18,,FG Holdings Ltd,,,filed,FGO,11500000.0
+0,2024-11-15,NASDAQ Global,Horizon Space Acquisition II Corp.,6000000,10.00,priced,HSPTU,60000000.0
+0,2024-11-15,,Delixy Holdings Ltd,,,filed,DLXY,10000000.0
+0,2024-11-15,,STAK Inc.,,,filed,STAK,5750000.0
+0,2024-11-14,,MaxsMaking Inc.,,,filed,MAMK,11500000.0
+0,2024-11-13,NASDAQ Capital,Invizyne Technologies Inc,1875000,8.00,priced,IZTC,15000000.0
+0,2024-11-13,NYSE MKT,Peak Resources LP,4700000,13.00-15.00,expected,PRB,81075000.0
+0,2024-11-12,NASDAQ Capital,Alpha Cognition Inc.,8695653,5.75,priced,ACOG,50000005.0
+0,2024-11-12,,QDM International Inc.,,,filed,,7500000.0
+0,2024-11-12,,KNOREX LTD.,,,filed,KNRX,15812500.0
+0,2024-11-12,,GLAMOORE Capital Group Co Ltd.,,,filed,GMCG,9200000.0
+0,2024-11-12,,MASTERBEEF GROUP,,,filed,MB,11500000.0
+0,2024-11-12,,FPA ENERGY ACQUISITION CORP.,,,filed,FPAQU,115000000.0
+0,2024-11-12,,Smart Digital Group Ltd,,,filed,SDM,9000000.0
+0,2024-11-08,NASDAQ Global,Willow Lane Acquisition Corp.,11000000,10.00,priced,WLACU,110000000.0
+0,2024-11-08,NASDAQ Capital,ASPAC III Acquisition Corp.,5500000,10.00,priced,ASPCU,55000000.0
+0,2024-11-08,,Flag Fish Acquisition Corp,,,filed,FFSHU,69000000.0
+0,2024-11-08,,JFB Construction Holdings,,,filed,JFB,5929687.5
+0,2024-11-07,,Navios South American Logistics Inc.,,,withdrawn,,
+0,2024-11-07,NASDAQ Capital,ADURO CLEAN TECHNOLOGIES INC.,941177,4.25,priced,ADUR,4000002.0
+0,2024-11-07,NASDAQ Global,GSR III Acquisition Corp.,20000000,10.00,priced,GSRTU,200000000.0
+0,2024-11-07,,Masonglory Ltd,,,filed,MSGY,10350000.0
+0,2024-11-06,,AgiiPlus Inc.,,,withdrawn,,
+0,2024-11-06,,Artius II Acquisition Inc.,,,filed,AACBU,230000000.0
+0,2024-11-05,,Skycorp Solar Group Ltd,,,filed,PN,15525000.0
+0,2024-11-04,,FBS Global Ltd,,,withdrawn,,
+0,2024-11-04,,HOT MOM INTERNATIONAL INC.,,,filed,LAMA,1000000.0
+0,2024-11-04,,Mega Fortune Co Ltd,,,filed,,21562500.0
+0,2024-11-04,,OMS Energy Technologies Inc.,,,filed,OMSE,63888890.0
+0,2024-11-01,NASDAQ Global,Newbury Street II Acquisition Corp,15000000,10.00,priced,NTWOU,150000000.0
+0,2024-11-01,NASDAQ Global,Bleichroeder Acquisition Corp. I,25000000,10.00,priced,BACQU,250000000.0
+0,2024-10-31,,Republic Power Group Ltd,,,withdrawn,,
+0,2024-10-31,,GrowHub Ltd,,,filed,TGHL,15668750.0
+0,2024-10-29,NASDAQ Capital,Gelteq Ltd,1300000,4.00,priced,GELS,5200000.0
+0,2024-10-29,NASDAQ Capital,Polyrizon Ltd.,958903,4.38,priced,PLRZ,4199995.0
+0,2024-10-29,,Transten Global Group Ltd,,,filed,TTG,10000000.0
+0,2024-10-28,,Breathe BioMedical Inc.,,,withdrawn,,
+0,2024-10-28,,APRINOIA Therapeutics Inc.,,,withdrawn,,
+0,2024-10-25,NASDAQ Global,"Septerna, Inc.",16000000,18.00,priced,SEPN,288000000.0
+0,2024-10-25,NASDAQ Global Select,WeRide Inc.,7742400,15.50,priced,WRD,120007200.0
+0,2024-10-24,NASDAQ Global,Oaktree Acquisition Corp. III Life Sciences,17500000,10.00,priced,OACCU,175000000.0
+0,2024-10-24,NYSE,Ingram Micro Holding Corp,18600000,22.00,priced,INGM,409200000.0

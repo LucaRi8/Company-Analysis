@@ -18,7 +18,7 @@ FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")
 finnhub_client = finnhub.Client(api_key=FINNHUB_API_KEY)
 #%%
 # Load ticker the data
-ticker_data = pd.read_json('02_downloaded_data/company_tickers.json')
+ticker_data = pd.read_json('data/company_tickers.json')
 # Sample 2000 random ticker to download from ticker_data.loc['ticker']
 sampled_data = ticker_data.loc['ticker'].sample(n=2000, random_state=42).to_list()
 
@@ -52,7 +52,7 @@ for b in basic:
         print(f"Error saving quarterly data for {tk}: {e}")
 
 basic_feats_df = pd.concat(quartly_df, axis = 0)
-basic_feats_df.to_csv('02_downloaded_data/basic_financials.csv')
+basic_feats_df.to_csv('data/basic_financials.csv')
 
 # Company News
 news = []
@@ -68,7 +68,7 @@ for tk in tqdm(sampled_data, desc="Downloading news"):
 news_df = pd.concat([pd.DataFrame(n) for n in news], axis=0)
 news_df['date'] = pd.to_datetime(news_df['datetime'], unit='s').dt.strftime('%Y-%m-%d')
 news_df = news_df.drop(columns=['datetime', 'id', 'image', 'related', 'source', 'url'])
-news_df.to_csv('02_downloaded_data/company_news.csv')
+news_df.to_csv('data/company_news.csv')
 
 
 # Company Peers
@@ -81,7 +81,7 @@ for tk in tqdm(sampled_data, desc="Downloading peers"):
         print(f"Error retrieving data for {tk}: {e}")
     time.sleep(1.1) # 1.1 second sleep to avoid rate limit
 
-with open('02_downloaded_data/company_peers.json', 'w') as f:
+with open('data/company_peers.json', 'w') as f:
     json.dump(peers_dict, f, indent=4)
 #%%
 
@@ -96,7 +96,7 @@ for tk in tqdm(sampled_data, desc="Downloading company profile"):
 
 profile_df = pd.concat([pd.DataFrame(p, index=[0]) for p in profile if p != {}], axis=0)
 profile_df = profile_df[['ticker', 'name', 'marketCapitalization', 'ipo', 'country', 'exchange', 'weburl']]
-profile_df.to_csv('02_downloaded_data/company_profile.csv')
+profile_df.to_csv('data/company_profile.csv')
 
 # # Financials as reported
 financials = []
@@ -162,7 +162,7 @@ for fin in financials:
         print(f"Error manipulating data for {tk}: {e}")
 
 fin_reported_df = pd.concat(all_fin_prepoc, ignore_index=True)
-fin_reported_df.to_csv('02_downloaded_data/financials_reported.csv')
+fin_reported_df.to_csv('data/financials_reported.csv')
 
 # # IPO calendar
 ipo = (finnhub_client
@@ -170,7 +170,7 @@ ipo = (finnhub_client
                                   to=sampled_ticker_date['end_date'])
 )
 ipo_df = pd.concat([pd.DataFrame([ip]) for ip in ipo['ipoCalendar']])
-ipo_df.to_csv('02_downloaded_data/ipo_calendar.csv')
+ipo_df.to_csv('data/ipo_calendar.csv')
 
 
 # # Recommendation trends
@@ -186,7 +186,7 @@ for tk in tqdm(sampled_data, desc="Downloading recommendation trends"):
     time.sleep(1) # 1 second sleep to avoid rate limit
 
 trend_df = pd.concat(trend, axis=0)
-trend_df.to_csv('02_downloaded_data/recommendation_trends.csv')
+trend_df.to_csv('data/recommendation_trends.csv')
 
 
 # patent 
@@ -201,7 +201,7 @@ for tk in tqdm(sampled_data, desc="Downloading patent"):
     time.sleep(1) # 1.1 second sleep to avoid rate limit
 
 patent_df = pd.concat(patent, axis=0)
-patent_df.to_csv('02_downloaded_data/patent.csv')
+patent_df.to_csv('data/patent.csv')
 
 
 visa = []
@@ -215,7 +215,7 @@ for tk in tqdm(sampled_data, desc="Downloading visa"):
     time.sleep(1) # 1.1 second sleep to avoid rate limit
 
 visa_df = pd.concat(visa, axis=0)
-visa_df.to_csv('02_downloaded_data/visa.csv')
+visa_df.to_csv('data/visa.csv')
 
 # Insider sentiment
 insider_stock = []
@@ -229,7 +229,7 @@ for tk in tqdm(sampled_data, desc="Downloading insider sentiment"):
     time.sleep(1) # 1.1 second sleep to avoid rate limit
 
 insider_stock_df = pd.concat(insider_stock, axis=0)
-insider_stock_df.to_csv('02_downloaded_data/insider_sentiment.csv')
+insider_stock_df.to_csv('data/insider_sentiment.csv')
 
 
 # Lobbying
@@ -244,7 +244,7 @@ for tk in tqdm(sampled_data, desc="Downloading lobbying"):
     time.sleep(1.1) # 1.1 second sleep to avoid rate limit
 
 lobbying_df = pd.concat(lobbying, axis=0)
-lobbying_df.to_csv('02_downloaded_data/lobbying.csv')
+lobbying_df.to_csv('data/lobbying.csv')
 
 
 # insider transaction
@@ -259,4 +259,4 @@ for tk in tqdm(sampled_data, desc="Downloading insider transaction"):
     time.sleep(1.1) # 1.1 second sleep to avoid rate limit
 
 insider_transaction_df = pd.concat(insider_transaction, axis=0)
-insider_transaction_df.to_csv('02_downloaded_data/insider_transaction.csv')
+insider_transaction_df.to_csv('data/insider_transaction.csv')

@@ -58,7 +58,9 @@ basic_feats_df.to_csv('02_downloaded_data/basic_financials.csv')
 news = []
 for tk in tqdm(sampled_data, desc="Downloading news"):
     try:
-        news.append(finnhub_client.company_news(tk, _from=sampled_ticker_date['start_date'], to=sampled_ticker_date['end_date']))
+        news_tmp =finnhub_client.company_news(tk, _from=sampled_ticker_date['start_date'], to=sampled_ticker_date['end_date'])
+        news_tmp = [{**n, 'ticker': tk} for n in news_tmp]
+        news.append(news_tmp)
     except Exception as e:
         print(f"Error retrieving data for {tk}: {e}")
     time.sleep(1.1) # 1.1 second sleep to avoid rate limit

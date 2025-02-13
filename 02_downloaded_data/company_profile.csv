@@ -1,16 +1,1674 @@
 ,ticker,name,marketCapitalization,ipo,country,exchange,weburl
-0,GIFI,Gulf Island Fabrication Inc,112.34544267335244,1997-04-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.gulfisland.com/
+0,GIFI,Gulf Island Fabrication Inc,112.34543999999998,1997-04-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.gulfisland.com/
 0,KF,Korea Fund Inc,90.52,1984-08-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.thekoreafund.com/
-0,ENS,EnerSys,3999.231442850001,2004-07-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.enersys.com
+0,ENS,EnerSys,3999.231334,2004-07-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.enersys.com
 0,PUCK,Goal Acquisitions Corp,93.240839,2021-02-11,US,OTC MARKETS,https://www.goalacquisitions.com/
-0,POET,POET Technologies Inc,350.7253086054054,2007-06-26,CA,NASDAQ NMS - GLOBAL MARKET,https://www.poet-technologies.com/
-0,STMPA.PA,STMicroelectronics NV,19508.970749,2000-07-18,NL,NYSE EURONEXT - EURONEXT PARIS,https://www.st.com/
-0,CMCL,Caledonia Mining Corporation PLC,193.29840422068966,1984-10-02,JE,NYSE MKT LLC,https://www.caledoniamining.com/
-0,KNTK,Kinetik Holdings Inc,9896.493496941232,2017-04-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kinetik.com/
-0,DTE,DTE Energy Co,25864.793891599387,1949-11-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.dteenergy.com/
+0,POET,POET Technologies Inc,350.7253003841808,2007-06-26,CA,NASDAQ NMS - GLOBAL MARKET,https://www.poet-technologies.com/
+0,STMPA.PA,STMicroelectronics NV,19894.665617,2000-07-18,NL,NYSE EURONEXT - EURONEXT PARIS,https://www.st.com/
+0,CMCL,Caledonia Mining Corporation PLC,193.29841999999996,1984-10-02,JE,NYSE MKT LLC,https://www.caledoniamining.com/
+0,KNTK,Kinetik Holdings Inc,9896.493544000003,2017-04-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kinetik.com/
+0,DTE,DTE Energy Co,25864.793957,1949-11-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.dteenergy.com/
 0,GRAB,Grab Holdings Ltd,18928.800831,2020-10-01,SG,NASDAQ NMS - GLOBAL MARKET,https://www.grab.com/sg/
-0,PNFP,Pinnacle Financial Partners Inc,9532.051369279818,2000-08-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.pnfp.com/
+0,PNFP,Pinnacle Financial Partners Inc,9532.051345,2000-08-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.pnfp.com/
 0,ATRA,Atara Biotherapeutics Inc,48.497095,2014-10-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.atarabio.com/
-0,VIRC,Virco Mfg Corp,182.93002059965784,1980-03-18,US,NASDAQ NMS - GLOBAL MARKET,https://virco.com
-0,INVZ,Innoviz Technologies Ltd,166.99517916101698,2020-05-05,IL,NASDAQ NMS - GLOBAL MARKET,https://innoviz.tech/
+0,VIRC,Virco Mfg Corp,182.93002,1980-03-18,US,NASDAQ NMS - GLOBAL MARKET,https://virco.com
+0,INVZ,Innoviz Technologies Ltd,166.99518800000004,2020-05-05,IL,NASDAQ NMS - GLOBAL MARKET,https://innoviz.tech/
 0,NTWOU,Newbury Street II Acquisition Corp,179.98,2024-11-01,US,NASDAQ NMS - GLOBAL MARKET,
+0,SMBK,SmartFinancial Inc,613.4117690000002,2001-06-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.smartfinancialinc.com/
+0,SMXT,SolarMax Technology Inc,80.15269999999998,2024-02-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.solarmaxtech.com/
+0,CNDT,Conduent Inc,701.9152669999999,2016-12-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.conduent.com
+0,BENF,Beneficient,3.5056180000000006,2021-12-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.trustben.com/
+0,FNV.TO,Franco-Nevada Corp,39274.299084,2007-11-30,CA,TORONTO STOCK EXCHANGE,https://www.franco-nevada.com/
+0,DNB,Dun & Bradstreet Holdings Inc,4839.118967,2020-06-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://investor.dnb.com/
+0,SNPW,Sun Pacific Holding Corp,0.3875430000000001,2006-10-10,US,OTC MARKETS,https://sunpacificholding.com/
+0,FGI,FGI Industries Ltd,7.877796000000001,2022-01-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.fgi-industries.com/
+0,GIGM,GigaMedia Ltd,16.41257,2000-02-17,TW,NASDAQ NMS - GLOBAL MARKET,http://www.gigamedia.com
+0,GEMZ,GEMXX Corp,1.7563789999999997,2009-02-24,US,OTC MARKETS,https://www.gemxx.com/
+0,PPL.TO,Pembina Pipeline Corp,30593.984452,1998-10-23,CA,TORONTO STOCK EXCHANGE,https://www.pembina.com/
+0,AXL,American Axle & Manufacturing Holdings Inc,572.6196109999998,1999-01-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.aam.com/investors
+0,MFM,MFS Municipal Income Trust,219.53,1986-11-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mfs.com/wps/portal/mfs/us-advisor-pub/products/closed-end/!ut/p/a1/hY5bT4NAEIV_DY8ys9sK1
+0,PLL,Piedmont Lithium Inc,176.73055800000003,1983-03-28,US,NASDAQ NMS - GLOBAL MARKET,https://piedmontlithium.com/
+0,ECC,Eagle Point Credit Company Inc,862.42,2014-10-08,US,"NEW YORK STOCK EXCHANGE, INC.",http://eaglepointcreditcompany.com/
+0,SUPV2.BA,Grupo Supervielle SA,1979890.437275,2016-05-11,AR,BOLSA DE COMERCIO DE BUENOS AIRES,https://www.gruposupervielle.com/Spanish/SpanishHome/default.aspx
+0,EMCG,Embrace Change Acquisition Corp,53.42668168926316,2022-08-10,US,NASDAQ NMS - GLOBAL MARKET,https://embracechange.top/
+0,FLIC,First of Long Island Corp,317.2154970000001,1987-01-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.fnbli.com/
+0,SHLS,Shoals Technologies Group Inc,683.466406,2021-01-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.shoals.com/
+0,ANDINA-B.SN,Embotelladora Andina SA,2577065.29,1982-08-26,CL,SANTIAGO STOCK EXCHANGE,https://www.koandina.com/
+0,DIAX,Nuveen Dow 30SM Dynamic Overwrite Fund,552.41,2014-12-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/CEF/Product/Overview.aspx
+0,ISRL,Israel Acquisitions Corp,146.3334021697288,2023-01-13,US,NASDAQ NMS - GLOBAL MARKET,https://israelacquisitionscorp.com/
+0,MAXN,Maxeon Solar Technologies Ltd,75.685497,2020-08-14,SG,NASDAQ NMS - GLOBAL MARKET,https://maxeon.com/
+0,GXXM,GEX Management Inc,0.24056099999999997,2017-05-05,US,OTC MARKETS,https://www.gexmanagement.com/
+0,CXH,MFS Investment Grade Municipal Trust,65.02,1989-05-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mfs.com/wps/portal/mfs/us-advisor-pub/products/closed-end/
+0,IOSP,Innospec Inc,2783.481973,1998-05-13,US,NASDAQ NMS - GLOBAL MARKET,https://innospec.com/
+0,ZWS,Zurn Elkay Water Solutions Corp,6271.674457,2012-03-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://zurnelkay.com/
+0,GLEN.L,Glencore PLC,42585.181459,2011-05-24,CH,LONDON STOCK EXCHANGE,https://www.glencore.com/
+0,GECC,Great Elm Capital Corp,122.094897,2016-11-04,US,NASDAQ NMS - GLOBAL MARKET,http://www.greatelmcc.com
+0,STVN,Stevanato Group SpA,5441.899373999999,2021-07-16,IT,"NEW YORK STOCK EXCHANGE, INC.",https://www.stevanatogroup.com/
+0,VPRB,VPR Brands LP,3.3028849999999994,2008-03-05,US,OTC MARKETS,https://vprbrands.com/
+0,BTMD,Biote Corp,266.795329,2021-03-02,US,NASDAQ NMS - GLOBAL MARKET,https://haymakeracquisition.com/
+0,DCTH,Delcath Systems Inc,510.621331,2000-10-19,US,NASDAQ NMS - GLOBAL MARKET,https://delcath.com/
+0,AIR.PA,Airbus SE,132355.100456,2000-07-10,NL,NYSE EURONEXT - EURONEXT PARIS,https://www.airbus.com/
+0,MCS,Marcus Corp,658.768422,1972-09-21,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.marcuscorp.com/
+0,ASEP.CN,Asep Medical Holdings Inc,3.79728,2021-11-22,CA,CANADIAN NATIONAL STOCK EXCHANGE,https://asepmedical.com/
+0,CFR.SW,Compagnie Financiere Richemont SA,104775.913912,1997-12-16,CH,SWISS EXCHANGE,https://www.richemont.com/
+0,EQNR.OL,Equinor ASA,769736.321533,2001-06-18,NO,OSLO BORS ASA,https://www.equinor.com/
+0,HII,Huntington Ingalls Industries Inc,6564.867966000001,2011-03-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://hii.com/
+0,RMBI,Richmond Mutual Bancorporation Inc,152.611176,2019-07-02,US,NASDAQ NMS - GLOBAL MARKET,https://ir.rmbi.firstbankrichmond.com/overview/corporate-profile/default.aspx
+0,FLGC,Flora Growth Corp,14.427939,2021-05-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.floragrowth.com/
+0,PLTR,Palantir Technologies Inc,256550.74085099998,2020-09-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.palantir.com/
+0,SPA.V,Spanish Mountain Gold Ltd,57.816502,2002-05-06,CA,TSX VENTURE EXCHANGE - NEX,https://www.spanishmountaingold.com/
+0,WOLF,Wolfspeed Inc,787.1898639999997,1993-02-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.wolfspeed.com/
+0,LE,Lands End Inc,357.54662700000006,1986-10-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.landsend.com
+0,LTCH,Latch Inc,22.534209,2020-11-10,US,OTC MARKETS,https://www.latch.com/
+0,POOL,Pool Corp,12799.976649,1995-10-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.poolcorp.com/
+0,BAER,Bridger Aerospace Group Holdings Inc,124.62816800000002,2021-03-15,US,NASDAQ NMS - GLOBAL MARKET,https://bridgeraerospace.com/
+0,MATH,Metalpha Technology Holding Ltd,73.67687100000002,2017-10-20,HK,NASDAQ NMS - GLOBAL MARKET,https://www.dvintinc.com/
+0,ETX,Eaton Vance Municipal Income 2028 Term Trust,192.59,2013-03-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://funds.eatonvance.com/municipal-income-2028-term-trust-etx.php
+0,DTGI,Digerati Technologies Inc,1.797344,2004-06-22,US,OTC MARKETS,https://digerati-inc.com/
+0,DTSS,Datasea Inc,15.307923999999998,2015-10-22,CN,NASDAQ NMS - GLOBAL MARKET,http://www.dataseainc.com/
+0,PENN,PENN Entertainment Inc,3310.53198,1994-05-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.pennentertainment.com/
+0,SDA,SunCar Technology Group Inc,543.0845749999999,2021-04-16,CN,NASDAQ NMS - GLOBAL MARKET,https://suncartech.com/
+0,WTI,W&T Offshore Inc,243.14001999999996,2005-01-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.wtoffshore.com/
+0,BLAC,Bellevue Life Sciences Acquisition Corp,25.500105,2023-02-10,US,NASDAQ NMS - GLOBAL MARKET,
+0,AUNA,Auna SA,245.400009,2024-03-22,LU,"NEW YORK STOCK EXCHANGE, INC.",
+0,VYCO,Vycor Medical Inc,2.302723200000001,2009-03-31,US,OTC MARKETS,https://www.vycormedical.com/
+0,AFG,American Financial Group Inc,10670.180746,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.afginc.com/
+0,OUT1V.HE,Outokumpu Oyj,1433.260823,1988-08-15,FI,NASDAQ OMX HELSINKI LTD.,https://www.outokumpu.com/
+0,AMPS,Altus Power Inc,779.1987930000001,2020-12-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.altuspower.com/
+0,DTIL,Precision BioSciences Inc,38.590758,2019-03-28,US,NASDAQ NMS - GLOBAL MARKET,https://precisionbiosciences.com/
+0,XPEV,Xpeng Inc,14970.936584126399,2020-08-27,CN,"NEW YORK STOCK EXCHANGE, INC.",https://www.heyxpeng.com/no/
+0,GV,Visionary Holdings Inc,6.364832,2022-05-17,CA,NASDAQ NMS - GLOBAL MARKET,https://visiongroupca.com
+0,VIVK,Vivakor Inc,34.65177,2009-08-17,US,NASDAQ NMS - GLOBAL MARKET,https://vivakor.com/
+0,CWEN.A,Clearway Energy Inc,5222.123781,2013-07-17,US,"NEW YORK STOCK EXCHANGE, INC.",http://investor.clearwayenergy.com/
+0,HSY,Hershey Co,32024.704109,1927-12-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.thehersheycompany.com/
+0,ULVR.L,Unilever PLC,116923.66384,1939-08-11,GB,LONDON STOCK EXCHANGE,https://www.unilever.com/
+0,SRL.V,Salazar Resources Ltd,22.397334,2003-06-09,CA,TSX VENTURE EXCHANGE - NEX,https://salazarresources.com/
+0,UTGN,UTG Inc,92.32738937843781,2002-01-25,US,OTC MARKETS,https://utgins.com/
+0,TDACU,Translational Development Acquisition Corp,0.0,2024-12-23,US,NASDAQ NMS - GLOBAL MARKET,
+0,REAX,Real Brokerage Inc,1033.409966,2004-06-23,US,NASDAQ NMS - GLOBAL MARKET,https://adlventures.com/
+0,AURA,Aura Biosciences Inc,386.12483,2021-10-29,US,NASDAQ NMS - GLOBAL MARKET,https://aurabiosciences.com/
+0,SAMG,Silvercrest Asset Management Group Inc,258.299447,2013-06-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.silvercrestgroup.com/
+0,TNBI,Tanke Biosciences Corp,0.327589,2011-02-10,CN,OTC MARKETS,http://www.tanke-bio.com/
+0,CPPTL,Copper Property CTL Pass Through Trust,977.9999999999999,2022-05-27,US,OTC MARKETS,https://www.ctltrust.net/
+0,HZEN,Grayscale Horizen Trust (Zen),43.76,2021-10-18,US,OTC MARKETS,
+0,AKAN,Akanda Corp,2.468387,2022-03-15,GB,NASDAQ NMS - GLOBAL MARKET,https://akandacorp.com/
+0,NHTC,Natural Health Trends Corp,61.825211,1995-06-22,HK,NASDAQ NMS - GLOBAL MARKET,https://www.naturalhealthtrendscorp.com/
+0,SHRG,Sharing Services Global Corp,0.557374,2016-02-19,US,OTC MARKETS,https://www.shrginc.com/
+0,RNAZ,Transcode Therapeutics Inc,7.540377,2021-04-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.transcodetherapeutics.com/
+0,INBX,Inhibrx Biosciences Inc,181.238331,2024-05-28,US,NASDAQ NMS - GLOBAL MARKET,https://inhibrx.com/
+0,BMW.DE,Bayerische Motoren Werke AG,47727.158519,1926-01-01,DE,XETRA,https://www.bmwgroup.com/
+0,EXC,Exelon Corp,42564.752679,1943-07-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.exeloncorp.com/
+0,SPHR,Sphere Entertainment Co,1655.7962379999997,2020-04-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.msgentertainment.com/
+0,JET.NE,Global Crossing Airlines Group Inc,64.2216,1969-03-14,US,AEQUITAS NEO EXCHANGE,https://www.globalairlinesgroup.com/
+0,ONL,Orion Office REIT Inc,227.148064,2021-11-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.onlreit.com/
+0,OSCR,Oscar Health Inc,2987.860247,2021-03-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.hioscar.com/
+0,SLNCF,Silence Therapeutics PLC,212.466732,2010-01-05,GB,OTC MARKETS,https://www.silence-therapeutics.com/
+0,MDWD,Mediwound Ltd,186.173659,2014-03-20,IL,NASDAQ NMS - GLOBAL MARKET,https://www.mediwound.com/
+0,5844.T,Kyoto Financial Group Inc,625574.678925,2023-10-02,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.kyoto-fg.co.jp/
+0,PEN,Penumbra Inc,10297.138886999997,2015-09-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.penumbrainc.com/
+0,2269.T,Meiji Holdings Co Ltd,812422.896606,2009-04-01,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.meiji.com/
+0,IMCR,Immunocore Holdings PLC,1410.972608,2021-02-05,GB,NASDAQ NMS - GLOBAL MARKET,http://www.immunocore.com/
+0,8697.T,Japan Exchange Group Inc,1715211.298828,2004-01-04,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.jpx.co.jp/
+0,THFF,First Financial Corp,632.09849,1992-03-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.first-online.bank/
+0,FUSB,First US Bancshares Inc,77.103539,1987-01-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.fusb.com/resources/company-profile
+0,HOOK,HOOKIPA Pharma Inc,16.722507,2019-04-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.hookipapharma.com/
+0,OTTR,Otter Tail Corp,3342.891174,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.ottertail.com/
+0,BAYA,Bayview Acquisition Corp,58.496245,2023-12-15,US,NASDAQ NMS - GLOBAL MARKET,
+0,CHARU,Charlton Aria Acquisition Corp,109.3,2024-10-24,US,NASDAQ NMS - GLOBAL MARKET,
+0,MAT,Mattel Inc,7361.264995000002,1963-08-12,US,NASDAQ NMS - GLOBAL MARKET,https://corporate.mattel.com/
+0,HLLK,Hallmark Venture Group Inc,1.4146000000000003,2001-07-16,US,OTC MARKETS,
+0,GELS,Gelteq Ltd,20.6694,2024-10-29,AU,NASDAQ NMS - GLOBAL MARKET,https://www.gelteq.com
+0,CHNR,China Natural Resources Inc,5.725104,1995-08-07,HK,NASDAQ NMS - GLOBAL MARKET,https://www.chnr.net/
+0,INDB,Independent Bank Corp (Massachusetts),2978.778355,1974-09-16,US,NASDAQ NMS - GLOBAL MARKET,https://indb.rocklandtrust.com/corporate-profile/default.aspx
+0,AERT,Aeries Technology Inc,24.952477999999996,2021-10-20,KY,NASDAQ NMS - GLOBAL MARKET,https://aeriestechnology.com/
+0,AAME,Atlantic American Corp,32.84361,1980-01-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.atlam.com/
+0,NSSC,NAPCO Security Technologies Inc,940.612714,1981-12-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.napcosecurity.com/
+0,MX,MagnaChip Semiconductor Corp,171.132792,2011-03-10,LU,"NEW YORK STOCK EXCHANGE, INC.",https://www.magnachip.com/
+0,AWI,Armstrong World Industries Inc,6644.144878000001,2006-10-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.armstrongceilings.com/
+0,CLNE,Clean Energy Fuels Corp,732.937404,2007-05-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.cleanenergyfuels.com/
+0,6501.T,Hitachi Ltd,18363632.126953,1949-05-14,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.hitachi.co.jp/
+0,BRQL,BrooqLy Inc,15.22,2023-07-27,US,OTC MARKETS,https://www.brooqly.com/
+0,CSGS,CSG Systems International Inc,1835.746859,1996-02-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.csgi.com/
+0,MBIN,Merchants Bancorp,1990.27743,2017-10-26,US,NASDAQ NMS - GLOBAL MARKET,http://www.merchantsbankofindiana.com
+0,SIMA,SIM Acquisition I Corp,309.733,2024-07-10,US,NASDAQ NMS - GLOBAL MARKET,
+0,CSTL,Castle Biosciences Inc,787.565337,2019-07-25,US,NASDAQ NMS - GLOBAL MARKET,https://castlebiosciences.com/
+0,ACAN,Americann Inc,0.682975,2013-09-10,US,OTC MARKETS,https://americann.co/
+0,AMTM,Amentum Holdings Inc,5043.659246,2024-09-24,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,LICY,Li-Cycle Holdings Corp,28.827597999999995,2020-09-24,CA,"NEW YORK STOCK EXCHANGE, INC.",https://li-cycle.com/
+0,GPC,Genuine Parts Co,16920.73965,1986-08-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.genpt.com/
+0,PC,Premium Catering Holdings Ltd,13.2704,2024-09-25,SG,NASDAQ NMS - GLOBAL MARKET,
+0,PMT,PennyMac Mortgage Investment Trust,1185.652097,2009-07-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pennymac.com/
+0,YXT,YXT.Com Group Holding Ltd,250.799282,2024-08-16,CN,NASDAQ NMS - GLOBAL MARKET,
+0,SPTN,SpartanNash Co,635.604872,2000-08-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.spartannash.com/
+0,JAZZ,Jazz Pharmaceuticals PLC,7857.887825,2012-01-18,IE,NASDAQ NMS - GLOBAL MARKET,https://www.jazzpharma.com/
+0,PSEC,Prospect Capital Corp,1899.3757499999997,2004-07-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.prospectstreet.com/
+0,BRZE,Braze Inc,4386.725031,2021-11-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.braze.com/
+0,LYRA,Lyra Therapeutics Inc,13.09153,2020-05-01,US,NASDAQ NMS - GLOBAL MARKET,https://lyratherapeutics.com/
+0,ALV,Autoliv Inc,7306.586295,1997-04-28,SE,"NEW YORK STOCK EXCHANGE, INC.",https://www.autoliv.com/
+0,DREM,Dream Homes & Development Corp,1.043119,2016-03-15,US,OTC MARKETS,https://www.dreamhomesltd.com/
+0,SHFS,SHF Holdings Inc,23.883857,2021-06-24,US,NASDAQ NMS - GLOBAL MARKET,
+0,WK,Workiva Inc,5596.425280999999,2014-12-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.workiva.com/
+0,MPX,Marine Products Corp,310.334251,2001-02-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.marineproductscorp.com/
+0,CROX,Crocs Inc,5184.197767,2006-02-08,US,NASDAQ NMS - GLOBAL MARKET,https://careers.crocs.com/
+0,MQ,Marqeta Inc,1878.9550799999997,2021-06-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.marqeta.com/
+0,CDZI,Cadiz Inc,374.416882,1989-01-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.cadizinc.com/
+0,VMNT,Vemanti Group Inc,7.894315999999999,2015-11-12,US,OTC MARKETS,http://vemanti.com
+0,HCSG,Healthcare Services Group Inc,799.238922,1983-11-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.hcsgcorp.com/
+0,SSKN,STRATA Skin Sciences Inc,11.811059999999998,2005-10-28,US,NASDAQ NMS - GLOBAL MARKET,http://www.strataskinsciences.com/
+0,VRSN,"VeriSign, Inc",21851.218122,1998-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.verisign.com/
+0,CDTX,Cidara Therapeutics Inc,240.685721,2015-04-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.cidara.com/
+0,DHX,DHI Group Inc,147.413449,2007-07-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.dhigroupinc.com/
+0,NAC,Nuveen California Quality Municipal Income Fund,1616.55,1999-05-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/en-us/closed-end-funds/nac-nuveen-california-quality-municipal-income-fund
+0,MOGO.TO,Mogo Inc,42.826,1993-12-14,CA,TORONTO STOCK EXCHANGE,https://www.mogo.ca/
+0,GMBL,Esports Entertainment Group Inc,0.30652099999999993,2008-12-19,MT,OTC MARKETS,https://esportsentertainmentgroup.com/
+0,GRDV,Golden Royal Development Inc,0.89,2023-01-24,US,OTC MARKETS,
+0,KNF,Knife River Corp,5603.525376,2023-05-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kniferiver.com/
+0,MRFG3.SA,Marfrig Global Foods SA,13153.438792,2007-06-29,BR,B3 S.A.,https://www.marfrig.com.br/
+0,HBAN,Huntington Bancshares Inc,24494.401114000004,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.huntington.com/
+0,PIII,P3 Health Partners Inc,72.015233,2021-02-10,US,NASDAQ NMS - GLOBAL MARKET,https://ir.p3hp.org/
+0,AMTB,Amerant Bancorp Inc,1008.497271,2018-08-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://investor.amerantbank.com/
+0,VMAR,Vision Marine Technologies Inc,10.658488,2020-11-24,CA,NASDAQ NMS - GLOBAL MARKET,https://visionmarinetechnologies.com/
+0,TVTX,Travere Therapeutics Inc,2067.064667,2003-07-23,US,NASDAQ NMS - GLOBAL MARKET,https://travere.com/
+0,AXTA,Axalta Coating Systems Ltd,8212.261874,2014-11-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.axalta.com/corporate/en_US.html
+0,SCNX,Scienture Holdings Inc,29.219393,2020-02-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.trxadehealth.com/
+0,7267.T,Honda Motor Co Ltd,6861910.27832,1957-12-02,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://global.honda/
+0,MET,MetLife Inc,57320.763753,2000-04-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.metlife.com/
+0,ECF,Ellsworth Growth and Income Fund Ltd,135.19,1986-06-27,US,NYSE MKT LLC,
+0,SHEL.L,Shell PLC,163184.569175,2005-07-20,GB,LONDON STOCK EXCHANGE,https://www.shell.com/
+0,EPIX,ESSA Pharma Inc,71.46556599999998,2021-02-22,CA,NASDAQ NMS - GLOBAL MARKET,https://www.essapharma.com/
+0,6697.T,Techpoint Inc,49176.3,2017-09-29,US,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,http://www.techpointinc.net/
+0,KW,Kennedy-Wilson Holdings Inc,1228.462563,2007-11-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kennedywilson.com/
+0,LEGN,Legend Biotech Corp,6352.891132,2020-06-04,US,NASDAQ NMS - GLOBAL MARKET,https://investors.legendbiotech.com/
+0,GFSA3.SA,Gafisa SA,149.515358,2007-03-16,BR,B3 S.A.,https://www.gafisa.com.br/
+0,NDAQ,Nasdaq Inc,46147.29058999999,2002-07-08,US,NASDAQ NMS - GLOBAL MARKET,https://www.nasdaq.com
+0,THMG,Thunder Mountain Gold Inc,6.481118999999999,1994-06-06,US,OTC MARKETS,https://www.thundermountaingold.com/
+0,MTRX,Matrix Service Co,427.3540499999999,1990-09-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.matrixservicecompany.com/
+0,HHS,Harte Hanks Inc,39.433396,1993-11-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.hartehanks.com/
+0,SGLA,Sino Green Land Corp,16.9900227,2001-08-30,MY,OTC MARKETS,
+0,JMTM,JAMES Maritime Holdings Inc,45.230001,2000-10-05,US,OTC MARKETS,
+0,TSAT,Telesat Corp,295.5317099689256,2021-11-19,CA,NASDAQ NMS - GLOBAL MARKET,https://www.telesat.com/
+0,WHG,Westwood Holdings Group Inc,141.85507,2002-06-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://westwoodgroup.com/
+0,CHR,Cheer Holding Inc,25.096787,2018-08-16,CN,NASDAQ NMS - GLOBAL MARKET,http://ir.gsmg.co/
+0,TYRA,Tyra Biosciences Inc,613.814311,2021-09-15,US,NASDAQ NMS - GLOBAL MARKET,https://tyra.bio/
+0,B,Barnes Group Inc,2420.45374,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.onebarnes.com/
+0,AMZN,Amazon.com Inc,2466727.2310819994,1997-05-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.amazon.com/
+0,NYAX.TA,Nayax Ltd,5192.689133,2022-09-21,IL,TEL AVIV STOCK EXCHANGE,https://www.nayax.com/
+0,THAR,Tharimmune Inc,2.83833,2022-01-12,US,NASDAQ NMS - GLOBAL MARKET,https://tharimmune.com/
+0,NLOP,Net Lease Office Properties,460.257448,2023-10-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://nloproperties.com/overview/default.aspx
+0,CHSCP,CHS Inc,344.59776,2003-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.chsinc.com/
+0,GIB.A.TO,CGI Inc,38777.059807,1986-12-17,CA,TORONTO STOCK EXCHANGE,https://www.cgi.com/en
+0,PTY,Pimco Corporate & Income Opportunity Fund,2135.39,2002-12-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pimco.com/en-us/investments/closed-end-funds/corporate-income-opportunity-fund
+0,GSIT,GSI Technology Inc,81.413644,2007-03-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.gsitechnology.com/
+0,ARMP,Armata Pharmaceuticals Inc,72.00430400000002,1994-05-20,US,NYSE MKT LLC,https://www.armatapharma.com/
+0,PRTS,Carparts.Com Inc,62.565613,2007-02-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.carparts.com/
+0,MRKY,Marky Corp,0.0,2024-10-02,MX,OTC MARKETS,https://markycopr.com/
+0,SER,Serina Therapeutics Inc,40.498503,2018-11-29,US,NYSE MKT LLC,https://www.agexinc.com/
+0,CMMB,Chemomab Therapeutics Ltd,36.421543,2012-08-14,IL,NASDAQ NMS - GLOBAL MARKET,https://www.chemomab.com/
+0,BOTH,Bioethics Ltd,0.624357,1998-04-20,US,OTC MARKETS,
+0,GDEN,Golden Entertainment Inc,907.3497579999998,1999-01-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.goldenent.com/
+0,VIGL,Vigil Neuroscience Inc,108.330642,2022-01-07,US,NASDAQ NMS - GLOBAL MARKET,https://www.vigilneuro.com/
+0,IMAQ,International Media Acquisition Corp,81.8440378939535,2021-08-02,US,NASDAQ NMS - GLOBAL MARKET,https://www.imac.org.in/home/default.aspx
+0,LEXX,Lexaria Bioscience Corp,28.25967500000001,2009-10-28,CA,NASDAQ NMS - GLOBAL MARKET,https://www.lexariabioscience.com/
+0,CAAP,Corporacion America Airports SA,3052.020874,2018-02-01,LU,"NEW YORK STOCK EXCHANGE, INC.",http://www.caap.aero/
+0,PARA,Paramount Global,7527.370155,1990-06-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.paramount.com/
+0,GMS,GMS Inc,3285.3398820000007,2016-05-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.gms.com/
+0,RFM,Rivernorth Flexible Municipal Income Fund Inc,91.2,2020-03-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.rivernorth.com/rfm
+0,WNDW,SolarWindow Technologies Inc,17.555472,2001-07-26,US,OTC MARKETS,https://solarwindow.com/
+0,MMU,Western Asset Managed Municipals Fund Inc,552.2,1992-07-17,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,CANG,Cango Inc,527.162672,2018-07-26,CN,"NEW YORK STOCK EXCHANGE, INC.",https://www.cangoonline.com/
+0,QBTS,D-Wave Quantum Inc,1654.060005,2020-10-11,CA,"NEW YORK STOCK EXCHANGE, INC.",https://www.dwavesys.com/
+0,DROP,Fuse Science Inc,0.32,1994-04-04,US,OTC MARKETS,
+0,FNMA,Federal National Mortgage Association,7898.157948000001,1980-03-17,US,OTC MARKETS,https://www.fanniemae.com/
+0,FOSL,Fossil Group Inc,88.833934,1993-04-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.fossilgroup.com/
+0,CURV,Torrid Holdings Inc,669.394461,2021-07-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.torrid.com/overview/default.aspx
+0,BLW,BlackRock Ltd Duration Income Trust,503.15,2003-07-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/investing/products/240191/blackrock-limited-duration-income-trust-usd-fund
+0,GEHC,GE Healthcare Technologies Inc,39761.652744,2022-12-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.gehealthcare.com
+0,DAVA,Endava PLC,1995.262357,2018-07-27,GB,"NEW YORK STOCK EXCHANGE, INC.",https://www.endava.com/
+0,ONEW,OneWater Marine Inc,362.4313890000001,2019-10-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.onewatermarine.com/
+0,ETG,Eaton Vance Tax-Advantaged Global Dividend Income Fund,1410.67,2004-01-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://funds.eatonvance.com/
+0,CE,Celanese Corp,7303.148998,2005-01-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.celanese.com/
+0,BETR.CN,BetterLife Pharma Inc,14.253073,2017-12-19,CA,CANADIAN NATIONAL STOCK EXCHANGE,https://abetterlifepharma.com/
+0,BCG,Binah Capital Group Inc,34.699142,2021-02-17,US,NASDAQ NMS - GLOBAL MARKET,
+0,PROV,Provident Financial Holdings Inc,107.118285,1996-06-28,US,NASDAQ NMS - GLOBAL MARKET,https://ir.myprovident.com/
+0,BLX,Foreign Trade Bank of Latin America Inc,1300.263605,1992-09-24,PA,"NEW YORK STOCK EXCHANGE, INC.",https://www.bladex.com/
+0,PPTA.TO,Perpetua Resources Corp,1192.3335200800345,2011-07-14,US,TORONTO STOCK EXCHANGE,https://perpetuaresources.com/
+0,MGM,MGM Resorts International,10203.566334999998,1989-12-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mgmresorts.com/
+0,ENVA,Enova International Inc,3001.6480820000006,2014-10-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.enova.com/
+0,AFG,American Financial Group Inc,10670.180746,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.afginc.com/
+0,HASI,HA Sustainable Infrastructure Capital Inc,3325.719738,2013-04-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.hasi.com/
+0,SOHO,Sotherly Hotels Inc,33.209497,2004-12-17,US,NASDAQ NMS - GLOBAL MARKET,https://sotherlyhotels.com/
+0,AZPN,Aspen Technology Inc,16803.937811,1994-10-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.aspentech.com/en
+0,SMX,SMX (Security Matters) PLC,3.08,2001-12-07,IE,NASDAQ NMS - GLOBAL MARKET,https://smx.tech/
+0,AERG,Applied Energetics Inc,217.370019,1992-03-26,US,OTC MARKETS,https://appliedenergetics.com/
+0,UPXI,Upexi Inc,3.6952800000000003,2021-06-24,US,NASDAQ NMS - GLOBAL MARKET,https://upexi.com/
+0,CBU,Community Financial System Inc,3522.062164,1985-11-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://communityfinancialsystem.com/corporate-overview/corporate-profile/default.aspx
+0,PHIN,Phinia Inc,2083.142447,2023-06-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.phinia.com/
+0,GMM,Global Mofy AI Ltd,11.842185000000002,2023-10-10,CN,NASDAQ NMS - GLOBAL MARKET,https://ir.globalmofy.cn/
+0,HYEX,Healthy Extracts Inc,4.484109375,2015-10-13,US,OTC MARKETS,https://healthyextractsinc.com/
+0,PTVE,Pactiv Evergreen Inc,3183.743473,2020-09-17,US,NASDAQ NMS - GLOBAL MARKET,https://pactivevergreen.com/
+0,ICFI,ICF International Inc,2157.8054780000007,2006-09-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.icf.com/
+0,D,Dominion Energy Inc,46796.936473,1983-05-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.dominionenergy.com/
+0,BEEM,Beam Global,36.343797,2010-04-30,US,NASDAQ NMS - GLOBAL MARKET,https://beamforall.com/
+0,CRES2.BA,Cresud SACIF y A,991940.240479,2008-02-22,AR,BOLSA DE COMERCIO DE BUENOS AIRES,https://www.cresud.com.ar/
+0,HFFG,Hf Foods Group Inc,137.11788000000004,2017-08-14,US,NASDAQ NMS - GLOBAL MARKET,https://hffoodsgroup.com/
+0,PPT,Putnam Premier Income Trust,335.55,1988-02-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.putnam.com/
+0,EGT.V,Eguana Technologies Inc,4.51956,1998-01-29,CA,TSX VENTURE EXCHANGE - NEX,http://www.eguanatech.com/
+0,FDBC,Fidelity D&D Bancorp Inc,267.29875,1993-10-27,US,NASDAQ NMS - GLOBAL MARKET,https://bankatfidelity.q4ir.com/corporate-profile/default.aspx
+0,VHI,Valhi Inc,555.4267469999999,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.valhi.net/
+0,FMCC,Federal Home Loan Mortgage Corp,4075.873493,1985-01-23,US,OTC MARKETS,https://www.freddiemac.com/
+0,MNMD,Mind Medicine (MindMed) Inc,603.8864250000001,2015-05-04,US,NASDAQ NMS - GLOBAL MARKET,https://mindmed.co/
+0,NPO,Enpro Inc,4017.921718,2002-05-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.enproindustries.com/
+0,RUP.TO,Rupert Resources Ltd,1048.651888,1989-04-27,CA,TORONTO STOCK EXCHANGE,https://www.rupertresources.com/
+0,CSAN3.SA,Cosan SA,14103.213265,2005-11-16,BR,B3 S.A.,https://www.cosan.com.br/
+0,IHS,IHS Holding Ltd,1302.319389,2021-10-14,GB,"NEW YORK STOCK EXCHANGE, INC.",https://www.ihstowers.com/
+0,TRIN,Trinity Capital Inc,924.2321550000001,2021-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://trinitycap.com/
+0,IPWR,Ideal Power Inc,57.604775,2013-11-22,US,NASDAQ NMS - GLOBAL MARKET,https://www.idealpower.com/
+0,EVV,Eaton Vance Ltd Duration Income Fund,1189.92,2003-05-28,US,NYSE MKT LLC,https://funds.eatonvance.com/Limited-Duration-Income-Fund-EVV.php
+0,BGS,B&G Foods Inc,474.983276,2007-05-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://bgfoods.com/
+0,NEPH,Nephros Inc,15.816337,2004-09-21,US,NASDAQ NMS - GLOBAL MARKET,https://www.nephros.com/
+0,6146.T,Disco Corp,5029497.503815,1999-12-07,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.disco.co.jp/
+0,BXMX,Nuveen S&P 500 BuyWrite Income Fund,1454.15,2004-10-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/en-us/closed-end-funds
+0,DRD.JO,DRDGOLD Ltd,17375.912776,1992-07-01,ZA,JOHANNESBURG STOCK EXCHANGE,https://www.drdgold.com/
+0,FC,Franklin Covey Co,500.907409,1992-06-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.franklincovey.com/
+0,LNBY,Landbay Inc,16.200000999999997,2020-09-28,US,OTC MARKETS,
+0,AWRE,Aware Inc,33.290156,1996-08-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.aware.com/
+0,WOW,WideOpenWest Inc,380.6403199999999,2017-05-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.wowway.com/
+0,WTRG,Essential Utilities Inc,9723.961151999998,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.essential.co/home
+0,NXN,Nuveen New York Select Tax Free Income Portfolio,44.39,1992-06-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/CEF/Product/Overview.aspx
+0,CRI,Carter's Inc,1908.6153830000003,2003-10-24,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.carters.com/
+0,NITO,N2OFF Inc,13.762353,2010-05-26,US,NASDAQ NMS - GLOBAL MARKET,https://savefoods.co/
+0,RAVE,Rave Restaurant Group Inc,36.484684,1993-09-01,US,NASDAQ NMS - GLOBAL MARKET,http://www.raverg.com/
+0,WEED.TO,Canopy Growth Corp,397.552762,2010-06-04,CA,TORONTO STOCK EXCHANGE,https://www.canopygrowth.com/
+0,PSN,Parsons Corp,8159.635295,2019-05-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.parsons.com/
+0,MA,Mastercard Inc,518263.328104,2006-05-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mastercard.us/
+0,MTA.V,Metalla Royalty & Streaming Ltd,426.582748,2018-02-02,CA,TSX VENTURE EXCHANGE - NEX,https://www.metallaroyalty.com/
+0,TRNR,Interactive Strength Inc,1.850806,2023-04-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.formelife.com/
+0,FNMA,Federal National Mortgage Association,7898.157948000001,1980-03-17,US,OTC MARKETS,https://www.fanniemae.com/
+0,UGPA3.SA,Ultrapar Participacoes SA,18366.793257,1999-09-27,BR,B3 S.A.,https://www.ultra.com.br/
+0,AHG,Akso Health Group,180.697332,2017-11-03,CN,NASDAQ NMS - GLOBAL MARKET,https://ir.xiaobaimaimai.com/
+0,IBP,Installed Building Products Inc,5165.978164,2014-02-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://installedbuildingproducts.com/
+0,FCPT,Four Corners Property Trust Inc,2703.709649,2015-10-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://fcpt.com/
+0,THQ,abrdn Healthcare Opportunities Fund,797.76,2014-07-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.abrdnthq.com/
+0,ECG,Everus Construction Group Inc,3487.5080700000003,2024-10-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://everus.com/
+0,BCOW,1895 Bancorp of Wisconsin Inc,58.244982,2019-01-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.1895bancorpofwisconsin.com/overview/corporate-profile/default.aspx
+0,CASH,Pathward Financial Inc,1935.0644500000003,1993-09-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.pathwardfinancial.com/
+0,FAST,Fastenal Co,42622.285696,1987-08-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.fastenal.com/
+0,ASTC,Astrotech Corp,10.788962,1995-12-21,US,NASDAQ NMS - GLOBAL MARKET,https://www.astrotechcorp.com/
+0,AF.PA,Air France KLM SA,2145.330281,1999-02-22,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.airfranceklm.com/fr
+0,TME,Tencent Music Entertainment Group,20131.9002046902,2018-12-12,CN,"NEW YORK STOCK EXCHANGE, INC.",https://www.tencentmusic.com/
+0,CDLX,Cardlytics Inc,171.271621,2018-02-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.cardlytics.com/
+0,KUSA,Kashin Inc,0.0,2010-12-30,US,OTC MARKETS,
+0,COLAU,Columbus Acquisition Corp,0.0,2025-01-23,SG,NASDAQ NMS - GLOBAL MARKET,
+0,PDCC,Pearl Diver Credit Company Inc,132.24,2024-07-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://pearldivercreditcompany.ssnc.cloud/pdcc
+0,DOX,Amdocs Ltd,9738.567019,1998-06-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.amdocs.com/
+0,MYO,Myomo Inc,198.477852,2017-06-12,US,NYSE MKT LLC,https://myomo.com/
+0,BHF,Brighthouse Financial Inc,3471.630514,2017-07-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.brighthousefinancial.com/
+0,GFS,GlobalFoundries Inc,22275.759638,2021-10-28,US,NASDAQ NMS - GLOBAL MARKET,https://gf.com/
+0,ON,ON Semiconductor Corp,20198.71403,2000-04-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.onsemi.com/
+0,PRAX,Praxis Precision Medicines Inc,1570.0463220000001,2020-10-16,US,NASDAQ NMS - GLOBAL MARKET,https://praxismedicines.com/
+0,RCIT,Reelcause Inc,0.49782399999999993,2008-12-23,US,OTC MARKETS,https://rcitgroup.net/
+0,PAYS,Paysign Inc,142.97416300000003,2001-07-19,US,NASDAQ NMS - GLOBAL MARKET,https://paysign.com/
+0,SCKT,Socket Mobile Inc,10.038957,1995-06-07,US,NASDAQ NMS - GLOBAL MARKET,https://www.socketmobile.com/
+0,FIVN,Five9 Inc,3057.2217589999996,2014-04-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.five9.com/
+0,EOT,Eaton Vance National Municipal Opportunities Trust,257.34,2009-05-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.eatonvance.com/
+0,AFJK,Aimei Health Technology Co Ltd,98.02240000000002,2024-01-22,US,NASDAQ NMS - GLOBAL MARKET,
+0,SCHW,Charles Schwab Corp,152432.369364,1987-09-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.schwab.com/
+0,CCM,Concord Medical Services Holdings Ltd,20.710018,2009-12-11,CN,"NEW YORK STOCK EXCHANGE, INC.",https://www.concordmedical.com/
+0,KER.PA,Kering SA,30328.005566,1988-01-01,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.kering.com/en/
+0,CTLP,Cantaloupe Inc,769.05407,1995-03-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.cantaloupe.com/
+0,UTSI,UTStarcom Holdings Corp,26.325229,2000-03-03,CN,NASDAQ NMS - GLOBAL MARKET,https://www.utstar.com/
+0,TRTX,TPG RE Finance Trust Inc,696.787765,2017-07-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.tpgrefinance.com/
+0,MRM,Medirom Healthcare Technologies Inc,4.471183,2020-12-29,JP,NASDAQ NMS - GLOBAL MARKET,https://medirom.co.jp/
+0,TXT,Textron Inc,13510.384918,1947-12-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.textron.com/
+0,KODK,Eastman Kodak Co,592.5480019999999,2013-09-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kodak.com/
+0,TBN,Tamboran Resources Corp,347.072,2021-07-02,AU,ASX - ALL MARKETS,https://www.tamboran.com/
+0,SBUX,Starbucks Corp,126118.978324,1992-06-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.starbucks.com/
+0,AER,AerCap Holdings NV,19787.63373,2006-11-20,IE,"NEW YORK STOCK EXCHANGE, INC.",https://www.aercap.com/
+0,RIME,Algorhythm Holdings Inc,6.835763,1994-11-10,US,NASDAQ NMS - GLOBAL MARKET,https://singingmachine.com/
+0,AQU,Aquaron Acquisition Corp,27.781035,2022-10-04,US,NASDAQ NMS - GLOBAL MARKET,
+0,IDAI,T Stamp Inc,6.556137,2020-12-08,US,NASDAQ NMS - GLOBAL MARKET,https://truststamp.ai/
+0,OI,O-I Glass Inc,1800.088506,1991-12-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.o-i.com/
+0,6146.T,Disco Corp,5029497.503815,1999-12-07,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.disco.co.jp/
+0,AAPL,Apple Inc,3494434.6042479994,1980-12-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.apple.com/
+0,ERKH,Eureka Homestead Bancorp Inc,18.869435,2019-07-09,US,OTC MARKETS,https://eurekahomestead.com/
+0,ACU,Acme United Corp,139.182052,1980-03-17,US,NYSE MKT LLC,https://www.acmeunited.com/
+0,BECN,Beacon Roofing Supply Inc,7391.901107,2004-09-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.becn.com/
+0,TPIA.JK,Chandra Asri Pacific PT Tbk,575301786.71875,2008-05-26,ID,INDONESIA STOCK EXCHANGE,https://www.chandra-asri.com/
+0,RCUS,Arcus Biosciences Inc,1095.394019,2018-03-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://arcusbio.com/
+0,CVLG,Covenant Logistics Group Inc,649.6925700000002,1994-10-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.covenantlogistics.com/
+0,CUBT,Curative Biotechnology Inc,8.761655,2001-07-11,US,OTC MARKETS,https://curativebiotech.com/
+0,GO,Grocery Outlet Holding Corp,1641.604579,2019-06-20,US,NASDAQ NMS - GLOBAL MARKET,https://groceryoutlet.com/
+0,ZBH,Zimmer Biomet Holdings Inc,19704.317,2001-07-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.zimmerbiomet.com/en
+0,9658.HK,Super Hi International Holding Ltd,11705.382202,2022-12-30,SG,HONG KONG EXCHANGES AND CLEARING LTD,https://www.superhiinternational.com/
+0,PATK,Patrick Industries Inc,3146.2706159999993,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://patrickind.com/
+0,DIBS,1stdibs.Com Inc,145.321894,2021-06-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.1stdibs.com/
+0,SLGL,Sol Gel Technologies Ltd,17.402654,2018-02-01,IL,NASDAQ NMS - GLOBAL MARKET,http://www.sol-gel.com
+0,ACA.PA,Credit Agricole SA,46067.225136,2001-12-13,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.credit-agricole.com/
+0,H.TO,Hydro One Ltd,27046.533989,2015-11-05,CA,TORONTO STOCK EXCHANGE,https://www.hydroone.com
+0,CELC,Celcuity Inc,449.26762700000006,2017-09-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.celcuity.com/
+0,AATC,Autoscope Technologies Corp,41.80157700000001,1995-05-05,US,OTC MARKETS,https://www.autoscope.com
+0,NUS,NU Skin Enterprises Inc,321.630298,1996-11-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuskin.com/
+0,INLF,INLIF Ltd,67.135,2025-01-02,CN,NASDAQ NMS - GLOBAL MARKET,
+0,RGA,Reinsurance Group of America Inc,12952.2194,1993-05-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.rgare.com/
+0,FPAY,FlexShopper Inc,35.626071,2007-12-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.flexshopper.com/
+0,TMP,Tompkins Financial Corp,1040.519251,1986-06-02,US,NYSE MKT LLC,https://www.tompkinsfinancial.com/
+0,DSWL,Deswell Industries Inc,37.44781,1995-07-19,MO,NASDAQ NMS - GLOBAL MARKET,https://www.deswell.com
+0,CLYM,Climb Bio Inc,104.31500200000002,2021-08-10,US,NASDAQ NMS - GLOBAL MARKET,https://climbbio.com/
+0,BTM,Bitcoin Depot Inc,80.92372,2022-02-25,US,NASDAQ NMS - GLOBAL MARKET,https://bitcoindepot.com/
+0,SMSI,Smith Micro Software Inc,25.895593999999996,1995-09-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.smithmicro.com/
+0,KSPI,Kaspi.kz AO,19103.892092355483,2018-05-28,KZ,NASDAQ NMS - GLOBAL MARKET,https://ir.kaspi.kz/
+0,AGFY,Agrify Corp,32.98134199999999,2021-01-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.agrify.com/
+0,SIL.TO,SilverCrest Metals Inc,2378.064983,2015-10-09,CA,TORONTO STOCK EXCHANGE,https://silvercrestmetals.com/
+0,ADRO.JK,Adaro Energy Indonesia TBK PT,63492443.652344,2008-07-16,ID,INDONESIA STOCK EXCHANGE,https://www.adaro.com/
+0,UHG,United Homes Group Inc,250.14037799999997,2021-01-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.diamondheadholdings.com/
+0,LLOY.L,Lloyds Banking Group PLC,38114.883914,1986-10-08,GB,LONDON STOCK EXCHANGE,https://www.lloydsbankinggroup.com
+0,LVO,LiveOne Inc,112.88668600000001,2018-02-22,US,NASDAQ NMS - GLOBAL MARKET,https://www.livexlive.com/
+0,ARCT,Arcturus Therapeutics Holdings Inc,435.293842,2013-05-22,US,NASDAQ NMS - GLOBAL MARKET,https://arcturusrx.com/
+0,CLSD,Clearside Biomedical Inc,81.152555,2016-06-02,US,NASDAQ NMS - GLOBAL MARKET,https://clearsidebio.com/
+0,PNXP,Pineapple Express Cannabis Co,4.76,2021-09-23,US,OTC MARKETS,https://minaro-corp.com/
+0,HBUV,Hubilu Venture Corporation,34.11,2016-04-27,US,OTC MARKETS,https://www.hubilu.com/
+0,OSTX,OS Therapies Inc,39.7158,2024-08-01,US,NYSE MKT LLC,https://ostherapies.com/
+0,INGN,Inogen Inc,246.996938,2014-02-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.inogen.com/
+0,ZKIN,ZK International Group Co Ltd,11.567238,2017-09-01,CN,NASDAQ NMS - GLOBAL MARKET,https://www.zkinternationalgroup.com/
+0,KLG,WK Kellogg Co,1459.8229540000002,2023-09-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.wkkellogg.com/
+0,NBHC,National Bank Holdings Corp,1674.4953279999997,2012-09-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://nationalbankholdings.com
+0,PLX,Protalix Biotherapeutics Inc,184.820293,2010-09-06,US,NYSE MKT LLC,https://protalix.com/
+0,MITI,Mitesco Inc,4.025912999999999,2011-11-03,US,OTC MARKETS,https://mitescoinc.com/
+0,ATER,Aterian Inc,18.648547,2019-06-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.aterian.io/
+0,ITGR,Integer Holdings Corp,4652.278446999999,2000-09-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://integer.net
+0,DIST,Distoken Acquisition Corp,37.409989197893815,2023-02-15,CN,NASDAQ NMS - GLOBAL MARKET,
+0,MNKD,MannKind Corp,1538.83943,2004-07-28,US,NASDAQ NMS - GLOBAL MARKET,https://mannkindcorp.com/
+0,JHG,Janus Henderson Group PLC,6973.516567,2008-10-27,GB,"NEW YORK STOCK EXCHANGE, INC.",https://www.janushenderson.com/
+0,TKMO,Tekumo Inc,0.257436,2011-02-23,US,OTC MARKETS,http://www.balincanusa.com/
+0,UHAL,U-Haul Holding Co,12783.101125,1994-03-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.amerco.com/
+0,ROST,Ross Stores Inc,46609.099383,1985-08-08,US,NASDAQ NMS - GLOBAL MARKET,https://www.rossstores.com/
+0,ACA,Arcosa Inc,4970.35776,2018-10-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.arcosa.com/
+0,OAKU,Oak Woods Acquisition Corp,68.893341,2023-03-24,CA,NASDAQ NMS - GLOBAL MARKET,https://oakwoodsacquisition.com/
+0,SGMO,Sangamo Therapeutics Inc,237.857441,2000-04-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.sangamo.com/
+0,OXLC,Oxford Lane Capital Corp,1767.58,2011-01-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.oxfordlanecapital.com/
+0,DYNR,Dynaresource Inc,31.046777,1996-07-08,US,OTC MARKETS,https://www.dynaresource.com/
+0,BCAX,Bicara Therapeutics Inc,708.491383,2024-09-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.bicara.com/
+0,QDMI,QDM International Inc,317.804698,2000-06-22,HK,OTC MARKETS,http://www.247kiddoc.com
+0,SPRU,Spruce Power Holding Corp,47.06460700000001,2019-07-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://xlfleet.com/
+0,ECOX,Eco Innovation Group Inc,0.109628,2011-11-21,US,OTC MARKETS,https://www.ecoig.com/
+0,FORR,Forrester Research Inc,286.839612,1996-11-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.forrester.com/consulting/
+0,RITE,Mineralrite Corp,6.994572,2001-10-04,US,OTC MARKETS,https://mineral-rite.com/
+0,SKYE,Skye Bioscience Inc,87.677659,2014-02-24,US,NASDAQ NMS - GLOBAL MARKET,https://skyebioscience.com/
+0,DIDIY,DiDi Global Inc,23664.122336,2021-06-30,CN,OTC MARKETS,https://www.didiglobal.com
+0,DRDBU,Roman DBDR Acquisition Corp II,198.8,2024-12-13,US,NASDAQ NMS - GLOBAL MARKET,
+0,CIGI.TO,Colliers International Group Inc,9586.188394,1993-06-22,CA,TORONTO STOCK EXCHANGE,https://www.collierscanada.com/
+0,AUTL,Autolus Therapeutics PLC,508.287762,2018-06-22,GB,NASDAQ NMS - GLOBAL MARKET,https://www.autolus.com/
+0,VCNX,Vaccinex Inc,2.599728,2018-08-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.vaccinex.com/
+0,QRHC,Quest Resource Holding Corp,104.37951599999998,2009-07-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.questrmg.com/investors/
+0,AGM,Federal Agricultural Mortgage Corp,2142.73656,1988-12-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.farmermac.com/
+0,WING,Wingstop Inc,8758.427229000003,2015-06-12,US,NASDAQ NMS - GLOBAL MARKET,https://ir.wingstop.com/
+0,SLP,Simulations Plus Inc,724.332297,1997-06-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.simulations-plus.com/
+0,HPP,Hudson Pacific Properties Inc,444.874267,2010-06-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.hudsonpacificproperties.com/
+0,WAT,Waters Corp,24064.570443,1995-11-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.waters.com
+0,JYNT,Joint Corp,173.210529,2014-11-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.thejoint.com/
+0,UBCP,United Bancorp Inc,74.966166,1993-03-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.unitedbancorp.com/
+0,KRRO,Korro Bio Inc,284.23305,2019-10-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.korrobio.com/
+0,CREV,Carbon Revolution PLC,7.446477,2021-03-08,IE,NASDAQ NMS - GLOBAL MARKET,https://www.carbonrev.com/
+0,FEAM,5E Advanced Materials Inc,21.780567,2022-03-01,US,NASDAQ NMS - GLOBAL MARKET,https://5eadvancedmaterials.com/
+0,ELTK,Eltek Ltd,76.27589299999998,1997-01-22,IL,NASDAQ NMS - GLOBAL MARKET,https://www.nisteceltek.com/
+0,CHRS,Coherus BioSciences Inc,128.638113,2014-11-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.coherus.com/
+0,GRI,GRI Bio Inc,4.422908999999999,2021-02-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.gribio.com/
+0,FGCO,Financial Gravity Companies Inc,9.180699,2011-07-29,US,OTC MARKETS,https://financialgravity.com/
+0,TLSA,Tiziana Life Sciences Ltd,78.457525,2008-07-14,GB,NASDAQ NMS - GLOBAL MARKET,https://www.tizianalifesciences.com/
+0,AMAT,Applied Materials Inc,148886.785117,1972-10-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.appliedmaterials.com/
+0,JHX.AX,James Hardie Industries PLC,22824.728258,2001-10-15,IE,ASX - ALL MARKETS,http://www.ir.jameshardie.com.au/
+0,CSCO,Cisco Systems Inc,248643.601933,1990-02-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.cisco.com/
+0,RIO.L,Rio Tinto PLC,84540.840705,1973-11-01,GB,LONDON STOCK EXCHANGE,https://www.riotinto.com/
+0,CMTV,Community Bancorp,99.84251200000001,1988-11-10,US,OTC MARKETS,https://www.communitynationalbank.com/community-bancorp
+0,STQN,Strategic Acquisitions Inc,2.34,1993-10-27,US,OTC MARKETS,https://www.strategicla.com/
+0,GUG,Guggenheim Active Allocation Fund,494.04,2021-11-24,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,BRFH,Barfresh Food Group Inc,56.915718,2011-07-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.barfresh.com/
+0,ATEX,Anterix Inc,673.2366720000001,2015-02-03,US,NASDAQ NMS - GLOBAL MARKET,https://anterix.com/
+0,NEOG,Neogen Corp,2204.151164,1989-08-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.neogen.com/
+0,BSM,Black Stone Minerals LP,3196.24212,2015-05-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackstoneminerals.com/
+0,316140.KS,Woori Financial Group Inc,12178462.426758,2019-02-13,KR,KOREA EXCHANGE (STOCK MARKET),https://www.woorifg.com/
+0,TNYA,Tenaya Therapeutics Inc,74.744552,2021-07-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.tenayatherapeutics.com/
+0,FFIC,Flushing Financial Corp,509.598259,1995-11-21,US,NASDAQ NMS - GLOBAL MARKET,https://investor.flushingbank.com/
+0,PPIH,Perma-Pipe International Holdings Inc,116.22619000000002,1989-12-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.permapipe.com/
+0,YOTA,Yotta Acquisition Corp,42.46042430117852,2022-04-20,US,NASDAQ NMS - GLOBAL MARKET,
+0,MGX,Metagenomi Inc,85.32653600000002,2024-02-09,US,NASDAQ NMS - GLOBAL MARKET,https://metagenomi.co/
+0,LUV,Southwest Airlines Co,17643.520378,1977-06-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.southwest.com/
+0,ESHA,ESH Acquisition Corp,42.02864993103449,2023-06-14,US,NASDAQ NMS - GLOBAL MARKET,
+0,ZONE,CleanCore Solutions Inc,9.1509,2024-04-26,US,NYSE MKT LLC,https://www.cleancoresol.com/
+0,SAR,Saratoga Investment Corp,359.6635570000001,2010-08-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://saratogainvestmentcorp.com/
+0,TXNM,TXNM Energy Inc,4528.961301000001,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.txnmenergy.com/
+0,ANNX,Annexon Inc,331.505792,2020-07-24,US,NASDAQ NMS - GLOBAL MARKET,https://annexonbio.com/
+0,JELD,JELD-WEN Holding Inc,765.8080029999999,2017-01-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.jeld-wen.com
+0,EMR.V,Emergent Metals Corp,3.365125,1981-07-30,CA,TSX VENTURE EXCHANGE - NEX,https://emergentmetals.com/
+0,GE,General Electric Co,224124.535781,1892-06-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ge.com/
+0,SFHG,Samfine Creation Holdings Group Ltd,16.488299999999995,2024-10-15,HK,NASDAQ NMS - GLOBAL MARKET,
+0,TKOI,Telkonet Inc,0.8677160000000002,2000-07-18,US,OTC MARKETS,https://www.telkonet.com/
+0,ELSE,Electro-Sensors Inc,16.557341,1981-06-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.electro-sensors.com/
+0,SPMC,Sound Point Meridian Capital Inc,422.27,2024-06-14,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,ANNA,Swiftmerge Acquisition Corp,395.140272,2021-12-15,CA,NASDAQ NMS - GLOBAL MARKET,https://www.swiftmerg.com/
+0,VTRS,Viatris Inc,12664.020212,1973-02-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.viatris.com/en
+0,ORC,Orchid Island Capital Inc,653.978193,2013-02-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.orchidislandcapital.com/
+0,GCO,Genesco Inc,436.831618,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.genesco.com/
+0,VTSI,VirTra Inc,68.63369,1997-11-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.virtra.com/
+0,MYSZ,My Size Inc,3.7130890000000005,2005-09-12,IL,NASDAQ NMS - GLOBAL MARKET,https://mysizeid.com/
+0,RILY,B Riley Financial Inc,130.844704,2009-08-03,US,NASDAQ NMS - GLOBAL MARKET,https://brileyfin.com/
+0,COCH,Envoy Medical Inc,31.301976999999997,2021-03-02,US,NASDAQ NMS - GLOBAL MARKET,https://www.envoymedical.com/
+0,COE,51Talk Online Education Group,115.005576,2016-06-10,SG,NYSE MKT LLC,http://ir.51talk.com/
+0,HTBK,Heritage Commerce Corp,647.976577,1998-07-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.heritagecommercecorp.com/
+0,MSM,MSC Industrial Direct Co Inc,4538.554692,1995-12-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mscdirect.com/
+0,CKX,CKX Lands Inc,23.03721791596639,1993-10-27,US,NYSE MKT LLC,https://www.ckxlands.com/
+0,SEPN,Septerna Inc,505.3031920000001,2024-10-25,US,NASDAQ NMS - GLOBAL MARKET,https://septerna.com/
+0,HSTM,HealthStream Inc,1032.281076,2000-04-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.healthstream.com/
+0,CBFV,CB Financial Services Inc,156.52661699999996,1994-03-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.communitybank.tv/investor-relations.htm
+0,MSA,MSA Safety Inc,6506.189272,2004-07-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://in.msasafety.com/
+0,BVFL,BV Financial Inc,172.23008599999997,2005-01-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.bayvanguard.com/about-us/investor-relations/
+0,ILAG,Intelligent Living Application Group Inc,14.2674,2022-07-13,HK,NASDAQ NMS - GLOBAL MARKET,http://www.i-l-a-g.com/
+0,DXLG,Destination XL Group Inc,139.02653,1987-12-29,US,NASDAQ NMS - GLOBAL MARKET,https://investor.dxl.com/investor-relations
+0,LDDD,Longduoduo Co Ltd,150.625,2022-08-17,CN,OTC MARKETS,http://www.longduoduo.net/
+0,EFX.TO,Enerflex Ltd,1665.921904,1993-09-22,CA,TORONTO STOCK EXCHANGE,https://www.enerflex.com/
+0,SPTY,Specificity Inc,6.95638,2022-03-02,US,OTC MARKETS,https://www.specificityinc.com/
+0,MHF,Western Asset Municipal High Income Fund Inc,151.78,1988-11-18,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,ACDC,ProFrac Holding Corp,1269.9625619999997,2022-05-13,US,NASDAQ NMS - GLOBAL MARKET,https://profrac.com/
+0,GLLI,Globalink Investment Inc,72.0908036505867,2021-12-07,US,NASDAQ NMS - GLOBAL MARKET,http://www.globalinkinvestment.com
+0,OZK,Bank Ozk,6023.233718,1997-07-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.ozk.com/
+0,EMED,Electromedical Technologies Inc,0.171008,2019-06-17,US,OTC MARKETS,https://electromedtech.com/
+0,ENMI,DH Enchantment Inc,33.523963,2004-10-29,HK,OTC MARKETS,http://wesaveenergy.com/
+0,SN.L,Smith & Nephew PLC,8802.800183,1951-08-13,GB,LONDON STOCK EXCHANGE,https://www.smith-nephew.com/
+0,TOUR,Tuniu Corp,122.61765,2014-05-09,CN,NASDAQ NMS - GLOBAL MARKET,http://www.tuniu.com/
+0,CBRE,CBRE Group Inc,43390.2866,2004-06-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cbre.us
+0,SRAX,SRAX Inc,11.077099,2012-10-12,US,OTC MARKETS,https://srax.com/
+0,XWEL,XWELL Inc,6.208008,2010-06-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.xwell.com/
+0,LKQ,LKQ Corp,9797.889421000002,2003-10-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.lkqcorp.com/
+0,CREG,Smart Powerr Corp,6.439179,2010-03-22,CN,NASDAQ NMS - GLOBAL MARKET,https://www.creg-cn.com/
+0,PLPC,Preformed Line Products Co,699.8175409999999,2001-09-18,US,NASDAQ NMS - GLOBAL MARKET,https://preformed.com/
+0,JNJ,Johnson & Johnson,375902.198065,1944-09-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.jnj.com/
+0,PAA,Plains All American Pipeline LP,13876.353526,1998-11-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.plains.com/
+0,AILLP,Ameren Illinois Co,42.18,1993-10-27,US,OTC MARKETS,https://www.ameren.com/illinois/about-us
+0,FN,Fabrinet,7453.091896999999,2010-06-25,KY,"NEW YORK STOCK EXCHANGE, INC.",https://fabrinet.com/
+0,CAAS,China Automotive Systems Inc,125.874377,2004-08-24,CN,NASDAQ NMS - GLOBAL MARKET,http://www.caasauto.com
+0,ISDR,Issuer Direct Corp,36.997876,2008-03-20,US,NYSE MKT LLC,https://www.issuerdirect.com
+0,VANI,Vivani Medical Inc,67.527543,2014-12-05,US,NASDAQ NMS - GLOBAL MARKET,https://vivani.com/
+0,SOPH,Sophia Genetics SA,240.580341,2021-07-23,CH,NASDAQ NMS - GLOBAL MARKET,https://www.sophiagenetics.com/
+0,BOOM,DMC Global Inc,168.02226799999997,1989-01-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.dmcglobal.com/
+0,BLNC,Balance Labs Inc,4.600306,2015-10-20,US,OTC MARKETS,https://www.balancelabs.co/
+0,INSP,Inspire Medical Systems Inc,5458.874337,2018-05-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.inspiresleep.com/
+0,CCSI,Consensus Cloud Solutions Inc,558.067027,2021-09-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.consensus.com
+0,601857.SS,PetroChina Co Ltd,1463582.5090326455,2000-04-06,CN,SHANGHAI STOCK EXCHANGE,https://www.petrochina.com.cn/
+0,TRVI,Trevi Therapeutics Inc,353.8882050000001,2019-05-07,US,NASDAQ NMS - GLOBAL MARKET,https://www.trevitherapeutics.com/
+0,IIIN,Insteel Industries Inc,611.09344,1985-04-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://insteel.com/home/
+0,SAR,Saratoga Investment Corp,359.6635570000001,2010-08-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://saratogainvestmentcorp.com/
+0,EVM,Eaton Vance California Municipal Bond Fund,232.67,2002-08-28,US,NYSE MKT LLC,https://funds.eatonvance.com/California-Municipal-Bond-Fund-EVM.php
+0,AXDX,Accelerate Diagnostics Inc,30.553463000000004,1993-10-27,US,NASDAQ NMS - GLOBAL MARKET,http://acceleratediagnostics.com/
+0,FOUR,Shift4 Payments Inc,10577.046537,2020-06-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.shift4.com/
+0,PULM,Pulmatrix Inc,27.355613,2014-03-21,US,NASDAQ NMS - GLOBAL MARKET,https://www.pulmatrix.com/
+0,KTOS,Kratos Defense and Security Solutions Inc,4866.520669,1999-11-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.kratosdefense.com/
+0,OLLI,Ollie's Bargain Outlet Holdings Inc,6336.642215000001,2015-07-16,US,NASDAQ NMS - GLOBAL MARKET,https://investors.ollies.us/
+0,IAF,"abrdn Australia Equity Fund, Inc",114.72,1985-12-13,US,NYSE MKT LLC,https://www.abrdniaf.com/
+0,CJET,Chijet Motor Co Inc,9.535292,2023-06-02,CN,NASDAQ NMS - GLOBAL MARKET,https://chijetmotors.com/
+0,CYRB,Cyber App cCorp,478.14,2022-01-26,KR,OTC MARKETS,http://cyber-app.org/
+0,ALVR,Allovir Inc,30.094828,2020-07-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.allovir.com
+0,INFN,Infinera Corp,1572.367389,2007-06-07,US,NASDAQ NMS - GLOBAL MARKET,https://www.infinera.com/
+0,HYPR,Hyperfine Inc,81.70259299999998,2021-01-27,US,NASDAQ NMS - GLOBAL MARKET,https://hyperfine.io/
+0,600029.SS,China Southern Airlines Co Ltd,93496.91971003583,1997-07-30,CN,SHANGHAI STOCK EXCHANGE,https://www.csair.com/
+0,IMKTA,Ingles Markets Inc,1219.129026,1987-09-22,US,NASDAQ NMS - GLOBAL MARKET,https://www.ingles-markets.com/
+0,FBIN,Fortune Brands Innovations Inc,8602.624996,2011-09-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.fbin.com/
+0,1519.HK,J&T Global Express Ltd,55534.339926,2023-10-27,CN,HONG KONG EXCHANGES AND CLEARING LTD,https://www.jtexpress.com/
+0,BW,Babcock & Wilcox Enterprises Inc,128.270625,2015-06-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.babcock.com/
+0,STAA,STAAR Surgical Co,1078.1561059999997,1992-02-24,US,NASDAQ NMS - GLOBAL MARKET,https://www.staar.com/
+0,DHY,Credit Suisse High Yield Bond Fund,230.84,1998-07-29,US,NYSE MKT LLC,https://us-fund.credit-suisse.com/en/home
+0,BKSY,Blacksky Technology Inc,533.091136,2019-12-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.blacksky.com/
+0,OLED,Universal Display Corp,6741.41789,1992-05-14,US,NASDAQ NMS - GLOBAL MARKET,https://oled.com/
+0,ALL,Allstate Corp,50161.718776,1993-06-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.allstateinvestors.com/
+0,OPTT,Ocean Power Technologies Inc,110.194178,2003-10-31,US,NYSE MKT LLC,https://oceanpowertechnologies.com/
+0,MVIS,MicroVision Inc,317.223551,1996-08-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.microvision.com/
+0,HTLF,Heartland Financial USA Inc,2773.4048330000005,1998-06-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.htlf.com/
+0,4689.T,LY Corp,3503851.075243,1997-11-04,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.lycorp.co.jp/
+0,PYPD,PolyPid Ltd,19.628035000000004,2020-06-26,IL,NASDAQ NMS - GLOBAL MARKET,https://www.polypid.com
+0,6902.T,Denso Corp,5211771.375,1951-12-10,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.denso.com/
+0,XCRT,Xcelerate Inc,9.384035,2004-10-06,US,OTC MARKETS,https://xcelerate.global/
+0,RACE.MI,Ferrari NV,89610.432,2015-10-21,IT,AIM ITALIA - MERCATO ALTERNATIVO DEL CAPITALE,https://www.ferrari.com/
+0,PAYX,Paychex Inc,52605.213703,1983-08-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.paychex.com/
+0,BEST,BEST Inc,52.011707,2017-09-20,CN,"NEW YORK STOCK EXCHANGE, INC.",http://www.best-inc.com/en/
+0,9961.HK,Trip.com Group Ltd,337468.180786,2003-12-09,SG,HONG KONG EXCHANGES AND CLEARING LTD,https://group.trip.com/
+0,PLMJ,Plum Acquisition III Corp,112.328689,2021-07-30,US,NASDAQ NMS - GLOBAL MARKET,https://aptmspac.com/
+0,NG.L,National Grid PLC,47366.434356,2002-01-31,GB,LONDON STOCK EXCHANGE,https://www.nationalgrid.com/
+0,PRT,PermRock Royalty Trust,44.28,2018-05-02,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.permrock.com/
+0,DBGI,Digital Brands Group Inc,1.35012,2021-05-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.dstld.com/
+0,MCD,McDonald's Corp,222302.58789299996,1965-04-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mcdonalds.com/
+0,NYMXF,Nymox Pharmaceutical Corp,7.483211,1997-11-26,CA,OTC MARKETS,https://nymox.com/
+0,REKR,Rekor Systems Inc,213.95828299999997,2017-08-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.rekor.ai/
+0,ZION,Zions Bancorporation NA,8395.905322,1966-01-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.zionsbancorporation.com/overview/default.aspx
+0,BUJA,Bukit Jalil Global Acquisition 1 Ltd,55.83695368328187,2023-06-28,MY,NASDAQ NMS - GLOBAL MARKET,
+0,FNLC,First Bancorp Inc,291.397675,1999-07-14,US,NASDAQ NMS - GLOBAL MARKET,https://investors.thefirst.com/
+0,TMCI,Treace Medical Concepts Inc,622.970772,2021-04-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.treace.com/
+0,RGA,Reinsurance Group of America Inc,12952.2194,1993-05-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.rgare.com/
+0,SITE,SiteOne Landscape Supply Inc,6008.297579,2016-05-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.siteone.com/en/
+0,ONEI,OneMeta Inc,13.642530999999998,2008-01-07,US,OTC MARKETS,https://www.onemeta.ai/
+0,ATMH,All Things Mobile Analytic Inc,2.1673999792719916,2011-05-06,US,OTC MARKETS,https://allthingsmobileanalytic.com/
+0,STKH,Steakholder Foods Ltd,4.515938,1994-08-29,IL,NASDAQ NMS - GLOBAL MARKET,https://steakholderfoods.com/
+0,SNFCA,Security National Financial Corp,313.397117,1987-08-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.securitynational.com/
+0,DLB,Dolby Laboratories Inc,8048.449656999999,2005-02-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.dolby.com/
+0,BRO,Brown & Brown Inc,31097.973175,1997-12-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bbinsurance.com/
+0,AI,C3.ai Inc,4015.5792120000006,2020-12-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://c3.ai/
+0,TRP.TO,TC Energy Corp,70086.090018,1985-05-30,CA,TORONTO STOCK EXCHANGE,https://www.tcenergy.com/
+0,EDIT,Editas Medicine Inc,97.406758,2016-02-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.editasmedicine.com/
+0,LFMD,LifeMD Inc,283.694385,2001-07-11,US,NASDAQ NMS - GLOBAL MARKET,https://lifemd.com/
+0,WAL,Western Alliance Bancorp,9861.107302,2005-06-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.westernalliancebancorporation.com/
+0,HPH,Highest Performances Holdings Inc,51.901944,2019-03-29,CN,NASDAQ NMS - GLOBAL MARKET,http://www.puyiwm.com/
+0,1519.HK,J&T Global Express Ltd,55534.339926,2023-10-27,CN,HONG KONG EXCHANGES AND CLEARING LTD,https://www.jtexpress.com/
+0,ASRV,Ameriserv Financial Inc,43.941253999999994,1985-01-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.ameriserv.com/
+0,BEPH,Brookfield BRP Holdings (Canada) Inc,0.0,2021-04-16,CA,"NEW YORK STOCK EXCHANGE, INC.",
+0,AIG,American International Group Inc,47362.806795,1984-10-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.aig.com/home
+0,ENDV,Endonovo Therapeutics Inc,0.06375,2012-03-09,US,OTC MARKETS,https://endonovo.com/
+0,SSII,SS Innovations International Inc,1572.035508,2018-07-09,US,OTC MARKETS,https://ssinnovations.com/
+0,PMNT,Perfect Moment Ltd,15.2123,2024-02-08,GB,NYSE MKT LLC,https://www.perfectmoment.com/
+0,MUE,BlackRock MuniHoldings Quality Fund II Inc,219.62,1999-03-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/investing/products/240260/blackrock-muniholdings-insured-fund-ii-inc-usd-f
+0,KER.PA,Kering SA,30328.005566,1988-01-01,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.kering.com/en/
+0,NSIT,Insight Enterprises Inc,5320.43313,1995-01-24,US,NASDAQ NMS - GLOBAL MARKET,https://www.insight.com/en_US/home.html
+0,SFL,SFL Corporation Ltd,1601.336674,2004-06-14,BM,"NEW YORK STOCK EXCHANGE, INC.",https://www.sflcorp.com/
+0,PDEX,Pro-Dex Inc,116.712735,1994-05-31,US,NASDAQ NMS - GLOBAL MARKET,https://www.pro-dex.com/
+0,NIXX,Nixxy Inc,40.03829999999999,1994-04-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.recruiter.com/
+0,MRPT,Macreport.Net Inc,1.5266539024390242,2002-07-02,US,OTC MARKETS,
+0,PMHG,Prime Meridian Holding Co,92.878857,2015-06-22,US,OTC MARKETS,http://www.primemeridianbank.com
+0,GTEC,Greenland Technologies Holding Corp,30.587693000000005,2018-07-27,US,NASDAQ NMS - GLOBAL MARKET,https://ir.gtec-tech.com/
+0,PFGC,Performance Food Group Co,13114.374001,2015-10-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pfgc.com/
+0,RA,Brookfield Real Assets Income Fund Inc,734.68,2016-12-05,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,EGY,VAALCO Energy Inc,452.958529,1995-09-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.vaalco.com/
+0,GT,Goodyear Tire & Rubber Co,2350.587341,1927-08-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.goodyear.com/
+0,SONN,Sonnet Biotherapeutics Holdings Inc,4.788665,2005-07-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.sonnetbio.com/
+0,TKLS,Trutankless Inc,33.164593,2009-03-26,US,OTC MARKETS,https://trutanklessinc.com/
+0,NEUE,NeueHealth Inc,60.56277200000001,2021-06-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.neuehealth.com/
+0,FWRG,First Watch Restaurant Group Inc,1240.469894,2021-10-01,US,NASDAQ NMS - GLOBAL MARKET,https://investors.firstwatch.com/
+0,KFY,Korn Ferry,3516.929748,1999-02-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kornferry.com/
+0,CANF.TA,Can Fite Biopharma Ltd,54.164964,2005-09-22,IL,TEL AVIV STOCK EXCHANGE,https://www.canfite.com/
+0,PVNNF,PV Nano Cell Ltd,0.232379,2016-03-31,IL,OTC MARKETS,https://www.pvnanocell.com/
+0,OPT.AX,Opthea Ltd,1292.815005,1985-04-09,AU,ASX - ALL MARKETS,https://opthea.com/
+0,BURU,NUBURU Inc,5.259138,2020-09-04,US,OTC MARKETS,https://www.nuburu.net/
+0,HCTI,Healthcare Triangle Inc,3.273133,2021-10-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.healthcaretriangle.com/
+0,MBIN,Merchants Bancorp,1990.27743,2017-10-26,US,NASDAQ NMS - GLOBAL MARKET,http://www.merchantsbankofindiana.com
+0,PAHC,Phibro Animal Health Corp,1057.9542749999998,2014-04-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.pahc.com/
+0,BBY.L,Balfour Beatty PLC,2373.501264,1945-06-28,GB,LONDON STOCK EXCHANGE,https://www.balfourbeatty.com/
+0,WDS.AX,Woodside Energy Group Ltd,46469.118896,1971-11-18,AU,ASX - ALL MARKETS,https://www.woodside.com.au/
+0,SLDP,Solid Power Inc,236.307831,2021-03-24,US,NASDAQ NMS - GLOBAL MARKET,https://solidpowerbattery.com
+0,UCLE,US Nuclear Corp,4.100026,2015-02-09,US,OTC MARKETS,https://usnuclearcorp.com/
+0,BPYPM,Brookfield Property Preferred LP,666.82,2021-07-27,BM,NASDAQ NMS - GLOBAL MARKET,
+0,PGY,Pagaya Technologies Ltd,833.4134090000001,2022-06-23,IL,NASDAQ NMS - GLOBAL MARKET,https://pagaya.com/
+0,ACLX,Arcellx Inc,3415.356319,2022-02-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.arcellx.com/
+0,CLSH,CLS Holdings USA Inc,4.909088,2015-06-23,US,OTC MARKETS,https://www.clsholdingsinc.com/
+0,JOBY,Joby Aviation Inc,5631.029907,2020-09-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.jobyaviation.com/
+0,VBNK.TO,Versabank,638.535905,2013-08-27,CA,TORONTO STOCK EXCHANGE,https://ca.versabank.com/
+0,STCB,Starco Brands Inc,38.845901,2012-08-01,US,OTC MARKETS,https://www.starcobrands.com/
+0,TIKK,Tel-Instrument Electronics Corp,10.711868,1993-10-28,US,OTC MARKETS,http://www.telinstrument.com/
+0,SUZB3.SA,Suzano SA,73784.820416,1992-04-15,BR,B3 S.A.,https://www.suzano.com.br/
+0,UTI,Universal Technical Institute Inc,1518.601925,2003-12-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.uti.edu/
+0,TGTX,TG Therapeutics Inc,4842.748480000001,1995-12-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.tgtherapeutics.com/
+0,PFBX,Peoples Financial Corp,93.18710225019186,2000-05-10,US,OTC MARKETS,http://www.thepeoples.com
+0,BL,Blackline Inc,3961.5820260000005,2016-10-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.blackline.com/
+0,AVDL,Avadel Pharmaceuticals PLC,867.2538070000002,1952-01-16,IE,NASDAQ NMS - GLOBAL MARKET,https://www.avadel.com/
+0,CUZ,Cousins Properties Inc,5152.206841,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://cousins.com/
+0,FTV,Fortive Corp,27818.393359000005,2016-06-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.fortive.com/
+0,DRIO,DarioHealth Corp,23.912154000000005,2013-03-08,US,NASDAQ NMS - GLOBAL MARKET,https://shop.mydario.com/
+0,ENSC,Ensysce Biosciences Inc,7.229334,2017-12-01,US,NASDAQ NMS - GLOBAL MARKET,https://ensysce.com/
+0,RCEL,AVITA Medical Inc,228.09336300000004,2012-03-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.avitamedical.com/
+0,STRA,Strategic Education Inc,2471.4397720000006,1996-07-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.strategiceducation.com/
+0,GMPW,GiveMePower Corp,0.321439,2001-12-14,CA,OTC MARKETS,https://www.givemepower.com/
+0,LGND,Ligand Pharmaceuticals Inc,2130.831081,1992-11-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.ligand.com/
+0,CVE.TO,Cenovus Energy Inc,40441.389901,2009-09-12,CA,TORONTO STOCK EXCHANGE,https://www.cenovus.com/
+0,FNMA,Federal National Mortgage Association,7898.157948000001,1980-03-17,US,OTC MARKETS,https://www.fanniemae.com/
+0,EVMT.V,Evome Medical Technologies Inc,8.722642,2014-03-28,US,TSX VENTURE EXCHANGE - NEX,https://www.evomemedical.com/
+0,BZU.MI,Buzzi SpA,8101.369498,1999-01-01,IT,AIM ITALIA - MERCATO ALTERNATIVO DEL CAPITALE,https://www.buzziunicem.it/
+0,EB,Eventbrite Inc,330.368575,2018-09-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.eventbrite.com
+0,ALTI,"AlTi Global, Inc",500.57653099999993,2021-02-24,US,NASDAQ NMS - GLOBAL MARKET,https://alti-global.com/
+0,LTRPA,Liberty TripAdvisor Holdings Inc,20.833539,2014-08-27,US,OTC MARKETS,https://www.libertytripadvisorholdings.com/
+0,PRTG,Portage Biotech Inc,5.650137,2013-10-28,VG,NASDAQ NMS - GLOBAL MARKET,https://portagebiotech.com/
+0,GLPI,Gaming and Leisure Properties Inc,13379.332544,2013-10-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.glpropinc.com/
+0,MWG,Multi Ways Holdings Ltd,8.69688,2023-04-03,SG,NYSE MKT LLC,http://www.multiways.com.sg
+0,MNTK,Montauk Renewables Inc,615.047127,2021-01-22,US,NASDAQ NMS - GLOBAL MARKET,http://montaukenergy.com/
+0,VQS.TO,VIQ Solutions Inc,13.083505,2005-02-28,CA,TORONTO STOCK EXCHANGE,https://viqsolutions.com/
+0,ONON,On Holding AG,17276.892339,2021-09-15,CH,"NEW YORK STOCK EXCHANGE, INC.",https://www.on-running.com/
+0,ILLM.TO,illumin Holdings Inc,157.300829,2012-07-17,CA,TORONTO STOCK EXCHANGE,https://illumin.com/
+0,PRPI,Perpetual Industries Inc,3.7065540000000006,2014-05-14,US,OTC MARKETS,https://www.perpetualindustries.com/
+0,SUN,Sunoco LP,8737.801274,2012-09-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.sunocolp.com/
+0,DUOL,Duolingo Inc,16875.085762,2021-07-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.duolingo.com/
+0,FTF,Franklin Limited Duration Income Trust,267.89,2003-08-27,US,NYSE MKT LLC,https://www.franklintempleton.com/investor/products/closed-end-funds/resources/3637/franklin-limited
+0,PRKR,ParkerVision Inc,96.885366,1993-12-01,US,OTC MARKETS,https://parkervision.com/
+0,BIIB,Biogen Inc,20311.819424,1991-09-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.biogen.com/
+0,PRTA,Prothena Corporation PLC,742.0223999999998,2012-12-21,IE,NASDAQ NMS - GLOBAL MARKET,https://www.prothena.com/
+0,GWAV,Greenwave Technology Solutions Inc,13.106878,2015-03-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.gwav.com/
+0,SOL.JO,Sasol Ltd,53971.743633,1992-07-01,ZA,JOHANNESBURG STOCK EXCHANGE,https://www.sasol.com/
+0,NVNO,enVVeno Medical Corp,53.134077,2018-05-31,US,NASDAQ NMS - GLOBAL MARKET,https://envveno.com/
+0,WBSR,Webstar Technology Group Inc,54.72779,2021-05-04,US,OTC MARKETS,https://webstartechnologygroup.com/
+0,SHOP,Shopify Inc,159690.43317578844,2015-05-21,CA,"NEW YORK STOCK EXCHANGE, INC.",https://www.shopify.com/
+0,BOE,BlackRock Enhanced Global Dividend Trust,669.4,2005-05-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/investing/products/240197/blackrock-global-opportunities-equity-trust-fund
+0,CAR,Avis Budget Group Inc,3152.337448,1983-09-15,US,NASDAQ NMS - GLOBAL MARKET,https://avisbudgetgroup.com/
+0,DKNG,Draftkings Inc,21182.548642000005,2019-07-03,US,NASDAQ NMS - GLOBAL MARKET,https://draftkings.gcs-web.com/
+0,ONIT,Onity Group Inc,315.682518,1996-09-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.onitygroup.com/
+0,SHMD,SCHMID Group NV,126.10043299999998,2024-05-01,DE,NASDAQ NMS - GLOBAL MARKET,
+0,VGAS,Verde Clean Fuels Inc,127.87798699999999,2021-08-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.verdecleanfuels.com/
+0,RPM,RPM International Inc,15691.759342,1998-01-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.rpminc.com/
+0,ANVS,Annovis Bio Inc,49.105301,2020-01-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.annovisbio.com/
+0,WINV,WinVest Acquisition Corp,41.99064299999999,2021-09-15,US,NASDAQ NMS - GLOBAL MARKET,
+0,ARIS,Aris Water Solutions Inc,1681.5783719999997,2021-10-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ariswater.com/news/
+0,NRP,Natural Resource Partners LP,1324.6164839999997,2002-10-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://nrplp.com/
+0,XERI,Xeriant Inc,11.188806,2011-02-09,US,OTC MARKETS,https://www.xeriant.com
+0,BCDA,BioCardia Inc,11.506556,1996-11-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.biocardia.com/
+0,BZYR,Burzynski Research Institute Inc,5.36309676,2001-10-15,US,OTC MARKETS,http://burzynskiresearch.com/
+0,AILLP,Ameren Illinois Co,42.18,1993-10-27,US,OTC MARKETS,https://www.ameren.com/illinois/about-us
+0,ARVN,Arvinas Inc,1214.847704,2018-09-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.arvinas.com/
+0,YGMZ,MingZhu Logistics Holdings Ltd,4.301159,2020-10-21,CN,NASDAQ NMS - GLOBAL MARKET,https://ir.szygmz.com/
+0,IVVD,Invivyd Inc,200.95492,2021-08-06,US,NASDAQ NMS - GLOBAL MARKET,https://invivyd.com/
+0,NJR,New Jersey Resources Corp,4610.30481,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.njresources.com/
+0,COUR,Coursera Inc,1259.278466,2021-03-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.coursera.org/
+0,WBC.AX,Westpac Banking Corp,117379.806261,1970-07-18,AU,ASX - ALL MARKETS,https://www.westpac.com.au/
+0,MTG,MGIC Investment Corp,6265.725148999999,1991-08-06,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mgic.com/
+0,BARC.L,Barclays PLC,44136.516464,1953-11-01,GB,LONDON STOCK EXCHANGE,https://home.barclays/
+0,HEAT.CN,Hillcrest Energy Technologies Ltd,13.3773,2011-03-22,CA,CANADIAN NATIONAL STOCK EXCHANGE,https://hillcrestenergy.tech/
+0,BIOE,Bio Essence Corp,12.305447967479672,2022-03-30,US,OTC MARKETS,https://en.bioessencecorp.com/
+0,HBNC,Horizon Bancorp Inc,776.3822740000002,2001-12-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.horizonbank.com/
+0,HITC,Healthcare Integrated Technologies Inc,42.230972,2014-09-12,US,OTC MARKETS,https://gethitc.com/
+0,CBST.NE,Cannabist Company Holdings Inc,227.796339,2019-04-29,US,AEQUITAS NEO EXCHANGE,https://cannabistcompany.com/
+0,TFIN,Triumph Financial Inc,1788.4392949999997,2014-11-07,US,NASDAQ NMS - GLOBAL MARKET,https://www.tfin.com/
+0,PDLB,Ponce Financial Group Inc,322.883969,2017-10-02,US,NASDAQ NMS - GLOBAL MARKET,http://www.poncebank.net
+0,PSQH,PSQ Holdings Inc,162.73648000000003,2021-06-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.colombierspac.com/
+0,HL,Hecla Mining Co,3860.3135410000004,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.hecla.com/
+0,JPM,JPMorgan Chase & Co,774190.477548,1969-03-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.jpmorganchase.com/
+0,PHD,Pioneer Floating Rate Fund Inc,120.04,2021-04-23,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,RC,Ready Capital Corp,1127.470397,2013-02-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://readycapital.com/
+0,MPU,Mega Matrix Inc,36.4915,1998-01-16,KY,NYSE MKT LLC,https://www.megamatrix.io/
+0,ANET,Arista Networks Inc,147190.29787699998,2014-06-06,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.arista.com/en/
+0,WINA,Winmark Corp,1364.08548,1993-08-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.winmarkcorporation.com
+0,UMH,UMH Properties Inc,1436.765065,1985-02-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.umh.com/
+0,UNXP,OZ Vision Inc,43.77,2019-07-26,US,OTC MARKETS,
+0,WHEN,World Health Energy Holdings Inc,82.62516,1999-11-12,US,OTC MARKETS,https://www.whengroup.com/when-group/
+0,EQX,Equinox Gold Corp,3055.7062440428867,2007-08-13,CA,NYSE MKT LLC,https://www.equinoxgold.com/
+0,SUPN,Supernus Pharmaceuticals Inc,2134.224971,2010-12-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.supernus.com
+0,ARDT,Ardent Health Partners Inc,2132.42825,2024-07-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://ardenthealth.com/
+0,RDGA,Ridgefield Acquisition Corp,7.52,1993-10-27,US,OTC MARKETS,
+0,6963.T,Rohm Co Ltd,621284.791718,1983-11-01,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.rohm.co.jp/
+0,LOOP,Loop Industries Inc,52.382289,2012-09-27,CA,NASDAQ NMS - GLOBAL MARKET,https://www.loopindustries.com/
+0,CMND,Clearmind Medicine Inc,6.005031999999999,2021-08-10,CA,NASDAQ NMS - GLOBAL MARKET,https://www.clearmindmedicine.com/
+0,LRHC,La Rosa Holdings,7.063192,2023-10-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.larosarealty.com
+0,ASST,Asset Entities Inc,9.005321999999998,2023-02-03,US,NASDAQ NMS - GLOBAL MARKET,https://assetentities.com/
+0,FEAM,5E Advanced Materials Inc,21.780567,2022-03-01,US,NASDAQ NMS - GLOBAL MARKET,https://5eadvancedmaterials.com/
+0,CRSR,Corsair Gaming Inc,1041.7686689999998,2020-09-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.corsair.com/
+0,LTRX,Lantronix Inc,116.75689199999998,2000-08-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.lantronix.com/
+0,MODG,Topgolf Callaway Brands Corp,1395.223764,1992-02-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.topgolfcallawaybrands.com/
+0,KAI,Kadant Inc,4279.408920000001,1992-11-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kadant.com/
+0,CHSN,Chanson International Holding,10.617162999999998,2023-03-30,CN,NASDAQ NMS - GLOBAL MARKET,
+0,AX,Axos Financial Inc,4115.658284,2005-03-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.axosfinancial.com/
+0,CFBK,CF Bankshares Inc,158.0041,1998-12-30,US,NASDAQ NMS - GLOBAL MARKET,https://investor.cfbankonline.com/corporate-profile/default.aspx
+0,TWIN,Twin Disc Inc,157.160528,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://twindisc.com/
+0,OLP,One Liberty Properties Inc,555.849788,1983-04-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://1liberty.com/
+0,YQ,17 Education & Technology Group Inc,14.409603,2020-12-04,CN,NASDAQ NMS - GLOBAL MARKET,https://ucenter.17zuoye.com/
+0,VFC,VF Corp,9486.111568,1951-03-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.vfc.com/
+0,OAKU,Oak Woods Acquisition Corp,68.893341,2023-03-24,CA,NASDAQ NMS - GLOBAL MARKET,https://oakwoodsacquisition.com/
+0,FLC,Flaherty & Crumrine Total Return Fund Inc,173.27,2003-08-27,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,UPWK,Upwork Inc,2035.750321,2018-10-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.upwork.com/
+0,PBLA,Panbela Therapeutics Inc,1.565683,2014-07-29,US,OTC MARKETS,https://panbela.com/
+0,OHHH,Orion Haus Homes and Hotels Inc,0.0,2024-09-24,US,OTC MARKETS,
+0,EXG,Eaton Vance Tax-Managed Global Diversified Equity Income Fund,2523.8,2007-02-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://funds.eatonvance.com/Tax-Managed-Global-Diversified-Equity-Income-Fund-EXG.php
+0,BFRG,"BullFrog AI Holdings, Inc.",26.270154,2023-02-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.bullfrogai.com
+0,EVGO,EVgo Inc,831.569299,2020-09-30,US,NASDAQ NMS - GLOBAL MARKET,https://investors.evgo.com/
+0,QRVO,Qorvo Inc,7159.801153,1997-06-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.qorvo.com/
+0,LBC.V,Libero Copper & Gold Corp,13.3546,2008-09-26,CA,TSX VENTURE EXCHANGE - NEX,https://www.liberocopper.com/
+0,SRRK,Scholar Rock Holding Corp,3466.561562,2018-05-24,US,NASDAQ NMS - GLOBAL MARKET,https://scholarrock.com/
+0,GBDC,Golub Capital BDC Inc,4165.672863,2010-04-15,US,NASDAQ NMS - GLOBAL MARKET,https://golubcapitalbdc.com/
+0,PRLD,Prelude Therapeutics Inc,50.637857,2020-09-25,US,NASDAQ NMS - GLOBAL MARKET,https://preludetx.com/
+0,WH,Wyndham Hotels & Resorts Inc,8358.460761,2018-05-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://investor.wyndhamhotels.com/
+0,ABAT,American Battery Technology Co,104.02619599999998,2015-10-15,US,NASDAQ NMS - GLOBAL MARKET,https://americanbatterytechnology.com/
+0,HCVI,Hennessy Capital Investment Corp VI,157.38828055426174,2021-09-29,US,NASDAQ NMS - GLOBAL MARKET,http://www.hennessycapllc.com
+0,ARKO,Arko Corp.,804.610628,2019-07-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.arkocorp.com/
+0,GOGO,Gogo Inc,978.562541,2013-06-21,US,NASDAQ NMS - GLOBAL MARKET,https://ir.gogoair.com/
+0,ETN,Eaton Corporation PLC,125084.75972299998,2012-12-03,IE,"NEW YORK STOCK EXCHANGE, INC.",https://www.eaton.com/
+0,BMRI.JK,Bank Mandiri (Persero) Tbk PT,450739255.62988,2003-07-14,ID,INDONESIA STOCK EXCHANGE,https://www.bankmandiri.co.id/
+0,WVFC,W V S Financial Corp,24.03911752254018,1993-11-29,US,OTC MARKETS,http://www.wvsbank.com
+0,LAND,Gladstone Land Corp,396.945708,2013-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.gladstonefarms.com/
+0,GCEH,Global Clean Energy Holdings Inc,55.702282,2001-04-12,US,OTC MARKETS,https://www.gceholdings.com/
+0,OXLC,Oxford Lane Capital Corp,1767.58,2011-01-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.oxfordlanecapital.com/
+0,AGMH,AGM Group Holdings Inc,20.056033,2018-04-18,HK,NASDAQ NMS - GLOBAL MARKET,http://www.agmprime.com/
+0,BAC,Bank of America Corp,356112.25420399994,1979-06-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bankofamerica.com
+0,BKGM,BankGuam Holding Co,165.367506,2001-08-09,GU,OTC MARKETS,https://bankofguam.com/
+0,BTT.V,Bitterroot Resources Ltd,3.656924,1983-02-25,CA,TSX VENTURE EXCHANGE - NEX,https://bitterrootresources.com/
+0,FOLD,Amicus Therapeutics Inc,2859.571282,2007-05-31,US,NASDAQ NMS - GLOBAL MARKET,https://www.amicusrx.com/
+0,DLTR,Dollar Tree Inc,15534.390551,1995-03-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.dollartree.com/
+0,SUNS,Sunrise Realty Trust Inc,147.699146,2024-07-09,US,NASDAQ NMS - GLOBAL MARKET,
+0,NDOI,Endo Inc,2177.4,2024-06-27,US,OTC MARKETS,https://www.endo.com/
+0,SIRI,Sirius XM Holdings Inc,8787.658864000003,1968-01-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.siriusxm.com/
+0,FRVIA.PA,Forvia SE,1989.386075,1985-01-07,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.faurecia.com/
+0,EHGO,Eshallgo Inc,23.5571,2024-07-02,CN,NASDAQ NMS - GLOBAL MARKET,http://www.eshallgo.com/
+0,CRMD,CorMedix Inc,609.805913,2010-03-25,US,NASDAQ NMS - GLOBAL MARKET,https://cormedix.com/
+0,WFC,Wells Fargo & Co,261927.986215,1962-12-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.wellsfargo.com
+0,BAYA,Bayview Acquisition Corp,58.496245,2023-12-15,US,NASDAQ NMS - GLOBAL MARKET,
+0,URGN,Urogen Pharma Ltd,432.121983,2017-05-04,IL,NASDAQ NMS - GLOBAL MARKET,https://www.urogen.com/
+0,GESI,General European Strategic Investments Inc,3.4738600000000006,2001-06-21,US,OTC MARKETS,https://generaleuropeanstrategicinvestments.com/
+0,AMPY,Amplify Energy Corp,213.289865,2012-07-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.amplifyenergy.com/home/default.aspx
+0,APP,Applovin Corp,125930.828821,2021-04-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.applovin.com/
+0,NOBH,Nobility Homes Inc,98.064873,1971-08-25,US,OTC MARKETS,http://www.nobilityhomes.com/
+0,DAL,Delta Air Lines Inc,41781.96093799999,2007-04-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.delta.com/
+0,BKSC,Bank of South Carolina,79.05100626992562,1986-10-23,US,OTC MARKETS,https://www.banksc.com
+0,CEIX,CONSOL Energy Inc,5319.785576,2017-11-14,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.consolenergy.com/
+0,DDOG,Datadog Inc,49402.527211,2019-09-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.datadoghq.com/
+0,FIS,Fidelity National Information Services Inc,39386.007689,2001-06-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.fisglobal.com/
+0,SKGR,SK Growth Opportunities Corp,174.285257,2022-06-24,US,NASDAQ NMS - GLOBAL MARKET,https://skgrowthopportunities.com/home/default.aspx
+0,PCMC,Public Company Management Corp,7.8836680291970795,2004-08-23,US,OTC MARKETS,https://www.pubcomanagement.com/
+0,BBLG,Bone Biologics Corp,2.5620750000000005,2015-11-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.bonebiologics.com/
+0,MOJO,EQUATOR Beverage Company,8.705173,2008-06-09,US,OTC MARKETS,http://www.mojoorganicsinc.com/
+0,RWT,Redwood Trust Inc,875.954422,1995-08-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.redwoodtrust.com/
+0,RIVN,Rivian Automotive Inc,12697.140080999998,2021-11-10,US,NASDAQ NMS - GLOBAL MARKET,https://rivian.com/
+0,2330.TW,Taiwan Semiconductor Manufacturing Co Ltd,28785335.15625,1994-09-05,TW,TAIWAN STOCK EXCHANGE,https://www.tsmc.com/
+0,AGIO,Agios Pharmaceuticals Inc,1862.6062300000003,2013-07-24,US,NASDAQ NMS - GLOBAL MARKET,https://www.agios.com/
+0,PERF,Perfect Corp,236.291881,2021-03-01,TW,"NEW YORK STOCK EXCHANGE, INC.",https://www.perfectcorp.com/
+0,LPA,Logistic Properties of The Americas,301.461573,,US,NYSE MKT LLC,https://ir.lpamericas.com
+0,OXBR,Oxbridge Re Holdings Ltd,27.862507,2014-03-27,KY,NASDAQ NMS - GLOBAL MARKET,https://oxbridgere.com/
+0,BATS.L,British American Tobacco plc,74648.676304,1962-01-29,GB,LONDON STOCK EXCHANGE,https://www.bat.com/
+0,LINK,Interlink Electronics Inc,71.219623,1993-06-07,US,NASDAQ NMS - GLOBAL MARKET,https://www.interlinkelectronics.com
+0,GMTH,GMTech Inc,8.64,2024-06-26,US,OTC MARKETS,
+0,TZOO,Travelzoo,264.18268500000005,2002-08-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.travelzoo.com/
+0,ILMN,Illumina Inc,15967.848663,2000-06-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.illumina.com
+0,SYF,Synchrony Financial,25358.131954,2014-07-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.synchrony.com/
+0,GOLF,Acushnet Holdings Corp,4167.434111,2016-10-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.acushnetholdingscorp.com/
+0,FORD,Forward Industries Inc,6.5183279999999995,1994-11-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.forwardindustries.com/
+0,SGHC,SGHC Ltd,4136.809021,2020-11-20,GG,"NEW YORK STOCK EXCHANGE, INC.",https://www.sghc.com/
+0,FRES,Fresh2 Group Ltd,2.78,2020-01-30,US,NASDAQ NMS - GLOBAL MARKET,http://www.anpac.cn/
+0,WOOF,Petco Health and Wellness Company Inc,821.459267,2021-01-14,US,NASDAQ NMS - GLOBAL MARKET,https://corporate.petco.com/
+0,WT,WisdomTree Inc,1424.510616,1991-12-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.wisdomtree.com/
+0,EDF,Virtus Stone Harbor Emerging Markets Income Fund,138.96,2010-12-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.virtus.com/our-products/individual-investors/closed-end-funds#/asset_sub_class.null/share_class_id.16/type.daily/relation.nav
+0,KKR,KKR & Co Inc,126537.101165,2010-07-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.kkr.com/
+0,WAFD,WaFd Inc,2502.810613,1982-11-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.wafdbank.com/
+0,ALMP,Almco Plumbing Inc,0.0,2024-04-23,US,OTC MARKETS,https://almcoplumbing.com/
+0,NI,NiSource Inc,17938.314448,1962-12-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nisource.com/
+0,CCCP,Crona Corp,3.36,2017-08-17,RO,OTC MARKETS,https://www.corpcrona.com/
+0,4063.T,Shin-Etsu Chemical Co Ltd,9457452.475586,1949-05-16,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.shinetsu.co.jp/
+0,FCUL,Food Culture Inc,0.158469,2001-06-28,US,OTC MARKETS,https://foodculture.co.in/
+0,VNRX,VolitionRX Ltd,56.237162000000005,2015-02-06,US,NYSE MKT LLC,https://volition.com/
+0,ALTM,Arcadium Lithium PLC,6163.360647999999,2023-12-22,IE,"NEW YORK STOCK EXCHANGE, INC.",https://arcadiumlithium.com/
+0,PREM.V,Premium Resources Ltd,68.712178,2013-10-18,CA,TSX VENTURE EXCHANGE - NEX,https://premiumnickelresources.ca/
+0,PNFP,Pinnacle Financial Partners Inc,9532.051345,2000-08-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.pnfp.com/
+0,AIRTP,Air T Funding,55.338944,,US,NASDAQ NMS - GLOBAL MARKET,
+0,TLSI,TriSalus Life Sciences Inc,170.456642,2020-12-18,US,NASDAQ NMS - GLOBAL MARKET,https://trisaluslifesci.com/
+0,HAIN,Hain Celestial Group Inc,397.988624,1993-11-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.hain.com/
+0,PKTX,ProtoKinetix Inc,4.036782,2002-01-07,US,OTC MARKETS,https://www.protokinetix.com/
+0,STFS,Star Fashion Culture Holdings Ltd,10.285,2024-10-11,CN,NASDAQ NMS - GLOBAL MARKET,http://www.xmxingji.com
+0,ROYL,Royale Energy Funds Inc,4.491914000000001,1993-10-28,US,OTC MARKETS,https://www.royl.com/
+0,SINT,SINTX Technologies Inc,4.068845,2014-02-11,US,NASDAQ NMS - GLOBAL MARKET,https://sintx.com/
+0,UAA,Under Armour Inc,2981.854616,2005-11-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.underarmour.com/
+0,WRAP,Wrap Technologies Inc,88.554002,2018-05-18,US,NASDAQ NMS - GLOBAL MARKET,https://wrap.com/
+0,VMC.V,Vicinity Motor Corp,3.54,2013-12-13,CA,TSX VENTURE EXCHANGE - NEX,https://vicinitymotorcorp.com/
+0,DUKR,DUKE Robotics Corp,12.199232,2016-10-07,IL,OTC MARKETS,http://www.uasdronecorp.com
+0,TRIB,Trinity Biotech PLC,8.584726,1992-10-21,IE,NASDAQ NMS - GLOBAL MARKET,https://www.trinitybiotech.com/
+0,DLPN,Dolphin Entertainment Inc,11.608507,2017-12-21,US,NASDAQ NMS - GLOBAL MARKET,https://www.dolphinentertainment.com/
+0,SLNG,Stabilis Solutions Inc,139.015908,1992-03-05,US,NASDAQ NMS - GLOBAL MARKET,https://stabilis-solutions.com/
+0,VKTX,Viking Therapeutics Inc,3338.634026,2015-04-29,US,NASDAQ NMS - GLOBAL MARKET,https://vikingtherapeutics.com/
+0,MCB,Metropolitan Bank Holding Corp,714.408477,2017-11-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.mcbankny.com/corporate-profile/default.aspx#
+0,CPLE6.SA,Companhia Paranaense de Energia,28627.230913,1994-04-04,BR,B3 S.A.,https://www.copel.com/
+0,BNL,Broadstone Net Lease Inc,2920.597196,2020-09-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://broadstone.com/net-lease/
+0,AVA,Avista Corp,2947.1847750000006,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://investor.avistacorp.com/
+0,RY.TO,Royal Bank of Canada,239219.896545,1905-06-17,CA,TORONTO STOCK EXCHANGE,https://www.rbcroyalbank.com/
+0,NVGS,Navigator Holdings Ltd,1165.428606,2013-11-21,GB,"NEW YORK STOCK EXCHANGE, INC.",https://www.navigatorgas.com/
+0,VRRM,Verra Mobility Corp,4311.276629,2017-01-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.verramobility.com/
+0,NZF,Nuveen Municipal Credit Income Fund,2348.0,2001-09-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/en-us/closed-end-funds/nzf-nuveen-municipal-credit-income-fund
+0,TYG,Tortoise Energy Infrastructure Corp,448.25,2004-02-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://cef.tortoiseecofin.com/funds/tyg/
+0,ZPTA,Zapata Computing Holdings Inc,0.405447,2022-01-13,US,NASDAQ NMS - GLOBAL MARKET,https://zapata.ai/
+0,MBUU,Malibu Boats Inc,735.5386150000002,2014-01-31,US,NASDAQ NMS - GLOBAL MARKET,https://malibuboatsinc.com/
+0,HEPA,Hepion Pharmaceuticals Inc,2.1133039999999994,2014-02-07,US,NASDAQ NMS - GLOBAL MARKET,https://hepionpharma.com/
+0,CUBI,Customers Bancorp Inc,1820.764987,2013-05-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.customersbank.com/
+0,ELV,Elevance Health Inc,90732.84036299998,2001-10-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.elevancehealth.com/
+0,XMTR,Xometry Inc,1736.73072,2021-06-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.xometry.com/
+0,NFLX,Netflix Inc,431213.364595,2002-05-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.netflix.com/
+0,SGRP,SPAR Group Inc,46.664906,1996-03-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.sparinc.com/
+0,AGRO,Adecoagro SA,1011.149023,2011-01-28,LU,"NEW YORK STOCK EXCHANGE, INC.",https://www.adecoagro.com/en
+0,IDN,Intellicheck Inc,53.951107,1999-11-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.intellicheck.com/
+0,AEO,American Eagle Outfitters Inc,2781.63363,1994-04-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ae.com/
+0,WLFC,Willis Lease Finance Corp,1318.146414,1996-09-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.wlfc.global/
+0,NC,NACCO Industries Inc,231.02193399999996,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://nacco.com/
+0,ILAL,International Land Alliance Inc,17.01127,2019-03-04,US,OTC MARKETS,https://ila.company/
+0,HSTA,Hestia Insight Inc,5.727548,2008-02-08,US,OTC MARKETS,https://www.hestiainsight.com/
+0,MELI,MercadoLibre Inc,103178.288922,2007-08-10,UY,NASDAQ NMS - GLOBAL MARKET,https://www.mercadolibre.com.uy/
+0,PCM,PCM Fund Inc,91.45,1993-08-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pimco.com/investments/closed-end-funds/pcm-fund-inc
+0,EVT.DE,Evotec SE,1501.765154,1999-10-11,DE,XETRA,https://www.evotec.com/
+0,MCW,Mister Car Wash Inc,2478.102284,2021-06-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://mistercarwash.com/
+0,FFH.TO,Fairfax Financial Holdings Ltd,48346.901458,1980-03-17,CA,TORONTO STOCK EXCHANGE,https://www.fairfax.ca/
+0,GIPR,Generation Income Properties Inc,9.219962000000002,2019-01-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.gipreit.com/
+0,SDST,Stardust Power Inc,41.174595,2021-01-12,US,NASDAQ NMS - GLOBAL MARKET,https://stardust-power.com/
+0,LEVI,Levi Strauss & Co,7042.716481,2019-03-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.levistrauss.com/
+0,GBX,Greenbrier Companies Inc,2001.3417910000003,1994-07-14,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.gbrx.com/
+0,RGR,Sturm Ruger & Company Inc,603.462223,1980-03-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ruger.com/index.html
+0,SOY.TO,Sunopta Inc,1261.8105973988852,1981-08-13,US,TORONTO STOCK EXCHANGE,https://www.sunopta.com/
+0,OWL,Blue Owl Capital Inc,35187.33594,2020-10-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blueowl.com/
+0,SAML,Samsara Luggage Inc,0.4274609999999999,2012-04-18,US,OTC MARKETS,https://www.samsaraluggage.com/
+0,GOOGL,Alphabet Inc,2268670.639282,2004-08-19,US,NASDAQ NMS - GLOBAL MARKET,https://abc.xyz/
+0,TLS,Telos Corp,256.95115400000003,1994-04-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.telos.com/
+0,SPOT,Spotify Technology SA,125118.50482899998,2018-04-03,LU,"NEW YORK STOCK EXCHANGE, INC.",https://www.spotify.com
+0,UEC,Uranium Energy Corp,2915.0771920000007,2006-02-07,US,NYSE MKT LLC,https://www.uraniumenergy.com/
+0,CLIR,Clearsign Technologies Corp,52.24378,2012-04-25,US,NASDAQ NMS - GLOBAL MARKET,https://clearsign.com/
+0,MRNO,Murano Global Investments Plc,856.615503,2024-03-21,MX,NASDAQ NMS - GLOBAL MARKET,
+0,NTRP,NextTrip Inc,7.884053,2002-05-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.nexttrip.com/
+0,TRUP,Trupanion Inc,1915.1972679999997,2014-07-18,US,NASDAQ NMS - GLOBAL MARKET,https://trupanion.com/
+0,SIBN,SI-BONE Inc,695.754396,2018-10-17,US,NASDAQ NMS - GLOBAL MARKET,https://si-bone.com/
+0,CZWI,Citizens Community Bancorp Inc,156.930039,2004-03-30,US,NASDAQ NMS - GLOBAL MARKET,https://ccf.us/
+0,ALLY,Ally Financial Inc,11579.161743000002,2014-04-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ally.com/
+0,CUB,Lionheart Holdings,311.267,2024-06-18,US,NASDAQ NMS - GLOBAL MARKET,
+0,BTOC,Armlogi Holding Corp,174.03,2024-05-14,US,NASDAQ NMS - GLOBAL MARKET,
+0,VMC,Vulcan Materials Co,35362.043221,1957-01-02,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.vulcanmaterials.com/
+0,LVTX,LAVA Therapeutics NV,23.831238999999997,2021-03-29,NL,NASDAQ NMS - GLOBAL MARKET,https://www.lavatherapeutics.com/
+0,MHI,Pioneer Municipal High Income Fund Inc,211.77,2003-07-18,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,QH,Quhuo Ltd,13.400646,2020-07-10,CN,NASDAQ NMS - GLOBAL MARKET,https://www.quhuo.cn
+0,PKG,Packaging Corp of America,18701.880192,2000-01-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.packagingcorp.com/
+0,SAVEQ,Spirit Airlines Inc,80.06190700000002,2011-05-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.spirit.com/
+0,SKKY,Skkynet Cloud Systems Inc,47.71783700000001,2013-02-08,CA,OTC MARKETS,https://skkynet.com/
+0,IRMD,IRadimed Corp,775.3611200000001,2014-07-16,US,NASDAQ NMS - GLOBAL MARKET,http://www.iradimed.com/
+0,LOT,Lotus Technology Inc,1686.30669,2024-02-23,CN,NASDAQ NMS - GLOBAL MARKET,https://ir.group-lotus.com/
+0,LSEB,LSEB Creative Corp,16.47,2022-10-28,US,OTC MARKETS,https://lsebcreative.com/
+0,MCTR,CTRL Group Ltd,66.15,2025-01-22,HK,NASDAQ NMS - GLOBAL MARKET,
+0,TRMD A.CO,Torm PLC,14499.668519,2016-04-19,GB,OMX NORDIC EXCHANGE COPENHAGEN A/S,https://www.torm.com/home/default.aspx
+0,EG,Everest Group Ltd,14424.902455000001,1995-10-03,BM,"NEW YORK STOCK EXCHANGE, INC.",https://www.everestre.com/
+0,BNS.TO,Bank of Nova Scotia,89561.84371,1980-03-17,CA,TORONTO STOCK EXCHANGE,https://www.scotiabank.com/
+0,FR,First Industrial Realty Trust Inc,7618.162298,1994-06-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.firstindustrial.com/
+0,GNE,Genie Energy Ltd,393.8499039999999,2011-10-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://genie.com/
+0,BFRI,Biofrontera Inc,9.672586000000003,2021-10-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.biofrontera-us.com/
+0,EVG,Eaton Vance Short Duration Diversified Income Fund,229.94,2005-02-24,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,TRN,Trinity Industries Inc,3058.1084549999996,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.trin.net/
+0,NHC,National Healthcare Corp,1582.864176,1983-07-13,US,NYSE MKT LLC,https://nhccare.com/
+0,GPAT,GP-Act III Acquisition Corp,367.28126,2024-05-09,US,NASDAQ NMS - GLOBAL MARKET,
+0,AMN,AMN Healthcare Services Inc,932.4254640000001,2001-11-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.amnhealthcare.com/
+0,SPFI,South Plains Financial Inc,600.6809899999998,2019-05-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.spfi.bank/
+0,VRT,Vertiv Holdings Co,46260.161819,2018-06-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.vertiv.com/
+0,GETR,Getaround Inc,3.5695850000000005,2021-03-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ipvspac.com/
+0,HBB,Hamilton Beach Brands Holding Co,223.664232,2017-09-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.hamiltonbeachbrands.com/
+0,NYMT,New York Mortgage Trust Inc,559.780954,2004-06-24,US,NASDAQ NMS - GLOBAL MARKET,https://www.nymtrust.com/
+0,IVA.PA,Inventiva SA,211.504997,2017-02-15,FR,NYSE EURONEXT - EURONEXT PARIS,https://inventivapharma.com/
+0,SNOW,Snowflake Inc,60589.85712800001,2020-09-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.snowflake.com/
+0,GPMT,Granite Point Mortgage Trust Inc,153.369699,2017-06-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.gpmtreit.com/
+0,SAM,Boston Beer Company Inc,2678.014133,1995-11-21,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.bostonbeer.com/
+0,MNRO,Monro Inc,587.906359,1991-07-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.monro.com/
+0,REX,REX American Resources Corp,737.6447429999998,1984-07-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.rexamerican.com/
+0,APRE,Aprea Therapeutics Inc,17.989527999999996,2019-10-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.aprea.com/
+0,ISSC,Innovative Solutions and Support Inc,191.52658500000004,2000-08-04,US,NASDAQ NMS - GLOBAL MARKET,https://innovative-ss.com/
+0,FCN,FTI Consulting Inc,6940.490220999999,1996-05-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.fticonsulting.com/
+0,MNTR,Mentor Capital Inc,1.146096,2001-06-21,US,OTC MARKETS,https://www.mentorcapital.com/
+0,GTLS,Chart Industries Inc,8294.641757,1992-12-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.chartindustries.com/
+0,SLXN,Silexion Therapeutics Corp,5.513279,2021-02-17,IL,NASDAQ NMS - GLOBAL MARKET,https://www.moringaac.com/
+0,PNPL,Pineapple Inc,4.824836,2013-05-04,US,OTC MARKETS,https://pineappleinc.com/
+0,ORGN,Origin Materials Inc,122.26514399999998,2021-06-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.originmaterials.com/
+0,JRVR,James River Group Holdings Ltd,178.93341899999996,2014-12-12,BM,NASDAQ NMS - GLOBAL MARKET,https://jrvrgroup.com/
+0,CLFD,Clearfield Inc,482.30938800000007,1986-08-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.seeclearfield.com/
+0,FT,Franklin Universal Trust,182.71,1988-09-23,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,USIO,Usio Inc,48.291995,1999-12-09,US,NASDAQ NMS - GLOBAL MARKET,https://usio.com/
+0,YORW,York Water Co,462.70427699999993,1993-10-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.yorkwater.com
+0,NSARO,NSTAR Electric Co,34.25,1993-10-27,US,OTC MARKETS,
+0,IVCA,Investcorp AI Acquisition Corp,95.32956140939596,2022-05-10,KY,NASDAQ NMS - GLOBAL MARKET,
+0,DPG,Duff & Phelps Utility and Infrastructure Fund Inc,441.08,2011-06-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.dpimc.com/investment-strategies/duff-phelps-utility-and-infrastructure-fund-inc
+0,NOC,Northrop Grumman Corp,68591.02188300001,1951-12-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.northropgrumman.com
+0,SCL,Stepan Co,1411.0942829999997,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.stepan.com/
+0,RBTC,Rubicon Technologies Inc,4.669272000000001,2021-10-15,US,OTC MARKETS,https://www.rubicon.com/
+0,RGEN,Repligen Corp,8375.435543,1986-04-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.repligen.com/
+0,AHH,Armada Hoffler Properties Inc,978.125513,2013-08-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://armadahoffler.com/
+0,BLTE,Belite Bio Inc,1762.592327,2022-04-29,US,NASDAQ NMS - GLOBAL MARKET,https://belitebio.com/
+0,ATGL,Alpha Technology Group Ltd,390.109487,2023-10-31,HK,NASDAQ NMS - GLOBAL MARKET,https://techlution.io/
+0,PCVX,Vaxcyte Inc,10610.308587,2020-06-12,US,NASDAQ NMS - GLOBAL MARKET,https://vaxcyte.com/
+0,MGNX,MacroGenics Inc,150.632287,2013-10-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.macrogenics.com/
+0,VAU.V,Viva Gold Corp,19.943198,2010-02-22,CA,TSX VENTURE EXCHANGE - NEX,https://vivagoldcorp.com/
+0,CHSCP,CHS Inc,344.59776,2003-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.chsinc.com/
+0,GDST,Goldenstone Acquisition Ltd,40.2383947585609,2022-03-17,US,NASDAQ NMS - GLOBAL MARKET,
+0,4661.T,Oriental Land Co Ltd,5297401.19751,1996-12-11,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.olc.co.jp/
+0,AMPH,Amphastar Pharmaceuticals Inc,1548.702892,2014-06-25,US,NASDAQ NMS - GLOBAL MARKET,https://amphastar.com/
+0,RMM,RiverNorth Managed Duration Municipal Income Fund Inc,285.83,2019-07-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.rivernorth.com/rmm
+0,CHRW,CH Robinson Worldwide Inc,11789.785653999998,1997-10-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.chrobinson.com/
+0,WTBA,West Bancorporation Inc,380.754151,1994-11-22,US,NASDAQ NMS - GLOBAL MARKET,https://ir.westbankstrong.com/overview/corporate-profile/default.aspx
+0,ATGE,Adtalem Global Education Inc,3962.3679839999995,1995-11-14,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.adtalem.com/
+0,TRT,Trio-Tech International,25.501830999999996,1984-12-07,US,NYSE MKT LLC,https://triotech.com/
+0,CNTY,Century Casinos Inc,92.661463,1993-11-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.cnty.com/
+0,AVTE,Aerovate Therapeutics Inc,71.320049,2021-06-30,US,NASDAQ NMS - GLOBAL MARKET,https://www.aerovatetx.com/
+0,TRST,TrustCo Bank Corp NY,652.8182789999998,1983-04-20,US,NASDAQ NMS - GLOBAL MARKET,https://trustcobank.q4ir.com/corporate-overview/corporate-profile/default.aspx
+0,DVA,DaVita Inc,14247.5,1995-10-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.davita.com/
+0,GTE,Gran Tierra Energy Inc,210.01041599999996,2005-07-06,CA,NYSE MKT LLC,https://www.grantierra.com/
+0,COHU,Cohu Inc,990.0757250000001,1964-01-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.cohu.com/
+0,LFCR,Lifecore Biomedical Inc,211.784899,1996-02-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.lifecore.com/
+0,QIND,Quality Industrial Corp,3.1533739999999995,2002-01-08,US,OTC MARKETS,https://qualityindustrialcorp.com/
+0,CLVT,Clarivate PLC,3459.665278,2018-10-29,GB,"NEW YORK STOCK EXCHANGE, INC.",https://clarivate.com/
+0,FL,Foot Locker Inc,1836.099528,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.footlocker-inc.com/
+0,PCAR3.SA,Companhia Brasileira de Distribuicao SA,1411.34991,1995-04-04,BR,B3 S.A.,https://www.gpari.com.br/
+0,PGDC.V,Patagonia Gold Corp,20.927319,2008-08-01,AR,TSX VENTURE EXCHANGE - NEX,https://patagoniagold.com/
+0,NVEE,NV5 Global Inc,1179.052966,2013-03-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.nv5.com/
+0,AGNC,AGNC Investment Corp,9135.532522,2008-05-15,US,NASDAQ NMS - GLOBAL MARKET,https://agnc.com/
+0,EWBC,East West Bancorp Inc,13720.125672999999,1999-02-08,US,NASDAQ NMS - GLOBAL MARKET,https://investor.eastwestbank.com/
+0,CRK,Comstock Resources Inc,5383.441207,1996-12-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.comstockresources.com/
+0,ONDS,Ondas Holdings Inc,201.386037,2018-02-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.ondas.com/
+0,INUV,Inuvo Inc,67.39775500000002,1993-10-27,US,NYSE MKT LLC,https://inuvo.com/
+0,AGRI,AgriFORCE Growing Systems Ltd,3.199697,2021-07-08,CA,NASDAQ NMS - GLOBAL MARKET,https://agriforcegs.com/
+0,SSV.V,Southern Silver Exploration Corp,68.071026,1981-05-22,CA,TSX VENTURE EXCHANGE - NEX,https://www.southernsilverexploration.com/
+0,SEK.AX,Seek Ltd,8458.646934,2005-04-19,AU,ASX - ALL MARKETS,https://www.seek.com.au/
+0,SONG,Music Licensing Inc,1.798538,2006-01-18,US,OTC MARKETS,https://promusicrights.com/
+0,UDR,UDR Inc,14105.797462,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.udr.com/
+0,DTE,DTE Energy Co,25864.793957,1949-11-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.dteenergy.com/
+0,SCLX,Scilex Holding Co,85.962448,2021-01-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.scilexholding.com/
+0,ETHE,Grayscale Ethereum Trust ETF,5883.28,2019-05-17,US,OTC MARKETS,https://grayscale.co/ethereum-trust/
+0,TWG,Top Wealth Group Holding Ltd,5.797100000000001,2024-04-16,HK,NASDAQ NMS - GLOBAL MARKET,https://www.imperialcristalcaviar.com/
+0,WEWA,Wewards Inc,217.12,2013-09-10,US,OTC MARKETS,https://wewards.io/
+0,REPX,Riley Exploration Permian Inc,750.826126,1993-10-27,US,NYSE MKT LLC,https://www.rileypermian.com/
+0,PFO,Flaherty & Crumrine Preferred and Income Opportunity Fund Inc,117.5,1992-02-06,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.preferredincome.com/pfo.htm
+0,UHT,Universal Health Realty Income Trust,539.440698,1986-12-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.uhrit.com/
+0,NTCL,NetClass Technology Inc,143.114,2024-12-13,CN,NASDAQ NMS - GLOBAL MARKET,http://www.netclass.cn/
+0,OC,Owens Corning,15293.627932999998,2006-10-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.owenscorning.com/
+0,NXU,NXU Inc.,6.692495,2022-09-27,US,NASDAQ NMS - GLOBAL MARKET,https://nxuenergy.com/
+0,CWNOF,Chineseworldnet.Com Inc,0.12,2006-09-14,KY,OTC MARKETS,http://www.cwnof.com/
+0,JEF,Jefferies Financial Group Inc,14822.330162,1968-10-07,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.jefferies.com/
+0,FNB,FNB Corp,5670.663660999999,1986-09-02,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.fnb-online.com/
+0,TRIN,Trinity Capital Inc,924.2321550000001,2021-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://trinitycap.com/
+0,BLKB,Blackbaud Inc,4037.127097,2004-07-22,US,NASDAQ NMS - GLOBAL MARKET,https://www.blackbaud.com/
+0,PNRG,Primeenergy Resources Corp,341.09550500000006,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,http://www.primeenergy.com/
+0,AAMI,Brightsphere Investment Group Inc,985.1934950000001,2014-10-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bsig.com/home/default.aspx
+0,SPRB,Spruce Biosciences Inc,16.657336999999995,2020-10-09,US,NASDAQ NMS - GLOBAL MARKET,https://sprucebio.com/
+0,BDX,Becton Dickinson and Co,65903.319725,1963-09-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bd.com/
+0,FPE3.DE,Fuchs Se,5116.85993,1985-01-30,DE,XETRA,https://www.fuchs.com
+0,IONQ,IONQ Inc,8157.987130000001,2020-11-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://ionq.com/
+0,CTVA,Corteva Inc,43278.842925,2019-05-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.corteva.com
+0,GBR,New Concept Energy Inc,6.004363,1993-03-25,US,NYSE MKT LLC,http://www.newconceptenergy.com/
+0,AMIX,Autonomix Medical Inc,4.701946999999999,2024-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://autonomix.com/
+0,VRDN,Viridian Therapeutics Inc,1414.739822,2014-06-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.viridiantherapeutics.com/
+0,KACLF,Kairous Acquisition Corp Ltd,46.52773259856345,2021-12-14,MY,NASDAQ NMS - GLOBAL MARKET,
+0,SPGX,Sustainable Projects Group Inc,229.66518400000004,2013-10-28,US,OTC MARKETS,https://www.spgroupe.com/
+0,BTAX,Biostax Corp,0.837389,2001-07-16,US,OTC MARKETS,https://www.biostaxcorp.com/
+0,CLRI,Cleartronic Inc,3.32283,2005-11-07,US,OTC MARKETS,https://www.cleartronic.com/
+0,TCI,Transcontinental Realty Investors Inc,233.69350600000004,1985-03-07,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.transconrealty-invest.com/
+0,SFRX,Seafarer Exploration Corp,34.679603,2000-11-27,US,OTC MARKETS,https://seafarerexplorationcorp.com/
+0,AVO,Mission Produce Inc,832.539318,2020-09-30,US,NASDAQ NMS - GLOBAL MARKET,https://missionproduce.com/
+0,ELA,Envela Corp,175.991888,1992-03-18,US,NYSE MKT LLC,https://envela.com/
+0,FONR,Fonar Corp,103.709089,1981-10-26,US,NASDAQ NMS - GLOBAL MARKET,http://www.fonar.com/
+0,OUT,OUTFRONT Media Inc,3103.936188,2014-03-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.outfrontmedia.com/
+0,KFRC,Kforce Inc,982.0476190000003,1995-08-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.kforce.com/
+0,UVE,Universal Insurance Holdings Inc,569.40175,1992-12-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://universalinsuranceholdings.com/
+0,THC,Tenet Healthcare Corp,13202.316701,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.tenethealth.com/
+0,ONTF,ON24 Inc,279.0601909999999,2021-02-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.on24.com/
+0,OVV,Ovintiv Inc,11818.731012,2001-08-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ovintiv.com/
+0,EBS,Emergent BioSolutions Inc,523.96111,2006-11-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://emergentbiosolutions.com/
+0,RDZN,Roadzen Inc,95.70637,2021-11-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.vahannatech.com/
+0,BTAI,BioXcel Therapeutics Inc,7.909613000000001,2018-03-08,US,NASDAQ NMS - GLOBAL MARKET,https://www.bioxceltherapeutics.com/
+0,TNL,Travel + Leisure Co,3782.803131,2006-07-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.travelandleisureco.com/
+0,AREB,American Rebel Holdings Inc,2.804863,2016-02-01,US,NASDAQ NMS - GLOBAL MARKET,https://americanrebel.com/
+0,GWIN,Reska Biotech Inc,140.536642,2011-11-08,MO,OTC MARKETS,http://www.tophonestygroup.com/
+0,CCL.L,Carnival PLC,26745.229458,2000-10-23,GB,LONDON STOCK EXCHANGE,http://www.carnivalcorp.com/
+0,KVHI,KVH Industries Inc,118.79473100000001,1996-04-02,US,NASDAQ NMS - GLOBAL MARKET,https://www.kvh.com/
+0,CLPS,CLPS Inc,37.028092,2018-05-24,HK,NASDAQ NMS - GLOBAL MARKET,https://www.clpsglobal.com/
+0,PMED.CN,Predictmedix AI Inc,3.756489,2019-12-20,CA,CANADIAN NATIONAL STOCK EXCHANGE,https://predictmedix.com/
+0,ZENV,Zenvia Inc,66.242955,2021-07-08,BR,NASDAQ NMS - GLOBAL MARKET,https://www.zenvia.com/
+0,ZAPP,Zapp Electric Vehicles Group Ltd,3.695033,2021-11-05,GB,NASDAQ NMS - GLOBAL MARKET,https://zappev.com
+0,JLS,Nuveen Mortgage and Income Fund,98.74,2009-11-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/en-us/closed-end-funds
+0,ACHC,Acadia Healthcare Company Inc,3899.32708,2011-11-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.acadiahealthcare.com/
+0,ABCL,Abcellera Biologics Inc,871.330516,2020-12-11,CA,NASDAQ NMS - GLOBAL MARKET,https://www.abcellera.com/
+0,HTLD,Heartland Express Inc,900.35783,1986-11-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.heartlandexpress.com/
+0,MALG,Microalliance Group Inc,12.856568,2006-06-26,CN,OTC MARKETS,
+0,CCU.SN,Compania Cervecerias Unidas SA,2257293.024597,1982-05-05,CL,SANTIAGO STOCK EXCHANGE,https://www.ccu.cl/
+0,RLNDF,RoyaLand Company Ltd,13.88,2024-07-10,US,OTC MARKETS,https://theroyaland.net/
+0,OFS,OFS Capital Corp,108.792392,2012-11-08,US,NASDAQ NMS - GLOBAL MARKET,https://www.ofscapital.com/
+0,POWW,Ammo Inc,211.386988,2021-05-21,US,NASDAQ NMS - GLOBAL MARKET,https://ammoinc.com/
+0,POAI,Predictive Oncology Inc,9.334109,2009-12-18,US,NASDAQ NMS - GLOBAL MARKET,https://predictive-oncology.com/
+0,NTRR,Neutra Corp,0.729475,2011-07-12,US,OTC MARKETS,https://neutrainc.com/
+0,KAVL,Kaival Brands Innovations Group Inc,16.159223,2007-02-15,US,NASDAQ NMS - GLOBAL MARKET,https://kaivalbrands.com/
+0,FIGP,Forge Group Inc,0.0,2022-05-18,US,OTC MARKETS,
+0,SKAS,Saker Aviation Services Inc,7.850652757446809,2012-07-23,US,OTC MARKETS,https://sakeraviation.com/
+0,NWFL,Norwood Financial Corp,236.021949,1997-01-02,US,NASDAQ NMS - GLOBAL MARKET,http://www.waynebank.com
+0,SONM,Sonim Technologies Inc,12.42268,2019-05-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.sonimtech.com/
+0,8359.T,Hachijuni Bank Ltd,462961.7333,1971-10-01,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.82bank.co.jp/
+0,SNDL,SNDL Inc,480.55498500000004,2019-08-01,CA,NASDAQ NMS - GLOBAL MARKET,https://www.sndl.com/
+0,PCT,Purecycle Technologies Inc,1520.439887,2020-06-11,US,NASDAQ NMS - GLOBAL MARKET,https://purecycle.com/
+0,PNNT,Pennantpark Investment Corp,456.42,2007-04-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pennantpark.com/
+0,AVY,Avery Dennison Corp,14461.551256000002,1961-01-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.averydennison.com/en/home.html
+0,SN,Sharkninja Inc,15230.660804999998,2023-07-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.sharkninja.com/overview/default.aspx
+0,IR,Ingersoll Rand Inc,37145.656887,2017-05-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.irco.com/
+0,GRF,Eagle Capital Growth Fund Inc,39.68,2001-07-13,US,NYSE MKT LLC,https://www.eaglecapitalgrowthfund.com/
+0,SPFX,Standard Premium Finance Holdings Inc,5.552249805555556,2022-03-17,US,OTC MARKETS,https://standardpremiuminvestors.com/
+0,CYDY,Cytodyn Inc,248.076623,2005-11-17,US,OTC MARKETS,https://www.cytodyn.com/
+0,FIGI,Freedom Internet Group Inc,22.82,2021-12-16,PR,OTC MARKETS,https://www.figiroyalty.com/
+0,XNET,Xunlei Ltd,198.417065,2014-06-24,CN,NASDAQ NMS - GLOBAL MARKET,https://www.xunlei.com/
+0,VRNA,Verona Pharma PLC,4855.043451,2005-03-30,GB,NASDAQ NMS - GLOBAL MARKET,https://www.veronapharma.com/
+0,SST,System1 Inc,54.034285,2020-08-07,US,"NEW YORK STOCK EXCHANGE, INC.",https://system1.com
+0,PRGO,Perrigo Company PLC,3301.552753,1991-12-17,IE,"NEW YORK STOCK EXCHANGE, INC.",https://www.perrigo.com/
+0,AKA,AKA Brands Holding Corp,184.18518499999996,2021-09-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.aka-brands.com/
+0,PEBO,Peoples Bancorp Inc,1187.3322889999997,1993-02-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.peoplesbancorp.com/
+0,RCS,"PIMCO Strategic Income Fund, Inc",341.85,1994-03-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pimco.com/en-us/investments/closed-end-funds/strategic-income-fund-inc/
+0,MNTS,Momentus Inc,10.396755000000002,2019-11-08,US,NASDAQ NMS - GLOBAL MARKET,https://momentus.space/
+0,MHD,BlackRock MuniHoldings Fund Inc,604.84,1997-05-06,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/investing/products/240204/blackrock-muniholdings-fund-inc-usd-fund
+0,ESGL,ESGL Holdings Ltd,43.051281,2022-02-15,SG,NASDAQ NMS - GLOBAL MARKET,https://esgl.asia/
+0,ASB,Associated Banc-Corp,4123.821846,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.associatedbank.com/
+0,MPWR,Monolithic Power Systems Inc,34098.683976,2004-11-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.monolithicpower.com/
+0,SYM,Symbotic Inc,17117.4188,2021-03-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.symbotic.com/
+0,PVLA,Pieris Pharmaceuticals Inc,181.224101,2014-12-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.pieris.com/
+0,ACT,Enact Holdings Inc,5189.781368,2021-05-13,US,NASDAQ NMS - GLOBAL MARKET,https://enactmi.com/
+0,GLAC,Global Lights Acquisition Corp,96.750502,2023-11-14,CN,NASDAQ NMS - GLOBAL MARKET,
+0,ENVX,Enovix Corp,1991.3232029999997,2020-12-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.enovix.com/
+0,ATUS,Altice USA Inc,1342.062241,2017-06-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.alticeusa.com/
+0,WSO,Watsco Inc,19070.419565,1994-06-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.watsco.com/
+0,BSGM,BioSig Technologies Inc,15.270148000000004,2014-09-22,US,OTC MARKETS,https://www.biosig.com/
+0,RWAY,Runway Growth Finance Corp,426.88114999999993,2021-10-21,US,NASDAQ NMS - GLOBAL MARKET,https://investors.runwaygrowth.com/
+0,FTS.TO,Fortis Inc,31210.546399,1980-03-17,CA,TORONTO STOCK EXCHANGE,https://www.fortisinc.com
+0,CCJ,Cameco Corp,21694.150492097724,1991-01-01,CA,"NEW YORK STOCK EXCHANGE, INC.",https://www.cameco.com/
+0,EMYB,Embassy Bancorp Inc,122.661311,2010-06-25,US,OTC MARKETS,https://www.embassybank.com/
+0,PPL,PPL Corp,25474.723726,1948-09-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pplweb.com/
+0,AFBI,Affinity Bancshares Inc,118.052841,2017-04-28,US,NASDAQ NMS - GLOBAL MARKET,https://affinitybankshares.q4ir.com/
+0,ALBPS.PA,Biophytis SA,4.204836,2015-07-13,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.biophytis.com/
+0,CRS,Carpenter Technology Corp,9247.490271999997,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.carpentertechnology.com/
+0,FDCT,FDCTECH Inc,11.717541000000002,2019-10-24,US,OTC MARKETS,https://fdctech.com/
+0,DQ,Daqo New Energy Corp,1390.268199,2010-10-07,CN,"NEW YORK STOCK EXCHANGE, INC.",http://www.dqsolar.com
+0,NHPAP,National Healthcare Properties Inc,219.297411,2020-03-30,US,NASDAQ NMS - GLOBAL MARKET,https://nhpreit.com/
+0,RGBP,Regen BioPharma Inc,0.756256,2014-09-03,US,OTC MARKETS,https://regenbiopharmainc.com/
+0,PDO,PIMCO Dynamic Income Opportunities Fund,1497.22,2020-10-20,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,AOXY,Advanced Oxygen Technologies Inc,0.21,1981-07-16,US,OTC MARKETS,https://www.aoxy-ca.com/
+0,BSVN,Bank7 Corp,404.373013,2018-09-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.bank7.com
+0,HRZN,Horizon Technology Finance Corp,342.56,2010-10-29,US,NASDAQ NMS - GLOBAL MARKET,https://horizontechfinance.com
+0,ADAG,Adagene Inc,76.588457,2021-02-09,CN,NASDAQ NMS - GLOBAL MARKET,https://www.adagene.com/
+0,SRCE,1st Source Corp,1658.52723,1983-08-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.1stsource.com
+0,AM,Antero Midstream Corp,7754.130016000001,2017-05-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.anteromidstream.com
+0,HOLO,MicroCloud Hologram Inc,25.885688,2021-06-22,US,NASDAQ NMS - GLOBAL MARKET,http://www.mcholo.com/
+0,STN.TO,Stantec Inc,12592.99628,1994-03-30,CA,TORONTO STOCK EXCHANGE,https://www.stantec.com/en
+0,VSCO,Victoria's Secret & Co,2565.422804,2021-07-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.victoriassecretandco.com/
+0,GSBC,Great Southern Bancorp Inc,719.6318969999999,1989-12-15,US,NASDAQ NMS - GLOBAL MARKET,https://investors.greatsouthernbank.com/
+0,SABS,SAB Biotherapeutics Inc,15.228302999999999,2021-01-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.sab.bio/
+0,CPRI,Capri Holdings Ltd,2599.910949,2011-12-15,GB,"NEW YORK STOCK EXCHANGE, INC.",https://www.capriholdings.com/corporate-overview/default.aspx
+0,WASH,Washington Trust Bancorp Inc,643.0117099999999,1987-06-08,US,NASDAQ NMS - GLOBAL MARKET,https://ir.washtrust.com/corporate-profile/default.aspx
+0,DSG.TO,Descartes Systems Group Inc,14503.211693,1998-01-21,CA,TORONTO STOCK EXCHANGE,https://www.descartes.com/
+0,WDLF,Decentral Life Inc,2.623177,2005-04-25,US,OTC MARKETS,https://www.wdlf.ai/
+0,ACGL,Arch Capital Group Ltd,33711.272082,1995-09-13,BM,NASDAQ NMS - GLOBAL MARKET,https://www.archgroup.com/
+0,CDNA,CareDx Inc,1223.388614,2014-07-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.caredx.com/
+0,BCOV,Brightcove Inc,202.09773,2012-02-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.brightcove.com/
+0,PTPI,Petros Pharmaceuticals Inc,2.832024,2020-12-02,US,NASDAQ NMS - GLOBAL MARKET,https://www.petrospharma.com/
+0,TGAAF,Target Global Acquisition I Corp,81.76372200000002,2021-08-23,KY,NASDAQ NMS - GLOBAL MARKET,https://tgacquisition1.com/
+0,BILI,Bilibili Inc,7255.3206084566,2018-03-28,CN,NASDAQ NMS - GLOBAL MARKET,https://ir.bilibili.com/
+0,ACNB,ACNB Corp,440.40248999999994,1993-10-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.acnb.com/
+0,SDCH,SideChannel Inc,8.940104,1996-12-02,US,OTC MARKETS,https://sidechannel.com/
+0,JJ.V,Jackpot Digital Inc,12.098655,1983-09-16,CA,TSX VENTURE EXCHANGE - NEX,https://www.jackpotdigital.com/
+0,ADD,Color Star Technology Co Ltd,0.780589,2009-11-02,US,NASDAQ NMS - GLOBAL MARKET,https://colorstarinternational.com/
+0,GS,Goldman Sachs Group Inc,200935.70237400004,1999-05-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.goldmansachs.com/
+0,RQI,Cohen & Steers Quality Income Realty Fund Inc,1645.44,2002-02-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cohenandsteers.com/funds/details/quality-income-realty-fund
+0,UBFO,United Security Bancshares,172.534668,1996-03-27,US,NASDAQ NMS - GLOBAL MARKET,https://investors.unitedsecuritybank.com/corporate-information/corporate-profile/default.aspx
+0,JVA,Coffee Holding Co Inc,28.542995,2005-05-03,US,NASDAQ NMS - GLOBAL MARKET,https://coffeeholding.com/
+0,FLDD,FTAC Emerald Acquisition Corp,137.859951,2021-12-16,US,NASDAQ NMS - GLOBAL MARKET,
+0,FWONA,Liberty Media Corp,31479.642987,2013-01-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.libertymedia.com/
+0,XITO,Xenous Holdings Inc,19.766500000000004,2016-10-19,MY,OTC MARKETS,http://www.xenous.co
+0,GTHP,Guided Therapeutics Inc,7.504875066666665,1997-07-01,US,OTC MARKETS,https://www.guidedinc.com/
+0,CSSI,Standard Dental Labs Inc,2.941807,2007-05-03,US,OTC MARKETS,http://costas-inc.com/
+0,SUI,Sun Communities Inc,16079.204398,1993-12-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.suncommunities.com/
+0,CAUD,Collective Audience Inc,0.884941,2021-08-12,US,NASDAQ NMS - GLOBAL MARKET,https://abri-spac.com/
+0,OMCC,Old Market Capital Corp,42.544998,1994-08-22,US,NASDAQ NMS - GLOBAL MARKET,https://nicholasfinancial.com/
+0,XIN,Xinyuan Real Estate Co Ltd,15.534736,2007-12-12,CN,"NEW YORK STOCK EXCHANGE, INC.",http://ir.xyre.com/
+0,LVWR,LiveWire Group Inc,469.5080520000001,2020-11-23,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.livewire.com
+0,ELRA,Elray Resources Inc,1.292134,2007-08-31,US,OTC MARKETS,https://elraygaming.com/
+0,REZI,Resideo Technologies Inc,3248.0711419999993,2018-10-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.resideo.com/us/en
+0,VRPX,Virpax Pharmaceuticals Inc,5.096014,2021-02-17,US,NASDAQ NMS - GLOBAL MARKET,https://virpaxpharma.com/
+0,MMCP,Mag Mile Capital Inc,55.030767000000004,2001-07-16,US,OTC MARKETS,http://www.mysoncomfort.com/
+0,SPOWF,Strata Power Corp,0.16268899999999997,2000-06-13,CA,OTC MARKETS,http://www.strataoil.com/
+0,AFG,American Financial Group Inc,10670.180746,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.afginc.com/
+0,FLNT,Fluent Inc,57.59706700000001,2007-12-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.fluentco.com
+0,TKLF,Tokyo Lifestyle Co Ltd,15.727026,2022-01-18,JP,NASDAQ NMS - GLOBAL MARKET,https://www.ystbek.co.jp/
+0,TRP.TO,TC Energy Corp,70086.090018,1985-05-30,CA,TORONTO STOCK EXCHANGE,https://www.tcenergy.com/
+0,MSCL.TO,Satellos Bioscience Inc,113.497795,2006-12-01,CA,TORONTO STOCK EXCHANGE,https://satellos.com/
+0,CSCI.TO,COSCIENS Biopharma Inc,12.150466,1995-12-19,CA,TORONTO STOCK EXCHANGE,https://www.zentaris.com/
+0,SGIC,Strategic Realty Trust Inc,0.860237,2016-10-10,US,OTC MARKETS,https://www.srtreit.com/corporate-profile/default.aspx
+0,SJW,SJW Group,1733.1742720000002,1980-03-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.sjwgroup.com/
+0,OPFI,OppFi Inc,1293.213362,2020-09-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.oppfi.com/
+0,HKD,AMTD Digital Inc,509.244653,2022-07-15,FR,"NEW YORK STOCK EXCHANGE, INC.",http://www.amtdigital.net
+0,PINC,Premier Inc,1691.013015,2013-09-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.premierinc.com/
+0,ASYS,Amtech Systems Inc,71.731113,1983-08-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.amtechsystems.com/
+0,ASTS,AST SpaceMobile Inc,8228.473164999998,2019-09-13,US,NASDAQ NMS - GLOBAL MARKET,https://ast-science.com/spacemobile/
+0,LEU,Centrus Energy Corp,1911.223179,1998-07-23,US,NYSE MKT LLC,https://www.centrusenergy.com/
+0,RGTI,Rigetti Computing Inc,2670.099903,2021-03-02,US,NASDAQ NMS - GLOBAL MARKET,https://www.rigetti.com/
+0,PRCT,Procept Biorobotics Corp,3590.051651,2021-09-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.procept-biorobotics.com/
+0,OPEN,Opendoor Technologies Inc,986.7962700000002,2020-12-18,US,NASDAQ NMS - GLOBAL MARKET,https://investor.opendoor.com/
+0,ULTA,Ulta Beauty Inc,17367.90717,2007-10-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.ulta.com/
+0,PSFE,Paysafe Ltd,1152.255496,2020-10-09,GB,"NEW YORK STOCK EXCHANGE, INC.",https://ir.paysafe.com/
+0,SCOR,Comscore Inc,35.260918,2007-06-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.comscore.com/
+0,ELET6.SA,Centrais Eletricas Brasileiras SA,84118.96306,1971-01-28,BR,B3 S.A.,https://eletrobras.com/
+0,TNC,Tennant Co,1665.901392,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.tennantco.com
+0,SCWO,374Water Inc,48.403397000000005,1996-05-17,US,NASDAQ NMS - GLOBAL MARKET,https://374water.com/
+0,ESAB,ESAB Corp,7418.195247,2022-03-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://esabcorporation.com/
+0,FFWM,First Foundation Inc,447.239936,2014-11-03,US,"NEW YORK STOCK EXCHANGE, INC.",https://firstfoundationinc.com/
+0,INR.AX,ioneer Ltd,412.242699,2007-12-19,AU,ASX - ALL MARKETS,https://www.ioneer.com/
+0,HEI,HEICO Corp,28438.923393,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.heico.com/
+0,SBSI,Southside Bancshares Inc,981.083344,1996-05-30,US,NASDAQ NMS - GLOBAL MARKET,https://investors.southside.com/
+0,IMG.TO,IAMGOLD Corp,5209.344046,1996-03-08,CA,TORONTO STOCK EXCHANGE,https://www.iamgold.com/
+0,BATL,Battalion Oil Corp,27.647023,2019-12-19,US,NYSE MKT LLC,https://battalionoil.com/
+0,RENX.L,Renalytix PLC,38.08869,2018-11-06,GB,LONDON STOCK EXCHANGE,https://renalytix.com/
+0,FGL,Founder Group Ltd,25.547299999999996,2024-10-23,MY,NASDAQ NMS - GLOBAL MARKET,https://www.founderenergy.com.my
+0,HKHC,Horizon Kinetics Holding Corp,736.0951666753247,1972-04-21,US,OTC MARKETS,https://www.scottsliquidgold.com/
+0,GDV,Gabelli Dividend & Income Trust,2187.67,2003-11-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.gabelli.com/funds/closed_ends/-114
+0,KAYS,Kaya Holdings Inc,1.455049,2003-06-02,US,OTC MARKETS,https://www.kayaholdings.com/
+0,TXRH,Texas Roadhouse Inc,11392.762561999998,2004-10-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.texasroadhouse.com/
+0,SQFT,Presidio Property Trust Inc,8.499982,2020-10-06,US,NASDAQ NMS - GLOBAL MARKET,https://presidiopt.com/
+0,SHYF,Shyft Group Inc,420.487373,1984-06-19,US,NASDAQ NMS - GLOBAL MARKET,https://theshyftgroup.com/
+0,GOCO,Gohealth Inc,192.38056200000003,2020-07-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.gohealth.com/
+0,PRCH,Porch Group Inc,475.3759109999999,2019-11-26,US,NASDAQ NMS - GLOBAL MARKET,https://porchgroup.com/
+0,TWST,Twist Bioscience Corp,2755.882811,2018-10-31,US,NASDAQ NMS - GLOBAL MARKET,https://www.twistbioscience.com/
+0,SMWB,Similarweb Ltd,1370.3155999999997,2021-05-12,IL,"NEW YORK STOCK EXCHANGE, INC.",https://www.similarweb.com
+0,CSWC,Capital Southwest Corp,1173.4987389999997,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.capitalsouthwest.com/
+0,ARBB,ARB IOT Group Ltd,12.002599999999997,2023-04-04,SG,NASDAQ NMS - GLOBAL MARKET,https://www.arbiotgroup.com/
+0,OPI,Office Properties Income Trust,52.138707,2009-06-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.opireit.com/
+0,HNI,HNI Corp,2359.606076,1998-07-02,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.hnicorp.com/
+0,RFIL,RF Industries Ltd,59.154258,1993-10-27,US,NASDAQ NMS - GLOBAL MARKET,https://rfindustries.com/
+0,CHMX,NEXT-ChemX Corp,119.325757,2016-07-13,US,OTC MARKETS,https://www.next-chemx.com/
+0,VLY,Valley National Bancorp,5747.642647,1993-12-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.valley.com/
+0,BYON,Beyond Inc,426.388033,2002-05-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bedbathandbeyond.com/
+0,TSN,Tyson Foods Inc,20522.10029,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.tysonfoods.com/
+0,RSG,Republic Services Inc,69911.206238,1998-07-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.republicservices.com/
+0,KTCC,Key Tronic Corp,35.0837,1983-06-23,US,NASDAQ NMS - GLOBAL MARKET,https://www.keytronic.com/
+0,PAIYY,Aesthetic Medical International Holdings Group Ltd,15.770028,2019-10-25,CN,OTC MARKETS,http://www.pengai.com.cn
+0,ROKU,Roku Inc,12015.236248,2017-09-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.roku.com/
+0,ITR.V,Integra Resources Corp,276.457612,2005-07-26,CA,TSX VENTURE EXCHANGE - NEX,https://integraresources.com/
+0,GF,New Germany Fund Inc,128.94,1990-01-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://fundsus.dws.com/us/en-us/products/closed-end-funds/the-new-germany-fund-inc.html
+0,EVH,Evolent Health Inc,1149.320052,2015-06-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.evolenthealth.com/
+0,HOUR,Hour Loop Inc,78.7214,2022-01-07,US,NASDAQ NMS - GLOBAL MARKET,https://hourloop.com/
+0,WML.V,Wealth Minerals Ltd,30.231536,1995-09-22,CA,TSX VENTURE EXCHANGE - NEX,https://wealthminerals.com/
+0,PIKM,Kidpik Corp,0.301187,2021-11-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.kidpik.com/
+0,TTE.PA,TotalEnergies SE,126720.882286,1973-09-26,FR,NYSE EURONEXT - EURONEXT PARIS,https://totalenergies.com/
+0,RS,Reliance Inc,15718.690178,1994-09-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://reliance.com/
+0,AZN.L,AstraZeneca PLC,180239.552674,2007-09-21,GB,LONDON STOCK EXCHANGE,https://www.astrazeneca.com/
+0,NGL,NGL Energy Partners LP,576.895797,2011-05-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nglenergypartners.com/
+0,CBL,CBL & Associates Properties Inc,947.385035,1993-10-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cblproperties.com/
+0,DGLY,Digital Ally Inc,1.5360389999999997,2005-02-22,US,NASDAQ NMS - GLOBAL MARKET,https://www.digitalallyinc.com/
+0,BNTX,Biontech SE,27450.201604,2019-10-10,DE,NASDAQ NMS - GLOBAL MARKET,https://www.biontech.com/
+0,ONFO,Onfolio Holdings Inc,7.175277999999999,2022-08-26,US,NASDAQ NMS - GLOBAL MARKET,https://onfolio.com/
+0,600688.SS,Sinopec Shanghai Petrochemical Co Ltd,26477.32492144873,1993-11-08,CN,SHANGHAI STOCK EXCHANGE,http://spc.sinopec.com/spc/
+0,BATS.L,British American Tobacco plc,74648.676304,1962-01-29,GB,LONDON STOCK EXCHANGE,https://www.bat.com/
+0,PL,Planet Labs PBC,1850.824521,2021-03-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.planet.com/
+0,NTZ,Natuzzi SpA,53.751293,1993-05-13,IT,"NEW YORK STOCK EXCHANGE, INC.",https://www.natuzzi.com/
+0,PYPL,PayPal Holdings Inc,75390.16481,2015-07-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.paypal.com/
+0,NIO,NIO Inc,8219.5394291784,2018-09-12,CN,"NEW YORK STOCK EXCHANGE, INC.",https://ir.nio.com/
+0,SERA,Sera Prognostics Inc,136.103182,2021-07-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.seraprognostics.com/
+0,LYV,Live Nation Entertainment Inc,33849.663596,2005-12-14,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.livenationentertainment.com/
+0,GIII,G-III Apparel Group Ltd,1317.0400959999997,1989-12-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.giii.com/
+0,AMBO,Ambow Education Holding Ltd,7.283759,2010-08-05,US,NYSE MKT LLC,https://www.ambow.com/
+0,STIM,Neuronetics Inc,157.472238,2018-06-28,US,NASDAQ NMS - GLOBAL MARKET,https://neurostar.com/neuronetics/
+0,AITR,AI Transportation Acquisition Corp,84.80448987108656,2023-11-09,KY,NASDAQ NMS - GLOBAL MARKET,
+0,VAC,Marriott Vacations Worldwide Corp,2928.6971500000004,2011-11-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.marriottvacationsworldwide.com/
+0,AGAE,Allied Gaming & Entertainment Inc,41.900713,2017-10-10,US,NASDAQ NMS - GLOBAL MARKET,https://ir.alliedesportsent.com/
+0,SOUN,SoundHound AI Inc,5432.281881,2021-03-11,US,NASDAQ NMS - GLOBAL MARKET,
+0,FUL,H.B. Fuller Company,3317.686378,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.hbfuller.com/
+0,AMD,Advanced Micro Devices Inc,180035.10636500004,1979-10-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.amd.com/
+0,TALK,Talkspace Inc,677.380367,2020-06-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.talkspace.com/
+0,EVBN,Evans Bancorp Inc,246.79898600000004,1957-05-16,US,NYSE MKT LLC,https://www.evansbank.com/
+0,GREE,Greenidge Generation Holdings Inc,12.008245,2000-07-19,US,NASDAQ NMS - GLOBAL MARKET,https://greenidge.com/
+0,AUST,Austin Gold Corp,20.8366,2022-05-04,CA,NYSE MKT LLC,https://www.austin.gold/
+0,MC,Moelis & Co,5948.519785,2014-04-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.moelis.com/
+0,BCV,Bancroft Fund Ltd,106.61,1980-03-17,US,NYSE MKT LLC,http://www.bancroftfund.com
+0,UAA,Under Armour Inc,2981.854616,2005-11-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.underarmour.com/
+0,SMRT,SmartRent Inc,265.745598,2021-02-05,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.smartrent.com
+0,GLLI,Globalink Investment Inc,72.0908036505867,2021-12-07,US,NASDAQ NMS - GLOBAL MARKET,http://www.globalinkinvestment.com
+0,NGD.TO,New Gold Inc,3400.870256,1981-05-22,CA,TORONTO STOCK EXCHANGE,https://newgold.com/home/default.aspx
+0,SARO,"StandardAero, Inc.",9227.796682,2024-10-02,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,MGY,Magnolia Oil & Gas Corp,4682.052801,2017-06-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.magnoliaoilgas.com/
+0,EOD,Allspring Global Dividend Opportunity Fund,211.88,2007-03-28,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,USM,United States Cellular Corp,5495.846009,1988-05-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.uscellular.com/
+0,ABL,Abacus Life Inc,734.498544,2020-07-23,US,NASDAQ NMS - GLOBAL MARKET,https://eastresources.com/
+0,NRHI,Natural Resource Holdings Inc,1.12199,2018-04-12,US,OTC MARKETS,
+0,IFRX,InflaRx NV,148.38585,2017-11-16,DE,NASDAQ NMS - GLOBAL MARKET,https://www.inflarx.de/
+0,LKCO,Luokung Technology Corp,13.58747,2019-01-03,CN,NASDAQ NMS - GLOBAL MARKET,https://www.luokung.com/
+0,CPB,Campbell's Co,11313.246375999997,1954-11-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.campbells.com/
+0,INTT,inTest Corp,96.521692,1997-06-17,US,NYSE MKT LLC,https://www.intest.com/
+0,MAMO,Massimo Group,124.56799999999998,2024-04-02,US,NASDAQ NMS - GLOBAL MARKET,https://massimo-group.com/
+0,GSK.L,GSK plc,58918.554618,1972-05-22,GB,LONDON STOCK EXCHANGE,https://www.gsk.com/
+0,AZ,A2Z Cust2Mate Solutions Corp,211.364046,2018-04-18,CA,NASDAQ NMS - GLOBAL MARKET,https://cust2mate.com/
+0,PD.TO,Precision Drilling Corp,1144.513041,2010-06-02,CA,TORONTO STOCK EXCHANGE,https://www.precisiondrilling.com/
+0,TNK,Teekay Tankers Ltd,1448.8197310000003,2007-12-13,BM,"NEW YORK STOCK EXCHANGE, INC.",https://www.teekay.com/
+0,AAL,American Airlines Group Inc,10783.519305,2013-12-09,US,NASDAQ NMS - GLOBAL MARKET,https://americanairlines.gcs-web.com/
+0,AAT,American Assets Trust Inc,1369.067509,2011-01-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.americanassetstrust.com/
+0,GRVE,Groove Botanicals Inc,0.4234661875,1998-08-17,US,OTC MARKETS,http://www.avalonoilinc.com
+0,CVS,CVS Health Corp,69212.417603,1952-10-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://cvshealth.com/
+0,SIGI,Selective Insurance Group Inc,5114.310217,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.selective.com/
+0,DMN,Damon Inc,10.296599999999998,2024-11-18,GB,NASDAQ NMS - GLOBAL MARKET,
+0,PFSB,PFS Bancorp Inc,19.15,2023-10-18,US,OTC MARKETS,
+0,METC,Ramaco Resources Inc,527.561405,2017-02-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.ramacoresources.com/
+0,SNRE,Sunrise Communications AG,122.898686,2024-11-04,CH,NASDAQ NMS - GLOBAL MARKET,https://www.sergroup.com/
+0,EQS,EQUUS Total Return Inc,14.94,1992-09-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://equuscap.com/
+0,GDRX,GoodRx Holdings Inc,1863.7837079999997,2020-09-23,US,NASDAQ NMS - GLOBAL MARKET,https://investors.goodrx.com/
+0,WMK,Weis Markets Inc,1930.232343,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.weismarkets.com/
+0,BGXX,Bright Green Corp,7.646651999999999,2022-05-17,US,NASDAQ NMS - GLOBAL MARKET,https://brightgreen.us/
+0,KNOS,Kronos Advanced Technologies Inc,3.7911130000000006,2000-06-09,US,OTC MARKETS,https://kronosati.co/
+0,UMBF,UMB Financial Corp,8311.398520999997,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.umb.com/
+0,NMT,Nuveen Massachusetts Quality Municipal Income Fund,105.37,1993-03-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/CEF/Product/Overview.aspx
+0,AQN.TO,Algonquin Power & Utilities Corp,5048.387269,1997-12-23,CA,TORONTO STOCK EXCHANGE,https://algonquinpower.com/
+0,BG,Bunge Global SA,9762.726976,2001-08-07,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bunge.com/
+0,V,Visa Inc,685158.461222,2008-03-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://usa.visa.com/
+0,DYNT,Dynatronics Corp,0.9142010000000002,1983-12-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.dynatronics.com
+0,PEV,Phoenix Motor Inc,9.122229,2022-06-08,US,NASDAQ NMS - GLOBAL MARKET,https://phoenixmotorcars.com/overview/default.aspx
+0,AVTR,Avantor Inc,12521.798176,2019-05-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.avantorsciences.com/
+0,ODD.V,Odd Burger Corp,28.796397,2016-04-01,CA,TSX VENTURE EXCHANGE - NEX,https://oddburger.com/
+0,ABEV3.SA,Ambev SA,172656.808648,2013-11-11,BR,B3 S.A.,https://www.ambev.com.br/
+0,VRDR,Verde Resources Inc,190.60810699999996,2012-09-27,US,OTC MARKETS,https://www.verderesources.com/
+0,BPYPP,Brookfield Property Partners LP,104.81,2013-04-15,BM,NASDAQ NMS - GLOBAL MARKET,https://bpy.brookfield.com/en
+0,CLPR,Clipper Realty Inc,63.94032,2015-11-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.clipperrealty.com/
+0,SYTA,Siyata Mobile Inc,3.975988,2001-06-21,CA,NASDAQ NMS - GLOBAL MARKET,https://www.siyatamobile.com/
+0,IBM,International Business Machines Corp,235507.11474399996,1915-11-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ibm.com/
+0,TILT.NE,TILT Holdings Inc,3.9079,2018-12-06,CA,AEQUITAS NEO EXCHANGE,https://www.tiltholdings.com/
+0,MPTI,M-Tron Industries Inc,153.85506599999997,2022-09-29,US,NYSE MKT LLC,https://www.mtronpti.com/
+0,PNW,Pinnacle West Capital Corp,10137.476499,1961-08-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pinnaclewest.com/
+0,IMMR,Immersion Corp,267.56558,1999-11-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.immersion.com/
+0,ZURA,Zura Bio Ltd,92.06388,2021-07-16,US,NASDAQ NMS - GLOBAL MARKET,https://zurabio.com/
+0,IART,Integra Lifesciences Holdings Corp,1981.5592380000003,1995-08-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.integralife.com/
+0,ECBK,ECB Bancorp Inc,119.84185100000002,2022-07-28,US,NASDAQ NMS - GLOBAL MARKET,https://investor.everettbank.com/home/default.aspx
+0,DRUG.CN,Bright Minds Biosciences Inc,454.563843,2021-02-08,US,CANADIAN NATIONAL STOCK EXCHANGE,https://brightmindsbio.com/
+0,AKAM,Akamai Technologies Inc,15230.011808,1999-10-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.akamai.com/
+0,WRB,W R Berkley Corp,23321.430575999995,1973-10-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.berkley.com
+0,MGIC,Magic Software Enterprises Ltd,642.7098989999998,1991-08-16,IL,NASDAQ NMS - GLOBAL MARKET,https://www.magicsoftware.com
+0,BOLD,Boundless Bio Inc,48.614095,2024-03-28,US,NASDAQ NMS - GLOBAL MARKET,https://boundlessbio.com/
+0,SEE,Sealed Air Corporation,4956.457524999999,1979-05-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.sealedair.com/
+0,NECB,Northeast Community Bancorp Inc,346.028444,2006-07-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.necommunitybank.com/
+0,CRCT,Cricut Inc,1207.48514,2021-03-25,US,NASDAQ NMS - GLOBAL MARKET,https://cricut.com/
+0,SABA,Saba Capital Income & Opportunities Fund II,248.65,1988-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.franklintempleton.com/investments/options/closed-end-funds/products/146/SINGLCLASS/templeton-global-income-fund-inc/GIM
+0,SIF,SIFCO Industries Inc,23.13769,1980-03-17,US,NYSE MKT LLC,https://sifco.com/
+0,CEAD,CEA Industries Inc,6.097829579375848,2011-03-24,US,NASDAQ NMS - GLOBAL MARKET,https://surna.com/
+0,BHLB,Berkshire Hills Bancorp Inc,1401.0763280000003,2000-06-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.berkshirebank.com/
+0,GLXZ,Galaxy Gaming Inc,69.99861,2009-07-10,US,OTC MARKETS,https://www.galaxygaming.com/
+0,FVI.TO,Fortuna Mining Corp,2349.981308,1992-02-27,CA,TORONTO STOCK EXCHANGE,https://www.fortunamining.com/
+0,ODC,Oil-Dri Corporation of America,514.347727,1971-06-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.oildri.com/
+0,WLY,John Wiley & Sons Inc,2212.588646,1995-07-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.wiley.com/
+0,IWSH,Wright Investors Service Holdings Inc,3.299314,2013-01-16,US,OTC MARKETS,
+0,KRT,Karat Packaging Inc,607.13086,2019-10-16,US,NASDAQ NMS - GLOBAL MARKET,https://karatpackaging.com
+0,QETA,Quetta Acquisition Corp,95.01762,2023-10-06,US,NASDAQ NMS - GLOBAL MARKET,
+0,MMD,Nyli Mackay Definedterm Muni Opportunities Fund,413.04,2012-06-27,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,KWIK,Kwikclick Inc,12.763192999999998,1994-03-04,US,OTC MARKETS,https://kwikclick.com
+0,BBLR,Bubblr Inc,2.539078,2002-08-21,US,OTC MARKETS,https://ethicalweb.ai/
+0,ARGD,Argo Group US Inc,123.3375,1986-11-13,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,CRGX,CARGO Therapeutics Inc,160.17648500000004,2023-11-10,US,NASDAQ NMS - GLOBAL MARKET,https://cargo-tx.com
+0,BASA,Basanite Inc,12.955809,2009-05-08,US,OTC MARKETS,https://basaltamerica.com/
+0,ACA.PA,Credit Agricole SA,46067.225136,2001-12-13,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.credit-agricole.com/
+0,FPH,Five Point Holdings LLC,630.708071,2017-05-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://fivepoint.com/
+0,FTCO,Fortitude Gold Corp,131.74398,2021-02-18,US,OTC MARKETS,https://www.fortitudegold.com
+0,DAVE,Dave Inc,1323.918327,2021-03-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.dave.com/
+0,NETD,Nabors Energy Transition Corp II,414.03748699999994,2023-07-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.nabors-etcorp.com/
+0,RLGT,Radiant Logistics Inc,337.05110700000006,2005-03-11,US,NYSE MKT LLC,https://radiantdelivers.com/
+0,PRIM,Primoris Services Corp,4154.707056,2006-10-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.prim.com/
+0,FTS.TO,Fortis Inc,31210.546399,1980-03-17,CA,TORONTO STOCK EXCHANGE,https://www.fortisinc.com
+0,600548.SS,Shenzhen Expressway Corp Ltd,21592.43615223083,1997-03-12,CN,SHANGHAI STOCK EXCHANGE,https://www.sz-expressway.com/
+0,PAYO,Payoneer Global Inc,3569.70086,2020-10-16,US,NASDAQ NMS - GLOBAL MARKET,http://www.payoneer.com
+0,CFFN,Capitol Federal Financial Inc,815.308243,1999-04-01,US,NASDAQ NMS - GLOBAL MARKET,https://ir.capfed.com/
+0,SOBR,Sobr Safe Inc,0.798408,2009-04-03,US,NASDAQ NMS - GLOBAL MARKET,https://sobrsafe.com/
+0,INDO,Indonesia Energy Corp Ltd,37.80944000000001,2019-12-19,ID,NYSE MKT LLC,http://indo-energy.com/
+0,XELB,Xcel Brands Inc,8.767374,2001-03-20,US,NASDAQ NMS - GLOBAL MARKET,https://xcelbrands.co/
+0,WFCF,Where Food Comes From Inc,65.018013,2006-11-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.wherefoodcomesfrom.com/
+0,OPK,OPKO Health Inc,1105.622417,1995-11-02,US,NASDAQ NMS - GLOBAL MARKET,https://www.opko.com/
+0,MNDR,Mobile-health Network Solutions,9.66803,2024-04-10,KY,NASDAQ NMS - GLOBAL MARKET,
+0,600028.SS,China Petroleum & Chemical Corp,692264.9322317112,2000-10-19,CN,SHANGHAI STOCK EXCHANGE,http://www.sinopec.com/
+0,BRRN,Born Inc,8.441687,2008-02-06,US,OTC MARKETS,http://www.quture.com
+0,FUFU,BitFuFu Inc,786.817939,2021-12-09,SG,NASDAQ NMS - GLOBAL MARKET,http://www.bitfufu.com
+0,AIUG,AI Unlimited Group Inc,873.55,2023-02-08,US,OTC MARKETS,https://www.aiug.ai/
+0,SMHI,SEACOR Marine Holdings Inc,187.321574,2017-05-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.seacormarine.com/
+0,CSWI,CSW Industrials Inc,5443.759306,2015-09-16,US,NASDAQ NMS - GLOBAL MARKET,https://cswindustrials.com/
+0,MHTX,Manhattan Scientifics Inc,0.055928,2000-05-24,US,OTC MARKETS,http://www.mhtx.com/
+0,RLYB,Rallybio Corp,30.949739999999995,2021-07-29,US,NASDAQ NMS - GLOBAL MARKET,https://rallybio.com/
+0,FMCC,Federal Home Loan Mortgage Corp,4075.873493,1985-01-23,US,OTC MARKETS,https://www.freddiemac.com/
+0,INDI,indie Semiconductor Inc,763.24411,2019-10-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.indiesemi.com/
+0,KCRD,Kindcard Inc,3.905202,2019-06-27,US,OTC MARKETS,https://www.kindcard.com/
+0,KRUS,Kura Sushi USA Inc,880.706949,2019-08-01,US,NASDAQ NMS - GLOBAL MARKET,https://kurasushi.com
+0,PAI,Western Asset Investment Grade Income Fund Inc,118.6,1973-03-16,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,YMM,Full Truck Alliance Co Ltd,12820.898689,2021-06-22,CN,"NEW YORK STOCK EXCHANGE, INC.",https://ir.fulltruckalliance.com
+0,DRT.TO,DIRTT Environmental Solutions Ltd,226.234817,2013-11-28,CA,TORONTO STOCK EXCHANGE,https://www.dirtt.net/
+0,4063.T,Shin-Etsu Chemical Co Ltd,9457452.475586,1949-05-16,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.shinetsu.co.jp/
+0,TC,TuanChe Ltd,1.581533,2018-11-20,CN,NASDAQ NMS - GLOBAL MARKET,http://ir.tuanche.com/
+0,NKGN,NKGen Biotech Inc,17.071094,2021-05-21,US,NASDAQ NMS - GLOBAL MARKET,https://nkgenbiotech.com/
+0,EARN,Ellington Credit Co,191.10672,2013-01-05,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ellingtoncredit.com/
+0,ZJYL,Jin Medical International Ltd,136.086385,2023-03-28,CN,NASDAQ NMS - GLOBAL MARKET,http://ir.zhjmedical.com/
+0,PRM,Perimeter Solutions SA,1747.4241689999997,2021-11-09,LU,"NEW YORK STOCK EXCHANGE, INC.",http://www.perimeter-solutions.com/en/
+0,HLMN,Hillman Solutions Corp,1993.432997,2020-10-14,US,NASDAQ NMS - GLOBAL MARKET,https://ir.hillmangroup.com/
+0,SCVL,Shoe Carnival Inc,692.684793,1993-03-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.shoecarnival.com/
+0,MEX.V,Mexican Gold Mining Corp,1.167885,2008-08-25,CA,TSX VENTURE EXCHANGE - NEX,http://www.mexicangold.ca/
+0,CUTR,Cutera Inc,8.340825,2004-03-31,US,NASDAQ NMS - GLOBAL MARKET,https://www.cutera.com/
+0,FMC,FMC Corp,4550.256947,1948-09-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.fmc.com/en
+0,ALLT,Allot Ltd,309.840702,2006-11-16,IL,NASDAQ NMS - GLOBAL MARKET,https://www.allot.com
+0,AEI,Alset Inc,10.413066000000002,2020-08-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.alsetinc.com/
+0,INDP,Indaptus Therapeutics Inc,11.373481,2012-09-07,US,NASDAQ NMS - GLOBAL MARKET,https://indaptusrx.com/
+0,BEPC,Brookfield Renewable Corp,3854.9032599999996,2020-07-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://bep.brookfield.com/bepc
+0,ACIC,American Coastal Insurance Corp,572.674929,2007-10-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.upcinsurance.com/
+0,LOWL.CN,Lowell Farms Inc,0.272549,2006-03-17,US,CANADIAN NATIONAL STOCK EXCHANGE,https://www.lowellfarms.com/
+0,NYMT,New York Mortgage Trust Inc,559.780954,2004-06-24,US,NASDAQ NMS - GLOBAL MARKET,https://www.nymtrust.com/
+0,BREA,Brera Holdings PLC,6.13861,2023-01-27,IE,NASDAQ NMS - GLOBAL MARKET,https://www.breraholdings.com/
+0,MTDR,Matador Resources Co,7407.756273,2012-02-02,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.matadorresources.com/
+0,CCCC,C4 Therapeutics Inc,230.82589399999998,2020-10-02,US,NASDAQ NMS - GLOBAL MARKET,https://c4therapeutics.com/
+0,BFZ,BlackRock California Municipal Income Trust,335.81,2001-07-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/investing/products/240213/blackrock-california-municipal-income-trust-usd-
+0,XELA,Exela Technologies Inc,14.708059,2015-01-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.exelatech.com/
+0,TGL,Treasure Global Inc,7.367960000000001,2022-08-11,US,NASDAQ NMS - GLOBAL MARKET,https://treasureglobal.co/
+0,QNCX,Quince Therapeutics Inc,61.602301,2019-05-09,US,NASDAQ NMS - GLOBAL MARKET,https://quincetx.com/
+0,MFA,MFA Financial Inc,1098.408426,1998-04-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.mfafinancial.com/
+0,MUJ,BlackRock Muniholdings New Jersy Quality Fund Inc,585.57,1998-03-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/investing/products/240267/blackrock-muniholdings-new-jersey-insured-fund-i
+0,OCFT,OneConnect Financial Technology Co Ltd,123.0889769508,2019-12-13,CN,"NEW YORK STOCK EXCHANGE, INC.",https://www.ocft.com
+0,TEVA.TA,Teva Pharmaceutical Industries Ltd,67451.519475,1951-01-01,IL,TEL AVIV STOCK EXCHANGE,https://www.tevapharm.com/
+0,ZETA,Zeta Global Holdings Corp,4896.176973,2021-06-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.zetaglobal.com/
+0,LAZR,Luminar Technologies Inc,186.457862,2019-03-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.luminartech.com/
+0,RMSG,Real Messenger Corp,8.340845,2024-11-20,US,NASDAQ NMS - GLOBAL MARKET,
+0,RPMT,Rego Payment Architectures Inc,127.96559799999999,2008-11-18,US,OTC MARKETS,https://regopayments.com/
+0,6988.T,Nitto Denko Corp,2036405.898804,1962-08-27,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.nitto.com/jp/ja/
+0,BSL,Blackstone Senior Floating Rate 2027 Term Fund,188.1,2010-05-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackstone.com/the-firm/asset-management/registered-funds
+0,BOX,Box Inc,4977.898362,2015-01-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.box.com/
+0,NOKIA.HE,Nokia Oyj,25473.985708,1905-03-29,FI,NASDAQ OMX HELSINKI LTD.,https://www.nokia.com/
+0,NPLS,NP Life Sciences Health Industry Group Inc,2.32,2020-04-30,US,OTC MARKETS,https://gjcc.us/
+0,KPN.AS,Koninklijke KPN NV,13708.123177,1994-06-13,NL,NYSE EURONEXT - EURONEXT AMSTERDAM,https://www.kpn.com/
+0,THYAO.E.IS,Turk Hava Yollari AO,440910.0,1990-12-20,TR,BORSA ISTANBUL,https://www.turkishairlines.com
+0,RITR,Reitar Logtech Holdings Ltd,185.754,2024-08-23,HK,NASDAQ NMS - GLOBAL MARKET,https://www.reitar.io/
+0,USAU,US Gold Corp,112.263585,1956-01-16,US,NASDAQ NMS - GLOBAL MARKET,https://www.usgoldcorp.gold/
+0,ENPH,Enphase Energy Inc,8290.00443,2011-06-20,US,NASDAQ NMS - GLOBAL MARKET,https://enphase.com/
+0,SNCR,Synchronoss Technologies Inc,112.945181,2000-09-19,US,NASDAQ NMS - GLOBAL MARKET,https://synchronoss.com/
+0,IQST,iQSTEL Inc,39.375293,2013-01-29,US,OTC MARKETS,https://www.iqstel.com
+0,TELA,TELA Bio Inc,102.80383199999999,2019-11-08,US,NASDAQ NMS - GLOBAL MARKET,http://www.telabio.com/
+0,FITB,Fifth Third Bancorp,29503.906738,1980-03-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.53.com/
+0,FWONA,Liberty Media Corp,31479.642987,2013-01-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.libertymedia.com/
+0,PWUP,PowerUp Acquisition Corp,108.79,2022-02-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.powerupacq.com/
+0,FCEL,Fuelcell Energy Inc,143.76149799999996,1992-06-25,US,NASDAQ NMS - GLOBAL MARKET,https://www.fuelcellenergy.com/
+0,FGF,Fundamental Global Inc,27.550153000000005,2014-04-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.fgfinancial.com/home/default.aspx
+0,MP,MP Materials Corp,4029.58621,2020-04-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://mpmaterials.com/
+0,VERU,Veru Inc,76.93939399999998,1990-07-19,US,NASDAQ NMS - GLOBAL MARKET,https://verupharma.com/
+0,CVI,CVR Energy Inc,1961.352058,2007-10-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cvrenergy.com/
+0,SCY.TO,Scandium International Mining Corp,12.455128,2008-04-24,US,TORONTO STOCK EXCHANGE,https://scandiummining.com/
+0,BIP,Brookfield Infrastructure Partners LP,15289.204699999998,2008-01-10,BM,"NEW YORK STOCK EXCHANGE, INC.",https://bip.brookfield.com/en
+0,HQL,abrdn Life Sciences Investors,378.83,1992-05-01,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.teklacap.com/funds/hql/fund/fund-information/
+0,RCI.B.TO,Rogers Communications Inc,21243.626438,1980-03-17,CA,TORONTO STOCK EXCHANGE,https://investors.rogers.com/
+0,AKOM,Aerkomm Inc,0.37,2015-06-18,US,OTC MARKETS,https://www.aerkomm.com/
+0,ASURB.MX,Grupo Aeroportuario del Sureste SAB de CV,154959.61,2000-09-28,MX,BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE),https://www.asur.com.mx/
+0,TOGI,Turnongreen Inc,1.453204,2007-02-15,US,OTC MARKETS,https://www.imhccorp.com/
+0,SCNI,Scinai Immunotherapeutics Ltd,2.831946,2007-06-07,IL,NASDAQ NMS - GLOBAL MARKET,https://www.scinai.com/
+0,NWBO,Northwest Biotherapeutics Inc,339.514328,2001-12-14,US,OTC MARKETS,https://nwbio.com/
+0,SFWL,SHENGFENG DEVELOPMENT Ltd,82.04737400000002,2023-03-31,CN,NASDAQ NMS - GLOBAL MARKET,http://www.sfwl.com.cn/
+0,CAPL,Crossamerica Partners LP,851.8653230000001,2012-10-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.crossamericapartners.com/
+0,EEX,Emerald Holding Inc,891.101848,2017-04-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.emeraldx.com/
+0,SO,Southern Co,94721.88554800002,1949-09-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.southerncompany.com/
+0,TRVN,Trevena Inc,1.580732,2014-01-31,US,NASDAQ NMS - GLOBAL MARKET,https://www.trevena.com/
+0,TBI,TrueBlue Inc,219.327329,1998-10-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.trueblue.com/
+0,SCS,Steelcase Inc,1362.388728,1998-02-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.steelcase.com/
+0,CAG,Conagra Brands Inc,11890.052712999997,1973-01-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.conagrabrands.com/
+0,NIC,Nicolet Bankshares Inc,1804.1044819999997,2013-04-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://investors.nicoletbank.com/
+0,RILY,B Riley Financial Inc,130.844704,2009-08-03,US,NASDAQ NMS - GLOBAL MARKET,https://brileyfin.com/
+0,LSTA,Lisata Therapeutics Inc,21.071207000000005,1995-11-03,US,NASDAQ NMS - GLOBAL MARKET,https://www.lisata.com/
+0,AUMN,Golden Minerals Co,1.241921,1997-11-25,US,NYSE MKT LLC,https://www.goldenminerals.com/
+0,PMM,Putnam Managed Municipal Income Trust,275.35,1989-02-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.putnam.com/individual/mutual-funds/closed-end-funds/funds/56-managed-municipal-income-trust/
+0,RFMZ,Rivernorth Flexible Municipal Income Fund II Inc,326.8,2021-02-24,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,DOUG,Douglas Elliman Inc,172.98397,2021-12-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.elliman.com/
+0,SOWG,Sow Good Inc,27.96991,2010-06-30,US,NASDAQ NMS - GLOBAL MARKET,https://thisissowgood.com/
+0,ANVI,Anvi Global Holdings Inc,5.9975,2013-12-27,US,OTC MARKETS,
+0,IZEA,IZEA Worldwide Inc,44.792114,2010-11-12,US,NASDAQ NMS - GLOBAL MARKET,https://izea.com/
+0,BBAR2.BA,Banco Bbva Argentina SA,5685949.570312,1993-11-23,AR,BOLSA DE COMERCIO DE BUENOS AIRES,https://www.bbva.com.ar/
+0,SRDX,Surmodics Inc,491.925276,1998-03-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.surmodics.com/
+0,LUVU,Luvu Brands Inc,3.9185370000000006,2008-10-13,US,OTC MARKETS,https://www.luvubrands.com/
+0,ATO,Atmos Energy Corp,23026.702652,1983-12-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.atmosenergy.com/
+0,CIIT,Tianci International Inc,58.535941,2013-02-27,MY,OTC MARKETS,
+0,CPTP,Capital Properties Inc,65.20800000000001,1994-06-24,US,OTC MARKETS,https://capitalpropertiesinc.com/
+0,KOPN,Kopin Corp,292.193106,1992-04-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.kopin.com/
+0,ORCL,Oracle Corp,495592.65015900007,1986-03-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.oracle.com/
+0,RIG,Transocean Ltd,3389.360025,2008-12-19,CH,"NEW YORK STOCK EXCHANGE, INC.",https://www.deepwater.com/
+0,ALKT,Alkami Technology Inc,3390.757421,2021-04-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.alkami.com/
+0,FET,Forum Energy Technologies Inc,220.86037099999996,2012-04-12,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.f-e-t.com/
+0,CPS,Cooper-Standard Holdings Inc,250.02184,2010-05-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cooperstandard.com/
+0,SSOK,Sunstock Inc,0.744697,2015-10-27,US,OTC MARKETS,http://www.sunstockinc.com/
+0,HAL,Halliburton Co,23271.518154,1948-09-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.halliburton.com/
+0,TD.TO,Toronto-Dominion Bank,151731.060418,1996-08-30,CA,TORONTO STOCK EXCHANGE,https://www.td.com/
+0,AMTX,Aemetis Inc,105.885885,2006-06-01,US,NASDAQ NMS - GLOBAL MARKET,https://www.aemetis.com/
+0,HQY,Healthequity Inc,9749.549961,2014-07-31,US,NASDAQ NMS - GLOBAL MARKET,https://healthequity.com/
+0,NPCE,Neuropace Inc,367.131644,2021-04-22,US,NASDAQ NMS - GLOBAL MARKET,https://www.neuropace.com/
+0,TLIS,Talis Biomedical Corp,54.183906,2021-02-12,US,NASDAQ NMS - GLOBAL MARKET,https://talisbio.com/
+0,HAS,Hasbro Inc,8382.640293,1968-10-10,US,NASDAQ NMS - GLOBAL MARKET,https://shop.hasbro.com/en-in
+0,ENLV,Enlivex Therapeutics Ltd,23.308905,2014-07-30,IL,NASDAQ NMS - GLOBAL MARKET,https://www.enlivex.com/
+0,FREVS,First Real Estate Investment Trust of New Jersey Inc,126.49774,1994-03-28,US,OTC MARKETS,https://www.freitnj.com/
+0,LIF,Life360 Inc,3360.7423060000006,2019-05-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.life360.com/
+0,SCM,Stellus Capital Investment Corp,400.995659,2012-08-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.stelluscapital.com
+0,IGMS,IGM Biosciences Inc,76.708791,2019-09-18,US,NASDAQ NMS - GLOBAL MARKET,https://igmbio.com/
+0,GAU.TO,Galiano Gold Inc,460.169506,2001-06-25,CA,TORONTO STOCK EXCHANGE,https://www.galianogold.com/
+0,NWPP,New Peoples Bankshares Inc,71.16783999999998,2011-04-01,US,OTC MARKETS,https://www.newpeoples.bank/
+0,QSI,Quantum-Si Inc,348.9859200000001,2020-09-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.quantum-si.com/
+0,TEAM,Atlassian Corp,82530.09372400002,2015-12-10,AU,NASDAQ NMS - GLOBAL MARKET,https://www.atlassian.com/
+0,TRIN,Trinity Capital Inc,924.2321550000001,2021-01-29,US,NASDAQ NMS - GLOBAL MARKET,https://trinitycap.com/
+0,SUAC,ShoulderUP Technology Acquisition Corp,262.63688975609756,2021-11-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.shoulderupacquisition.com/
+0,HTBI,HomeTrust Bancshares Inc,661.2286979999999,2011-12-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.htb.com/
+0,ATS.TO,ATS Corp,4091.444848,1993-12-22,CA,TORONTO STOCK EXCHANGE,https://atsautomation.com/
+0,PHIO,Phio Pharmaceuticals Corp,8.50279,2012-05-10,US,NASDAQ NMS - GLOBAL MARKET,https://phiopharma.com/
+0,XPO,XPO Inc,17353.075377,2004-05-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.xpo.com/
+0,TGCB,Tego Cyber Inc,5.081421999999999,2021-02-19,US,OTC MARKETS,https://tegocyber.com/
+0,LSTR,Landstar System Inc,5694.325079000001,1993-03-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.landstar.com/
+0,FLX,BingEx Ltd,623.554788,2024-10-04,CN,NASDAQ NMS - GLOBAL MARKET,http://www.ishansong.com/
+0,HOV,Hovnanian Enterprises Inc,795.542541,1983-09-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.khov.com/
+0,AMST,Amesite Inc,13.420199,2020-09-25,US,NASDAQ NMS - GLOBAL MARKET,https://amesite.com/
+0,CBDL,Cbd Life Sciences Inc,0.938486,2013-08-12,US,OTC MARKETS,http://www.cre8tiveworks.net/
+0,DTSQU,DT Cloud Star Acquisition Corp,89.9,2024-07-25,US,NASDAQ NMS - GLOBAL MARKET,
+0,AAM,AA Mission Acquisition Corp,535.195,2024-08-01,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,AUDC,AudioCodes Ltd,372.865738,1999-05-01,IL,NASDAQ NMS - GLOBAL MARKET,https://www.audiocodes.com
+0,SLGN,Silgan Holdings Inc,5656.912593,1997-02-14,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.silganholdings.com/
+0,9688.HK,Zai Lab Ltd,23096.803899,2020-09-28,CN,HONG KONG EXCHANGES AND CLEARING LTD,https://www.zailaboratory.com/
+0,BU.TO,Burcon NutraScience Corp,28.52562,1999-02-19,CA,TORONTO STOCK EXCHANGE,https://www.burcon.ca/
+0,ASII,Accredited Solutions Inc,1.3267469999999997,2010-07-24,US,OTC MARKETS,
+0,AMPX,Amprius Technologies Inc,369.319155,2022-03-02,US,"NEW YORK STOCK EXCHANGE, INC.",https://amprius.com/
+0,GS,Goldman Sachs Group Inc,200935.70237400004,1999-05-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.goldmansachs.com/
+0,RCAT,Red Cat Holdings Inc,770.745899,1994-10-28,PR,NASDAQ NMS - GLOBAL MARKET,https://www.redcatholdings.com/
+0,EQBK,Equity Bancshares Inc,762.94164,2015-11-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://investor.equitybank.com/
+0,PKK.CN,Tenet Fintech Group Inc,8.906262,2015-10-23,CA,CANADIAN NATIONAL STOCK EXCHANGE,https://www.tenetfintech.com/
+0,PLAY,Dave & Buster's Entertainment Inc,964.882346,2014-10-10,US,NASDAQ NMS - GLOBAL MARKET,https://www.daveandbusters.com/us/en/home
+0,LGI,Lazard Global Total Return and Income Fund Inc,210.87,2004-04-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.lazardassetmanagement.com/us/en_us/funds/closed-end-fund/lazard-global-total-return-and-income-fund-inc/f19/s54/?shareClass=45
+0,OOMA,Ooma Inc,407.969991,2015-07-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.ooma.com/
+0,TEN.MI,Tenaris SA,22571.865854,2002-12-16,LU,AIM ITALIA - MERCATO ALTERNATIVO DEL CAPITALE,https://www.tenaris.com/en
+0,LIXT,Lixte Biotechnology Holdings Inc,4.341129999999999,2007-09-21,US,NASDAQ NMS - GLOBAL MARKET,https://lixte.com/
+0,ABTI,Alterola Biotech Inc,5.2542067924528295,2010-03-09,GB,OTC MARKETS,https://alterola-abti.com/
+0,BCAT,BlackRock Capital Allocation Term Trust,1648.46,2020-09-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/us/individual/products/315530/blackrock-capital-allocation-trust-class/
+0,CVNA,Carvana Co,56298.81105299999,2017-04-28,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.carvana.com/
+0,G.TO,Augusta Gold Corp,109.990076,2010-08-13,CA,TORONTO STOCK EXCHANGE,https://www.augustagold.com/
+0,2303.TW,United Microelectronics Corp,507452.938307,1985-07-16,TW,TAIWAN STOCK EXCHANGE,https://www.umc.com/
+0,CHILE.SN,Banco de Chile,12576626.226562,1905-06-23,CL,SANTIAGO STOCK EXCHANGE,https://portales.bancochile.cl/
+0,JNVR,Janover Inc,7.146989999999999,2023-07-25,US,NASDAQ NMS - GLOBAL MARKET,https://janover.co/
+0,HLI,Houlihan Lokey Inc,12617.460696,2015-08-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://hl.com/
+0,LIANY,LianBio,21.318092,2021-10-28,US,OTC MARKETS,https://www.lianbio.com/
+0,IONI,I-On Digital Corp,9.662107000000002,2016-02-17,KR,OTC MARKETS,https://www.i-on.net/
+0,FVTI,Fortune Valley Treasures Inc,3.9121845,2016-02-23,CN,OTC MARKETS,http://www.fvti.show/
+0,TE.PA,Technip Energies NV,5057.162431,2021-02-16,FR,NYSE EURONEXT - EURONEXT PARIS,https://www.technipenergies.com/
+0,GEDC,CalEthos Inc,25.230539,2004-09-01,US,OTC MARKETS,
+0,PTLE,PTL Ltd,16.125,2024-10-16,HK,NASDAQ NMS - GLOBAL MARKET,
+0,GNOLF,Genoil Inc,19.598673999999995,2001-07-11,US,OTC MARKETS,https://genoil.ca/
+0,DHC,Diversified Healthcare Trust,634.554265,1999-10-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.dhcreit.com
+0,YHGJ,Yunhong Green CTI Ltd,16.180966,1997-11-05,US,NASDAQ NMS - GLOBAL MARKET,https://ctiindustries.com/
+0,BOOT,Boot Barn Holdings Inc,3981.36958,2014-10-30,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bootbarn.com/
+0,DDD,3D Systems Corp,592.6601630000001,2011-03-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.3dsystems.com/
+0,TRCK,Track Group Inc,1.7071949999999998,2001-06-21,US,OTC MARKETS,https://www.trackgrp.com/
+0,CCEL,Cryo-Cell International Inc,65.14224799999998,1994-04-04,US,NYSE MKT LLC,https://www.cryo-cell.com/
+0,MCI,Barings Corporate Investors,423.17,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.barings.com/en-us/guest
+0,FCFS,Firstcash Holdings Inc,5117.496172,1991-06-10,US,NASDAQ NMS - GLOBAL MARKET,https://ir.firstcash.com/
+0,CF,CF Industries Holdings Inc,14805.615791000002,2005-08-11,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cfindustries.com/
+0,AASP,Global Acquisitions Corp,16.928147,1994-12-21,US,OTC MARKETS,
+0,NKLA,Nikola Corp,56.331541,2021-01-11,US,NASDAQ NMS - GLOBAL MARKET,https://nikolamotor.com/
+0,FVCB,FVCBankcorp Inc,226.09932499999996,2013-06-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.fvcbank.com/
+0,DHC,Diversified Healthcare Trust,634.554265,1999-10-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.dhcreit.com
+0,WSBF,Waterstone Financial Inc,275.292298,2005-10-05,US,NASDAQ NMS - GLOBAL MARKET,http://www.snl.com/IRW/CorporateProfile/4102320
+0,OCCI,OFS Credit Company Inc,146.36,2018-10-05,US,NASDAQ NMS - GLOBAL MARKET,https://ofscreditcompany.com/
+0,UNTC,Unit Corp,269.922087,1980-03-17,US,OTC MARKETS,https://unitcorp.com/
+0,WNC,Wabash National Corp,576.81536,1991-11-08,US,"NEW YORK STOCK EXCHANGE, INC.",https://onewabash.com/
+0,SYH.V,Skyharbour Resources Ltd,72.581941,1981-05-22,CA,TSX VENTURE EXCHANGE - NEX,https://skyharbourltd.com/
+0,AZN.L,AstraZeneca PLC,180239.552674,2007-09-21,GB,LONDON STOCK EXCHANGE,https://www.astrazeneca.com/
+0,TMUS,T-Mobile US Inc,295369.44417400006,2007-04-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.t-mobile.com/
+0,LDWY,Lendway Inc,7.255533,1991-06-25,US,NASDAQ NMS - GLOBAL MARKET,https://insigniasystems.com/
+0,BRIA,BrilliA Inc,117.91,2024-11-27,SG,NYSE MKT LLC,https://brilliaincorporated.com/
+0,MATX,Matson Inc,4718.163782,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.matson.com/
+0,NVST,Envista Holdings Corp,3617.475172,2019-09-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://envistaco.com/en
+0,FLG,Flagstar Financial Inc,5363.284523,1993-11-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.flagstar.com/
+0,ESEA,Euroseas Ltd,236.77849200000003,2006-03-28,GR,NASDAQ NMS - GLOBAL MARKET,http://www.euroseas.gr/
+0,HCVI,Hennessy Capital Investment Corp VI,157.38828055426174,2021-09-29,US,NASDAQ NMS - GLOBAL MARKET,http://www.hennessycapllc.com
+0,WAVS,Western Acquisition Ventures Corp,68.531826,2022-01-12,US,NASDAQ NMS - GLOBAL MARKET,https://www.westernacquisitionventures.com/
+0,NEN,New England Realty Associates LP,276.744339,1987-11-19,US,NYSE MKT LLC,https://www.thehamiltoncompany.com/Investor-Relations.aspx
+0,BAP,Credicorp Ltd,14985.625862,1995-10-25,PE,"NEW YORK STOCK EXCHANGE, INC.",https://www.grupocredicorp.com/
+0,EGF,BlackRock Enhanced Government Fund Inc,37.0,2005-10-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.blackrock.com/investing/products/240273/blackrock-enhanced-government-fund-inc-usd-fund
+0,CDXC,Chromadex Corp,420.107944,2007-06-25,US,NASDAQ NMS - GLOBAL MARKET,https://chromadex.com/default.aspx
+0,GRPS,Gold River Productions Inc,0.391774,2001-07-11,US,OTC MARKETS,https://www.grpsinc.com/
+0,FER.MC,Ferrovial SE,30062.02209,2023-06-16,NL,BOLSA DE MADRID,https://www.ferrovial.com/
+0,BLUAF,Blueriver Acquisition Corp,83.37799099999998,2021-01-29,US,NYSE MKT LLC,https://www.blueriverspac.com/
+0,CM.TO,Canadian Imperial Bank of Commerce,82273.298645,1961-06-02,CA,TORONTO STOCK EXCHANGE,https://www.cibc.com
+0,PK,Park Hotels & Resorts Inc,2672.939952,2016-12-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pkhotelsandresorts.com/
+0,SW,Smurfit WestRock PLC,27813.541214,2007-03-14,IE,"NEW YORK STOCK EXCHANGE, INC.",https://www.smurfitwestrock.com/
+0,BSFC,Blue Star Foods Corp,0.7593100000000002,2020-02-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.bluestarfoods.com/
+0,ULY,Urgent.ly Inc,6.778187,2020-10-05,US,NASDAQ NMS - GLOBAL MARKET,https://www.geturgently.com/
+0,NML,Neuberger Berman Energy Infrastructure and Income Fund Inc,497.47,2013-03-26,US,NYSE MKT LLC,
+0,BMNM,Bimini Capital Management Inc,10.069332631578948,2004-09-16,US,OTC MARKETS,https://www.biminicapital.com/home/default.aspx
+0,MTPP,Mountaintop Properties Inc,7.191111679197997,2001-08-06,US,OTC MARKETS,
+0,LUDG,Ludwig Enterprises Inc,24.202805,2007-12-11,US,OTC MARKETS,https://ludwigent.com/
+0,BFS,Saul Centers Inc,893.111474,1993-08-19,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.saulcenters.com/
+0,EXP,Eagle Materials Inc,8488.348103,1994-04-12,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.eaglematerials.com/
+0,SPG,Simon Property Group Inc,60157.684675,1993-12-14,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.simon.com/
+0,SWAG,Stran & Company Inc,23.26051,2021-11-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.stran.com/
+0,GOOD,Gladstone Commercial Corp,717.989533,2003-08-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.gladstonecommercial.com/
+0,MD,Pediatrix Medical Group Inc,1260.7255540000003,1995-09-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pediatrix.com/
+0,NHPAP,National Healthcare Properties Inc,219.297411,2020-03-30,US,NASDAQ NMS - GLOBAL MARKET,https://nhpreit.com/
+0,IOR,Income Opportunity Realty Investors Inc,71.686712,1986-11-05,US,NYSE MKT LLC,http://www.incomeopp-realty.com/
+0,CLH,Clean Harbors Inc,12610.772787,1987-11-24,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cleanharbors.com/
+0,VATE,Innovate Corp,167.225988,2011-06-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://innovatecorp.com/
+0,CENN,Cenntro Inc (The Corporation),31.175278999999996,2020-06-24,US,NASDAQ NMS - GLOBAL MARKET,https://www.cenntroauto.com/
+0,THS,TreeHouse Foods Inc,1716.224049,2005-06-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.treehousefoods.com/
+0,LBTYA,Liberty Global Ltd,4024.818638,2004-06-02,BM,NASDAQ NMS - GLOBAL MARKET,https://www.libertyglobal.com/
+0,VIPZ,VIP Play Inc,39.329748,2021-07-22,US,OTC MARKETS,https://keystarcorp.com/
+0,SRRE,Sunrise Real Estate Group Inc,13.738384615384616,2001-04-23,CN,OTC MARKETS,http://www.sunrise.sh
+0,VIR,Vir Biotechnology Inc,1249.121476,2019-10-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.vir.bio/
+0,ITRM,Iterum Therapeutics PLC,44.955826,2018-05-25,IE,NASDAQ NMS - GLOBAL MARKET,https://www.iterumtx.com/
+0,FI,Fiserv Inc,130788.73389699998,1986-09-25,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.fiserv.com/
+0,KRO,Kronos Worldwide Inc,1091.694612,2003-12-04,US,"NEW YORK STOCK EXCHANGE, INC.",https://kronostio2.com/en/
+0,ISRL,Israel Acquisitions Corp,146.3334021697288,2023-01-13,US,NASDAQ NMS - GLOBAL MARKET,https://israelacquisitionscorp.com/
+0,LBGJ,Li Bang International Corporation Inc,41.2996,2024-10-23,CN,NASDAQ NMS - GLOBAL MARKET,http://www.libangco.cn/
+0,ACEL,Accel Entertainment Inc,973.299583,2017-08-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.accelentertainment.com/
+0,ACAD,ACADIA Pharmaceuticals Inc,3076.586035,2004-05-27,US,NASDAQ NMS - GLOBAL MARKET,https://acadia.com/
+0,OPT.AX,Opthea Ltd,1292.815005,1985-04-09,AU,ASX - ALL MARKETS,https://opthea.com/
+0,EXPO,Exponent Inc,4620.073403999999,1990-08-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.exponent.com/
+0,COP,Conocophillips,131568.20344300003,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.conocophillips.com/
+0,ALC.SW,Alcon AG,41035.366375,2019-04-09,CH,SWISS EXCHANGE,https://www.alcon.ch/
+0,SIDU,Sidus Space Inc,24.189735999999996,2021-12-15,US,NASDAQ NMS - GLOBAL MARKET,https://sidusspace.com/
+0,FMN,Federated Hermes Premier Municipal Income Fund,124.98,2002-12-20,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.federatedinvestors.com/products/closed-end-funds/premier-municipal-income.do
+0,SNA,Snap-On Inc,17706.911345,1978-02-27,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.snapon.com/
+0,SVT,Servotronics Inc,27.34361,1981-11-03,US,NYSE MKT LLC,https://servotronics.com/
+0,ZTR,Virtus Total Return Fund Inc,362.3,1988-09-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.virtus.com/products/virtus-total-return-fund#shareclass.N/period.quarterly
+0,KEX,Kirby Corp,6179.110252000001,1981-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://kirbycorp.com/
+0,STWD,Starwood Property Trust Inc,6625.183149,2009-08-12,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.starwoodpropertytrust.com/
+0,MSGE,Madison Square Garden Entertainment Corp,1816.555381,2023-04-24,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.msgentertainment.com
+0,MIO,Pioneer Municipal High Income Opportunities Fund Inc,201.78,2021-08-06,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,HES,Hess Corp,45293.383575,1926-03-15,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.hess.com/
+0,GLRE,Greenlight Capital Re Ltd,462.57549499999993,2007-05-24,KY,NASDAQ NMS - GLOBAL MARKET,https://greenlightre.com/
+0,SIEB,Siebert Financial Corp,105.51807000000001,1980-03-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.siebert.com/
+0,AGX.V,Silver X Mining Corp,37.349097,2010-02-01,CA,TSX VENTURE EXCHANGE - NEX,https://www.silverxmining.com/
+0,GETY,Getty Images Holdings Inc,1121.375544,2020-09-21,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.gettyimages.com
+0,GCV,Gabelli Convertible and Income Securities Fund Inc,75.64,1995-03-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.gabelli.com/funds/closed_ends/407
+0,TSCO,Tractor Supply Co,29364.700205,1994-02-17,US,NASDAQ NMS - GLOBAL MARKET,https://www.tractorsupply.com/
+0,EGP,Eastgroup Properties Inc,8851.601427,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.eastgroup.net/
+0,ICLR,ICON PLC,15467.497409,1998-05-15,IE,NASDAQ NMS - GLOBAL MARKET,https://www.iconplc.com/
+0,NCNO,nCino Inc,3860.5696460000004,2020-07-14,US,NASDAQ NMS - GLOBAL MARKET,https://www.ncino.com/
+0,BRK.A,Berkshire Hathaway Inc,1019458.6912940001,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.berkshirehathaway.com/
+0,TTE.PA,TotalEnergies SE,126720.882286,1973-09-26,FR,NYSE EURONEXT - EURONEXT PARIS,https://totalenergies.com/
+0,FWONA,Liberty Media Corp,31479.642987,2013-01-11,US,NASDAQ NMS - GLOBAL MARKET,https://www.libertymedia.com/
+0,KRYS,Krystal Biotech Inc,4311.781535,2017-09-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.krystalbio.com/
+0,IGT,International Game Technology PLC,3379.4599079999994,2015-04-07,GB,"NEW YORK STOCK EXCHANGE, INC.",https://www.igt.com/
+0,GXU.V,Goviex Uranium Inc,28.442757,2014-06-20,CA,TSX VENTURE EXCHANGE - NEX,https://www.goviex.com/
+0,CWST,Casella Waste Systems Inc,6804.297055,1997-10-29,US,NASDAQ NMS - GLOBAL MARKET,https://www.casella.com/
+0,JILL,JJill Inc,388.878583,2017-03-09,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.jjill.com/
+0,KO,Coca-Cola Co,291207.062177,1950-01-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.coca-colacompany.com/
+0,HIX,Western Asset High Income Fund II Inc,380.85,1998-05-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.leggmason.com/en-us/products/closed-end-funds/western-asset-high-income-fund-ii-inc.html
+0,SKY,Champion Homes Inc,6052.349677999999,1980-03-17,US,"NEW YORK STOCK EXCHANGE, INC.",https://ir.championhomes.com/overview/default.aspx
+0,ERC,Allspring Multi-Sector Income Fund,256.45,2003-06-25,US,NYSE MKT LLC,https://www.allspringglobal.com/
+0,SAR,Saratoga Investment Corp,359.6635570000001,2010-08-13,US,"NEW YORK STOCK EXCHANGE, INC.",https://saratogainvestmentcorp.com/
+0,GLPG.AS,Galapagos NV,1472.140595,2005-05-06,BE,NYSE EURONEXT - EURONEXT AMSTERDAM,https://www.glpg.com/
+0,ALMU,Aeluma Inc,77.1167,2022-07-26,US,OTC MARKETS,https://aeluma.com/
+0,PECO,Phillips Edison & Co Inc,5151.393102,2020-07-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.phillipsedison.com/
+0,PINS,Pinterest Inc,26837.85543,2019-04-18,US,"NEW YORK STOCK EXCHANGE, INC.",https://investor.pinterestinc.com/
+0,GIFT,Giftify Inc,31.999271000000004,1995-12-04,US,OTC MARKETS,https://www.rdeholdings.com/
+0,SFCO,Southern Financial Corp,0.0,2022-05-12,US,OTC MARKETS,
+0,EBC,Eastern Bankshares Inc,4054.991904,2020-10-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.easternbank.com/
+0,TWFG,TWFG Inc,1715.89,2024-07-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.twfg.com
+0,CL,Colgate-Palmolive Co,71382.246787,1930-03-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.colgatepalmolive.com/
+0,ONB,Old National Bancorp,7700.323873000001,1984-06-20,US,NASDAQ NMS - GLOBAL MARKET,https://ir.oldnational.com/
+0,INCY,Incyte Corp,12836.469679,1993-12-06,US,NASDAQ NMS - GLOBAL MARKET,https://www.incyte.com/
+0,QTTOY,Qutoutiao Inc,0.435716,2023-07-26,CN,OTC MARKETS,http://www.qutoutiao.net/
+0,BKKT,Bakkt Holdings Inc,190.031441,2020-09-23,US,"NEW YORK STOCK EXCHANGE, INC.",http://www.bakkt.com
+0,LSPD.TO,Lightspeed Commerce Inc,2871.330338,2019-03-08,CA,TORONTO STOCK EXCHANGE,https://www.lightspeedhq.com/
+0,VYNE,Vyne Therapeutics Inc,36.43603800000001,2018-01-25,US,NASDAQ NMS - GLOBAL MARKET,https://vynetherapeutics.com/
+0,JPC,Nuveen Preferred & Income Opportunities Fund,2507.95,2003-03-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.nuveen.com/en-us/closed-end-funds
+0,IHD,Voya Emerging Markets High Dividend Equity Fund,93.12,2011-04-27,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,SOPA,Society Pass Inc,20.889798,2021-11-09,US,NASDAQ NMS - GLOBAL MARKET,https://thesocietypass.com/
+0,MASS,908 Devices Inc.,84.619498,2020-12-18,US,NASDAQ NMS - GLOBAL MARKET,https://908devices.com/
+0,ODYS,Odysight.AI Inc,81.981357,2014-01-24,US,OTC MARKETS,https://www.odysight.ai/
+0,LPBBU,Launch Two Acquisition Corp,231.15,2024-10-08,US,NASDAQ NMS - GLOBAL MARKET,
+0,NTAP,NetApp Inc,24307.315916,1995-11-21,US,NASDAQ NMS - GLOBAL MARKET,https://www.netapp.com/
+0,ASC,Ardmore Shipping Corp,492.894828,2013-07-31,BM,"NEW YORK STOCK EXCHANGE, INC.",https://ardmoreshipping.com/
+0,UGRO,urban-gro Inc,9.337621,2019-08-05,US,NASDAQ NMS - GLOBAL MARKET,https://urban-gro.com/
+0,KHOB,Kheoba Corp,20.23,2024-05-23,ES,OTC MARKETS,
+0,8359.T,Hachijuni Bank Ltd,462961.7333,1971-10-01,JP,TOKYO STOCK EXCHANGE-TOKYO PRO MARKET,https://www.82bank.co.jp/
+0,SN.L,Smith & Nephew PLC,8802.800183,1951-08-13,GB,LONDON STOCK EXCHANGE,https://www.smith-nephew.com/
+0,RY.TO,Royal Bank of Canada,239219.896545,1905-06-17,CA,TORONTO STOCK EXCHANGE,https://www.rbcroyalbank.com/
+0,GALT,Galectin Therapeutics Inc,81.623575,2002-09-04,US,NASDAQ NMS - GLOBAL MARKET,https://galectintherapeutics.com/
+0,FLXT,Flexpoint Sensor Systems Inc,0.364116,2001-07-11,US,OTC MARKETS,https://www.flexpoint.com/
+0,ZBRA,Zebra Technologies Corp,18279.961798,1991-08-15,US,NASDAQ NMS - GLOBAL MARKET,https://www.zebra.com/
+0,LUXH,LuxUrban Hotels Inc,0.138798,2022-08-12,US,NASDAQ NMS - GLOBAL MARKET,https://luxurbanhotels.com/
+0,CABK.MC,CaixaBank SA,43824.123918,2007-10-10,ES,BOLSA DE MADRID,https://www.caixabank.com/
+0,IPXX,Inflection Point Acquisition Corp II,373.944,2023-05-25,US,NASDAQ NMS - GLOBAL MARKET,https://inflectionpointacquisition.com/
+0,EWTX,Edgewise Therapeutics Inc,2477.05153,2021-03-26,US,NASDAQ NMS - GLOBAL MARKET,https://edgewisetx.com/
+0,JZXN,Jiuzi Holdings Inc,39.13349199999999,2021-05-18,CN,NASDAQ NMS - GLOBAL MARKET,http://en.zjjzxny.cn/
+0,VSEE,Vsee Health Inc,26.786772,2021-11-04,US,NASDAQ NMS - GLOBAL MARKET,https://www.digitalhealthacquisition.com/
+0,FRHC,Freedom Holding Corp,9086.364766000002,1994-08-12,KZ,NASDAQ NMS - GLOBAL MARKET,https://www.freedomholdingcorp.com/
+0,DRH,Diamondrock Hospitality Co,1798.018725,2005-05-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://drhc.com/
+0,IOVA,Iovance Biotherapeutics Inc,1612.290379,2008-06-20,US,NASDAQ NMS - GLOBAL MARKET,https://www.iovance.com/
+0,CRGO,Freightos Ltd,195.460166,2021-11-09,ES,NASDAQ NMS - GLOBAL MARKET,https://www.freightos.com
+0,VTN,Invesco Trust for Investment Grade New York Municipals,204.52,1992-05-13,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,MLEC,Moolec Science SA,21.158887,2023-01-03,LU,NASDAQ NMS - GLOBAL MARKET,http://www.moolecscience.com/
+0,NWBI,Northwest Bancshares Inc,1692.0312610000003,1994-11-07,US,NASDAQ NMS - GLOBAL MARKET,https://investorrelations.northwest.bank/corporate-profile/default.aspx
+0,CNFR,Conifer Holdings Inc,11.738854991318394,2015-08-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.cnfrh.com/
+0,CMI,Cummins Inc,51107.09812599999,1964-09-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.cummins.com/
+0,SOBO.TO,South Bow Corp,7455.928534,2024-09-25,CA,TORONTO STOCK EXCHANGE,
+0,CMG,Chipotle Mexican Grill Inc,76142.835104,2006-01-26,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.chipotle.com/
+0,NG,NovaGold Resources Inc,1057.48318016,2003-12-02,US,NYSE MKT LLC,https://www.novagold.com/
+0,BISA,Baltic International USA Inc,0.24475900000000003,1994-05-02,US,OTC MARKETS,http://www.baltic-intl.com/
+0,DRCT,Direct Digital Holdings Inc,7.418137,2022-02-11,US,NASDAQ NMS - GLOBAL MARKET,https://directdigitalholdings.com/
+0,BLDR,Builders FirstSource Inc,17971.670304,2005-06-22,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.bldr.com/
+0,ADSE,Ads-Tec Energy PLC,772.4363140000002,2021-03-09,IE,NASDAQ NMS - GLOBAL MARKET,https://www.ads-tec-energy.com/
+0,SBRA,Sabra Health Care REIT Inc,3842.169696,2010-11-06,US,NASDAQ NMS - GLOBAL MARKET,https://sabrahealth.com/
+0,SPH,Suburban Propane Partners LP,1367.26742,1996-02-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.suburbanpropane.com/
+0,PSNY,Polestar Automotive Holding Uk Plc,2391.400533,2022-06-24,SE,NASDAQ NMS - GLOBAL MARKET,http://www.polestar.com
+0,BDCC,Blackwell 3D Construction Corp,0.605634,2011-01-11,AE,OTC MARKETS,
+0,DLO,Dlocal Ltd,3685.5400770000006,2021-06-03,UY,NASDAQ NMS - GLOBAL MARKET,https://dlocal.com/
+0,MT.AS,ArcelorMittal SA,21920.886857,2002-02-18,LU,NYSE EURONEXT - EURONEXT AMSTERDAM,https://corporate.arcelormittal.com/
+0,ENO,Entergy New Orleans LLC,98.384,,US,"NEW YORK STOCK EXCHANGE, INC.",
+0,TCBI,Texas Capital Bancshares Inc,3874.850691,2003-08-13,US,NASDAQ NMS - GLOBAL MARKET,https://www.texascapitalbank.com/
+0,RVP,Retractable Technologies Inc,24.425698,2001-05-04,US,NYSE MKT LLC,https://retractable.com/
+0,SFES,Safeguard Scientifics Inc,14.666065,1980-03-17,US,OTC MARKETS,https://www.safeguard.com/
+0,UCASU,UC Asset LP,3.81,2019-10-31,US,OTC MARKETS,https://www.ucasset.com/
+0,9698.HK,GDS Holdings Ltd,45347.717285,2016-11-02,CN,HONG KONG EXCHANGES AND CLEARING LTD,https://www.gds-services.com/zh_cn/
+0,GHY,PGIM Global High Yield Fund Inc,508.27,2012-12-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.pgim.com/investments/
+0,ESTA,Establishment Labs Holdings Inc,870.385889,2018-07-19,CR,NASDAQ NMS - GLOBAL MARKET,https://establishmentlabs.com
+0,PXLW,Pixelworks Inc,49.57309399999999,2000-05-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.pixelworks.com/
+0,NCMI,National Cinemedia Inc,663.4563679999999,2007-02-08,US,NASDAQ NMS - GLOBAL MARKET,https://investor.ncm.com
+0,JANL,Janel Corp,47.45416199999999,2002-03-12,US,OTC MARKETS,https://www.janelcorp.com/
+0,RNAC,Cartesian Therapeutics Inc,476.43270599999994,2016-06-22,US,NASDAQ NMS - GLOBAL MARKET,https://www.cartesiantherapeutics.com/
+0,SHWZ,Medicine Man Technologies Inc,2.1909550000000007,2015-12-23,US,OTC MARKETS,http://medicinemantechnologies.com/
+0,RRGB,Red Robin Gourmet Burgers Inc,89.218752,2002-07-19,US,NASDAQ NMS - GLOBAL MARKET,https://www.redrobin.com/
+0,OCLN,OriginClear Inc,4.41184,2008-04-25,US,OTC MARKETS,https://www.originclear.com/
+0,ADTX,Aditxt Inc,7.510587,2020-06-19,US,NASDAQ NMS - GLOBAL MARKET,https://aditxt.com/
+0,UAMY,United States Antimony Corp,207.134376,1997-02-10,US,NYSE MKT LLC,https://www.usantimony.com/
+0,ORRF,Orrstown Financial Services Inc,671.9201999999999,1998-07-10,US,NASDAQ NMS - GLOBAL MARKET,https://investors.orrstown.com/
+0,AGNC,AGNC Investment Corp,9135.532522,2008-05-15,US,NASDAQ NMS - GLOBAL MARKET,https://agnc.com/
+0,DLAPQ,Delta Apparel Inc,0.000705115,2000-06-30,US,NYSE MKT LLC,https://www.deltaapparelinc.com/
+0,GBLI,Global Indemnity Group LLC,495.49988963495423,2003-12-16,US,"NEW YORK STOCK EXCHANGE, INC.",https://gbli.com/
+0,AMSF,Amerisafe Inc,951.736515,2005-11-18,US,NASDAQ NMS - GLOBAL MARKET,https://www.amerisafe.com/
+0,FLYW,Flywire Corp,2494.56225,2021-05-26,US,NASDAQ NMS - GLOBAL MARKET,https://www.flywire.com/
+0,KRON,Kronos Bio Inc,58.39794299999999,2020-10-09,US,NASDAQ NMS - GLOBAL MARKET,https://www.kronosbio.com/
+0,DLOC,Digital Locations Inc,0.0733767,2017-09-26,US,OTC MARKETS,https://www.digitallocations.com/
+0,SPAI,Safe Pro Group Inc,35.086592,2024-08-28,US,NASDAQ NMS - GLOBAL MARKET,https://safeprogroup.com/
+0,APYX,Apyx Medical Corp,52.70144,1983-07-22,US,NASDAQ NMS - GLOBAL MARKET,https://apyxmedical.com/
+0,WNLV,Winvest Group Ltd,62.34037500000001,2006-12-21,US,OTC MARKETS,https://www.winvestgroup.co/
+0,BHVN,Biohaven Ltd,4300.728989999999,2022-09-23,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.biohaven.com/
+0,CVSI,CV Sciences Inc,7.952819,2018-10-04,US,OTC MARKETS,https://cvsciences.com/
+0,TEX,Terex Corp,3025.848049,1991-03-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.terex.com/
+0,MGNC,Mag Magna Corp,0.0,2024-10-28,US,OTC MARKETS,https://magmagna.com/
+0,BKHA,Black Hawk Acquisition Corp,93.13467255369929,2024-03-21,US,NASDAQ NMS - GLOBAL MARKET,
+0,EPSN,Epsilon Energy Ltd,130.706813,2019-02-19,US,NASDAQ NMS - GLOBAL MARKET,https://epsilonenergyltd.com/
+0,ANGO,AngioDynamics Inc,436.2203400000001,2004-05-27,US,NASDAQ NMS - GLOBAL MARKET,https://www.angiodynamics.com/
+0,VVPR,VivoPower International PLC,4.032166,2016-12-29,GB,NASDAQ NMS - GLOBAL MARKET,https://vivopower.com/
+0,CLDX,Celldex Therapeutics Inc,1453.6020829999998,1986-05-15,US,NASDAQ NMS - GLOBAL MARKET,https://celldex.com/
+0,ASLE,AerSale Corp,375.643873,2019-02-28,US,NASDAQ NMS - GLOBAL MARKET,https://www.aersale.com/
+0,PTZH,Photozou Holdings Inc,80.52,2019-09-30,JP,OTC MARKETS,https://www.photozouhd.com
+0,OPBK,OP Bancorp,214.621113,2005-07-22,US,NASDAQ NMS - GLOBAL MARKET,http://www.myopenbank.com
+0,ALTS,ALT5 Sigma Corp,72.739153,2006-02-22,US,NASDAQ NMS - GLOBAL MARKET,https://janone.com/
+0,JVSA,JVSPAC Acquisition Corp,81.628,2024-01-19,HK,NASDAQ NMS - GLOBAL MARKET,
+0,ETR,Entergy Corp,35171.490164,1949-05-31,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.entergy.com
+0,SSSS,SuRo Capital Corp,139.95728399999996,2011-04-28,US,NASDAQ NMS - GLOBAL MARKET,https://surocap.com/
+0,WTTR,Select Water Solutions Inc,1531.937463,2017-04-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.selectenergy.com/
+0,SLND,Southland Holdings Inc,152.013418,2021-11-22,US,NYSE MKT LLC,https://www.southlandholdings.com/
+0,WHR,Whirlpool Corp,5487.503321999999,1955-09-19,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.whirlpoolcorp.com/
+0,PBH,Prestige Consumer Healthcare Inc,4258.272508,2005-02-10,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.prestigebrands.com/
+0,ELWS,Earlyworks Co Ltd,8.444571,2023-07-25,JP,NASDAQ NMS - GLOBAL MARKET,https://e-arly.works/
+0,AMG,Affiliated Managers Group Inc,5228.041117,1997-11-21,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.amg.com/
+0,ENTA,Enanta Pharmaceuticals Inc,119.24892599999998,2013-03-21,US,NASDAQ NMS - GLOBAL MARKET,https://www.enanta.com/
+0,COOK,Traeger Inc,323.892596,2021-07-29,US,"NEW YORK STOCK EXCHANGE, INC.",https://www.traeger.com/
+0,PAXH,Preaxia Health Care Payment Systems Inc,1.13,2007-05-09,CA,OTC MARKETS,https://www.preaxia.com/
+0,MAYS,J W Mays Inc,80.6110412125926,1984-12-13,US,NASDAQ NMS - GLOBAL MARKET,http://www.jwmays.com/
+0,SPKL,Spark I Acquisition Corp,175.552,2023-11-27,US,NASDAQ NMS - GLOBAL MARKET,

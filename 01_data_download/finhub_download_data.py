@@ -172,7 +172,6 @@ ipo_df.to_csv('02_downloaded_data/ipo_calendar.csv')
 
 
 # # Recommendation trends
-# print(finnhub_client.recommendation_trends('AAPL'))
 trend = []
 for tk in tqdm(sampled_data, desc="Downloading recommendation trends"):
     try:

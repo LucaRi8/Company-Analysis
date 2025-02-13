@@ -1,6 +1,14 @@
 ,date,exchange,name,numberOfShares,price,status,symbol,totalSharesValue
-0,2025-02-12,NASDAQ Capital,Aureus Greenway Holdings Inc,3750000,4.00-6.00,expected,AGH,22500000.0
-0,2025-02-11,NASDAQ Global,Archimedes Tech SPAC Partners II Co.,20000000,10.00,expected,ATIIU,200000000.0
+0,2025-02-13,NASDAQ Global,"Aardvark Therapeutics, Inc.",5888000,16.00-18.00,expected,AARD,121881600.0
+0,2025-02-13,NASDAQ Global Select,"SailPoint Parent, LP",50000000,21.00-23.00,expected,SAIL,1322500000.0
+0,2025-02-13,NASDAQ Global,Maywood Acquisition Corp.,7500000,10.00,expected,MAYAU,86250000.0
+0,2025-02-12,NASDAQ Capital,Aureus Greenway Holdings Inc,3750000,4.00,expected,AGH,15000000.0
+0,2025-02-11,NASDAQ Capital,Odysight.ai Inc.,3307692,6.50,priced,ODYS,21499998.0
+0,2025-02-11,NASDAQ Global,Archimedes Tech SPAC Partners II Co.,20000000,10.00,priced,ATIIU,200000000.0
+0,2025-02-11,,UY Scuti Acquisition Corp.,,,filed,UYSCU,57500000.0
+0,2025-02-11,,Harvard Ave Acquistion Corp,,,filed,HAVAU,287500000.0
+0,2025-02-11,,"Envoy Technologies, Inc.",,,filed,EVOY,11500000.0
+0,2025-02-11,,Qinhui Technology International Co. Ltd.,,,filed,QHT,8625000.0
 0,2025-02-10,,Texas Ventures Acquisition III Corp,,,filed,TVACU,230000000.0
 0,2025-02-10,,"KESTRA MEDICAL TECHNOLOGIES, LTD.",,,filed,KMTS,100000000.0
 0,2025-02-07,NASDAQ Global,"Sionna Therapeutics, Inc.",10588233,18.00,priced,SION,190588194.0
@@ -89,7 +97,6 @@
 0,2024-12-31,NASDAQ Capital,OneConstruction Group Ltd,1750000,4.00,priced,ONEG,7000000.0
 0,2024-12-31,,Anbio Biotechnology,,,filed,NNNN,9600000.0
 0,2024-12-30,,"Aether Holdings, Inc.",,,filed,ATHR,10350000.0
-0,2024-12-30,,Maywood Acquisition Corp.,,,filed,MAYAU,86250000.0
 0,2024-12-27,NASDAQ Capital,"Park Ha Biological Technology Co., Ltd.",1200000,4.00,priced,PHH,4800000.0
 0,2024-12-27,,Helio Corp /FL/,,,filed,,19166670.0
 0,2024-12-26,,Pictureworks International Holdings Ltd,,,filed,PICW,13225000.0
@@ -192,10 +199,3 @@
 0,2024-10-31,,GrowHub Ltd,,,filed,TGHL,15668750.0
 0,2024-10-29,NASDAQ Capital,Gelteq Ltd,1300000,4.00,priced,GELS,5200000.0
 0,2024-10-29,NASDAQ Capital,Polyrizon Ltd.,958903,4.38,priced,PLRZ,4199995.0
-0,2024-10-29,,Transten Global Group Ltd,,,filed,TTG,10000000.0
-0,2024-10-28,,Breathe BioMedical Inc.,,,withdrawn,,
-0,2024-10-28,,APRINOIA Therapeutics Inc.,,,withdrawn,,
-0,2024-10-25,NASDAQ Global,"Septerna, Inc.",16000000,18.00,priced,SEPN,288000000.0
-0,2024-10-25,NASDAQ Global Select,WeRide Inc.,7742400,15.50,priced,WRD,120007200.0
-0,2024-10-24,NASDAQ Global,Oaktree Acquisition Corp. III Life Sciences,17500000,10.00,priced,OACCU,175000000.0
-0,2024-10-24,NYSE,Ingram Micro Holding Corp,18600000,22.00,priced,INGM,409200000.0

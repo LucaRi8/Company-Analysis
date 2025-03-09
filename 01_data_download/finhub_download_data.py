@@ -95,7 +95,6 @@ for tk in tqdm(sampled_data, desc="Downloading company profile"):
     time.sleep(1.1) # 1.1 second sleep to avoid rate
 
 profile_df = pd.concat([pd.DataFrame(p, index=[0]) for p in profile if p != {}], axis=0)
-profile_df = profile_df[['ticker', 'name', 'marketCapitalization', 'ipo', 'country', 'exchange', 'weburl']]
 profile_df.to_csv('data/company_profile.csv')
 
 # # Financials as reported

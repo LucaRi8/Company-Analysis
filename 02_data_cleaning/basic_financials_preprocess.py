@@ -9,8 +9,8 @@ fin_df = (
     fin_df
     .rename(
         columns={
-            "company": "ticker"
-            'Unnamed: 0': 'date',
+            "company": "ticker",
+            'Unnamed: 0': 'date_q',
         }
     )
     .merge(

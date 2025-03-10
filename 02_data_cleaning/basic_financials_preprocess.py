@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from const import fin_col_to_rename, fin_cols_to_manipulate
 
 # Load the data
 fin_df = pd.read_csv('data/basic_financials.csv')
@@ -8,10 +9,7 @@ sect_df = pd.read_csv('data/company_profile.csv')
 fin_df = (
     fin_df
     .rename(
-        columns={
-            "company": "ticker",
-            'Unnamed: 0': 'date_q',
-        }
+        columns=fin_col_to_rename
     )
     .merge(
         sect_df[['ticker', 'finnhubIndustry']],
@@ -42,15 +40,14 @@ fin_df_summary = summary(fin_df)
 print(fin_df_summary)
 
 # calculate sector yearly mean 
-cols_to_manipulate = [col for col in fin_df.columns if col not in ['date', 'date_q', 'finnhubIndustry', 'ticker']]
 fin_df['date_q'] = pd.to_datetime(fin_df['date_q'])
 
 sect_fin_df = (
     fin_df
     .assign(date_y=fin_df['date_q'].dt.year)
     .groupby(['date_y', 'finnhubIndustry'])
-    .agg({col: "mean" for col in cols_to_manipulate})  
-    .rename(columns={col: f"{col}_sector_avg" for col in cols_to_manipulate}) 
+    .agg({col: "mean" for col in fin_cols_to_manipulate})  
+    .rename(columns={col: f"{col}_sector_avg" for col in fin_cols_to_manipulate}) 
     .reset_index()  
 )
 
@@ -73,3 +70,21 @@ sect_fin_df = (
     .reset_index()  
 )
 
+fin_df = (
+    fin_df
+    .assign(date_y=fin_df['date_q'].dt.year)
+    .merge(
+        sect_fin_df,
+        on = ['date_y', 'finnhubIndustry'],
+        how = 'left'
+    )
+)
+
+# calculate ratio between company and sector
+fin_df = (
+    fin_df
+    .assign(
+        **{f'{col}_sector_ratio': fin_df[col] / fin_df[f'{col}_sector_avg'] for col in fin_cols_to_manipulate}
+    )
+    .drop(columns=[f'{col}_sector_avg' for col in fin_cols_to_manipulate])
+)

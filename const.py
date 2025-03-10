@@ -20,5 +20,17 @@ fin_col_to_rename = {
     'roeTTM' : 'roe', 
     'roicTTM' : 'roic', 
     'rotcTTM' : 'rotc', 
+    "company": "ticker",
+    'Unnamed: 0': 'date_q',
 }
+
+fin_cols_to_manipulate = [
+    'roa',
+    'roe',
+    'roic',
+    'rotc',
+    'ev',
+    'ebitPerShare',
+]
+
 

@@ -40,3 +40,42 @@ def summary(df):
 
 fin_df_summary = summary(fin_df)
 print(fin_df_summary)
+
+# calculate sector yearly mean 
+cols_to_manipulate = [col for col in fin_df.columns if col not in ['date', 'date_q', 'finnhubIndustry', 'ticker']]
+fin_df['date_q'] = pd.to_datetime(fin_df['date_q'])
+
+sect_fin_df = (
+    fin_df
+    .assign(date_y=fin_df['date_q'].dt.year)
+    .groupby(['date_y', 'finnhubIndustry'])
+    .agg({col: "mean" for col in cols_to_manipulate})  
+    .rename(columns={col: f"{col}_sector_avg" for col in cols_to_manipulate}) 
+    .reset_index()  
+)
+
+# fill all the missing value with the nearest vaue
+min_date = fin_df['date_q'].dt.year.min()
+max_date = fin_df['date_q'].dt.year.max()
+date_sect_df = (
+    pd.DataFrame({"date_y" : range(min_date, max_date)})
+    .join(
+        pd.DataFrame({"finnhubIndustry": sect_df['finnhubIndustry'].unique()}), 
+        how='cross'
+    )
+)
+sect_fin_df = (
+    sect_fin_df
+    .sort_values("date_y")
+    .set_index(["finnhubIndustry", "date_y"])  
+    .groupby(level="finnhubIndustry")  
+    .ffill()  
+    .reset_index()  
+)
+
+# put the features in lists so we can compute time series transformations
+sect_fin_ts_df = (
+    sect_fin_df
+    .groupby('finnhubIndustry', as_index=False)  
+    .agg({col: list for col in sect_fin_df.columns if col != 'finnhubIndustry'}) 
+)

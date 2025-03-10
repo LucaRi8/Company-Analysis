@@ -33,4 +33,7 @@ fin_cols_to_manipulate = [
     'ebitPerShare',
 ]
 
-
+# time series features extraction (tsfresh) param
+fc_parameters = {
+    "agg_linear_trend": [{"attr": 'slope', "chunk_len": 1}, {"attr": 'pvalue', "chunk_len": 1}],
+}

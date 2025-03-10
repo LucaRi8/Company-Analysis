@@ -1,6 +1,10 @@
+ #%%
 import pandas as pd
 import numpy as np
-from const import fin_col_to_rename, fin_cols_to_manipulate
+from const import fin_col_to_rename, fin_cols_to_manipulate, fc_parameters
+from tsfresh.feature_extraction import extract_features
+from tsfresh.utilities.dataframe_functions import roll_time_series
+
 
 # Load the data
 fin_df = pd.read_csv('data/basic_financials.csv')
@@ -88,3 +92,21 @@ fin_df = (
     )
     .drop(columns=[f'{col}_sector_avg' for col in fin_cols_to_manipulate])
 )
+
+# time series manipulations, calclation of basic features based on time series of original features
+# like linear model slope, weigthed mean of variations, etc.
+ 
+ #%%
+fin_df_rolled = roll_time_series(
+    fin_df[fin_cols_to_manipulate + ['ticker', 'date_q']], 
+    column_id="ticker", column_sort="date_q", max_timeshift = 20
+)
+fin_ts_fs_df = (
+    extract_features(
+        fin_df_rolled.dropna(axis=0).drop(columns='ticker'), 
+        column_id='id', column_sort='date_q', 
+        default_fc_parameters=fc_parameters)
+        .reset_index()
+        .rename(columns={'level_0': 'ticker', 'level_1': 'date_q'})
+)
+# %%

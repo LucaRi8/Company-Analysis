@@ -73,9 +73,3 @@ sect_fin_df = (
     .reset_index()  
 )
 
-# put the features in lists so we can compute time series transformations
-sect_fin_ts_df = (
-    sect_fin_df
-    .groupby('finnhubIndustry', as_index=False)  
-    .agg({col: list for col in sect_fin_df.columns if col != 'finnhubIndustry'}) 
-)

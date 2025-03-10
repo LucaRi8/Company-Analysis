@@ -6,5 +6,19 @@ sampled_ticker_date = {
     'end_date': datetime.today().strftime('%Y-%m-%d')
 }
 
-
+# column renaming of financial basic data
+fin_col_to_rename = {
+    'assetTurnoverTTM' : 'assetTurnover',
+    'fcfPerShareTTM' : 'fcfPerShare',
+    'inventoryTurnoverTTM': 'inventoryTurnover', 
+    'payoutRatioTTM' : 'payoutRatio',
+    'peTTM' : 'pe', 
+    'pfcfTTM' : 'pfcf',
+    'psTTM' : 'ps', 
+    'receivablesTurnoverTTM' : 'receivablesTurnover',
+    'roaTTM' : 'roa', 
+    'roeTTM' : 'roe', 
+    'roicTTM' : 'roic', 
+    'rotcTTM' : 'rotc', 
+}
 

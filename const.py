@@ -35,5 +35,5 @@ fin_cols_to_manipulate = [
 
 # time series features extraction (tsfresh) param
 fc_parameters = {
-    "agg_linear_trend": [{"attr": 'slope', "chunk_len": 1}, {"attr": 'pvalue', "chunk_len": 1}],
+    "agg_linear_trend": [{"attr": 'slope', "chunk_len": 1, 'f_agg' : 'mean'}, {"attr": 'pvalue', "chunk_len": 1, 'f_agg' : 'mean'}],
 }

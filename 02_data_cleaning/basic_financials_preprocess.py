@@ -6,13 +6,15 @@ import numpy as np
 from const import fin_col_to_rename, fin_cols_to_manipulate, fc_parameters
 from tsfresh.feature_extraction import extract_features
 from tsfresh.utilities.dataframe_functions import roll_time_series
+from tsfresh.utilities.distribution import MultiprocessingDistributor
 
 
 
+ #%%
 # Load the data
 fin_df = pd.read_csv('data/basic_financials.csv')
 sect_df = pd.read_csv('data/company_profile.csv')
-
+ #%%
 fin_df = (
     fin_df
     .rename(
@@ -102,7 +104,7 @@ fin_df = (
  #%%
 fin_df_rolled = roll_time_series(
     fin_df[fin_cols_to_manipulate + ['ticker', 'date_q']].dropna(axis=0), 
-    column_id="ticker", column_sort="date_q", max_timeshift = 20,
+    column_id="ticker", column_sort="date_q", max_timeshift = 20
 )
 fin_ts_fs_df = (
     extract_features(
@@ -113,3 +115,11 @@ fin_ts_fs_df = (
         .rename(columns={'level_0': 'ticker', 'level_1': 'date_q'})
 )
 # %%
+fin_df = (
+    fin_df
+    .merge(
+        fin_ts_fs_df,
+        on = ['ticker', 'date_q'],
+        how = 'left'
+    )
+)

@@ -1,9 +1,12 @@
  #%%
+import os
+os.chdir(r"/Users/lucariotto/Documents/Personal/Gestione denaro/Company analysis/")
 import pandas as pd
 import numpy as np
 from const import fin_col_to_rename, fin_cols_to_manipulate, fc_parameters
 from tsfresh.feature_extraction import extract_features
 from tsfresh.utilities.dataframe_functions import roll_time_series
+
 
 
 # Load the data
@@ -22,26 +25,26 @@ fin_df = (
     )
 )
 
-# exploratory o the columns
-ncol = fin_df.shape[1]
-nrow = fin_df.shape[0]
-def summary(df):
-    summary_df = pd.DataFrame({
-        'Column': df.columns,
-        'Non-Null Count': [df[[col]].count().values/nrow for col in df.columns],
-        'Unique Count': [df[[col]].nunique().values/nrow for col in df.columns],
-        'Mean':[df[[col]].mean(numeric_only=True).values for col in df.columns],
-        'Std': [df[[col]].std(numeric_only=True).values for col in df.columns],
-        'Min': [df[[col]].min(numeric_only=True).values for col in df.columns],
-        '25%': [df[[col]].quantile(0.25, numeric_only=True).values for col in df.columns],
-        '50%': [df[[col]].median(numeric_only=True).values for col in df.columns],
-        '75%': [df[[col]].quantile(0.75, numeric_only=True).values  for col in df.columns],
-        'Max': [df[[col]].max(numeric_only=True).values  for col in df.columns]
-    })
-    return summary_df
+# # exploratory o the columns
+# ncol = fin_df.shape[1]
+# nrow = fin_df.shape[0]
+# def summary(df):
+#     summary_df = pd.DataFrame({
+#         'Column': df.columns,
+#         'Non-Null Count': [df[[col]].count().values/nrow for col in df.columns],
+#         'Unique Count': [df[[col]].nunique().values/nrow for col in df.columns],
+#         'Mean':[df[[col]].mean(numeric_only=True).values for col in df.columns],
+#         'Std': [df[[col]].std(numeric_only=True).values for col in df.columns],
+#         'Min': [df[[col]].min(numeric_only=True).values for col in df.columns],
+#         '25%': [df[[col]].quantile(0.25, numeric_only=True).values for col in df.columns],
+#         '50%': [df[[col]].median(numeric_only=True).values for col in df.columns],
+#         '75%': [df[[col]].quantile(0.75, numeric_only=True).values  for col in df.columns],
+#         'Max': [df[[col]].max(numeric_only=True).values  for col in df.columns]
+#     })
+#     return summary_df
 
-fin_df_summary = summary(fin_df)
-print(fin_df_summary)
+# fin_df_summary = summary(fin_df)
+# print(fin_df_summary)
 
 # calculate sector yearly mean 
 fin_df['date_q'] = pd.to_datetime(fin_df['date_q'])
@@ -98,8 +101,8 @@ fin_df = (
  
  #%%
 fin_df_rolled = roll_time_series(
-    fin_df[fin_cols_to_manipulate + ['ticker', 'date_q']], 
-    column_id="ticker", column_sort="date_q", max_timeshift = 20
+    fin_df[fin_cols_to_manipulate + ['ticker', 'date_q']].dropna(axis=0), 
+    column_id="ticker", column_sort="date_q", max_timeshift = 20,
 )
 fin_ts_fs_df = (
     extract_features(

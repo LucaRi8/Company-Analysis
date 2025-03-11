@@ -133,4 +133,4 @@ fin_df = (
     )
 )
 
-fin_df.to_csv('preprocessed_data/basic_financials.csv', index=False)
+fin_df.to_csv('preprocessed_data/basic_financials_preproc.csv', index=False)

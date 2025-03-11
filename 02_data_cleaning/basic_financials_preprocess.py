@@ -1,9 +1,10 @@
  #%%
 import os
-os.chdir(r"/Users/lucariotto/Documents/Personal/Gestione denaro/Company analysis/")
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import pandas as pd
 import numpy as np
-from const import fin_col_to_rename, fin_cols_to_manipulate, fc_parameters
+from utils.const import fin_col_to_rename, fin_cols_to_manipulate, fc_parameters
 from tsfresh.feature_extraction import extract_features
 from tsfresh.utilities.dataframe_functions import roll_time_series
 from tsfresh.utilities.distribution import MultiprocessingDistributor
@@ -123,3 +124,13 @@ fin_df = (
         how = 'left'
     )
 )
+
+p_val_cols = [col for col in fin_df.columns if 'pvalue' in col]
+fin_df = (
+    fin_df
+    .assign(
+        **{col: np.where(fin_df[col] == 0, 1, fin_df[col]) for col in p_val_cols}
+    )
+)
+
+fin_df.to_csv('preprocessed_data/basic_financials.csv', index=False)

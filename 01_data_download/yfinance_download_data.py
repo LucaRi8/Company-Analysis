@@ -1,7 +1,7 @@
 
 import yfinance as yf
 import pandas as pd
-import const as constants
+import utils.const as constants
 import json
 
 def get_yahoo_finance_data(tickers, start_date, end_date):

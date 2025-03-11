@@ -9,7 +9,7 @@ import datetime
 import json
 import pandas as pd
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from const import sampled_ticker_date
+from utils.const import sampled_ticker_date
 
 load_dotenv()
 FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")

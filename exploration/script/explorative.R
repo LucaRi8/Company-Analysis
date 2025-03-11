@@ -84,3 +84,4 @@ ggarrange(p1, p2, p3, p4, p5, ncol = 3, nrow = 2)
 model = lm(log(price) ~ log(ev_sector_ratio) + log(salesPerShare) + 
              fcfPerShare + ebitPerShare + eps, df)
 summary(model)
+

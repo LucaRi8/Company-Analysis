@@ -21,7 +21,6 @@ target_df = (
         .assign(date_q=lambda df: pd.to_datetime(df['date_q']).dt.normalize()), 
         on=['date_q', 'ticker'], how='left'
     )
-    .dropna()
 )
 
 # %%

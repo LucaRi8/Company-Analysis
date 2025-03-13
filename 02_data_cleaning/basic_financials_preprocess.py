@@ -115,7 +115,7 @@ fin_ts_fs_df = (
         .reset_index()
         .rename(columns={'level_0': 'ticker', 'level_1': 'date_q'})
 )
-# %%
+
 fin_df = (
     fin_df
     .merge(
@@ -129,7 +129,8 @@ p_val_cols = [col for col in fin_df.columns if 'pvalue' in col]
 fin_df = (
     fin_df
     .assign(
-        **{col: np.where(fin_df[col] == 0, 1, fin_df[col]) for col in p_val_cols}
+        **{col: np.where(fin_df[col] == 0, 1, fin_df[col]) for col in p_val_cols},
+        date_q=pd.to_datetime(fin_df['date_q']) + pd.offsets.QuarterEnd(0)
     )
 )
 

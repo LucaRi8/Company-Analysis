@@ -1,6 +1,8 @@
 library(tidyverse)
 library(ggplot2)
 library(ggpubr)
+library(MASS)
+library(e1071)
 
 # load the data
 df = readr::read_csv("target_with_feats.csv")
@@ -16,16 +18,18 @@ summary(lm(price ~ is.na(ev_sector_ratio), data = df))
 
 # companies with lower price have more probability to have missing data
 
-na_tick = df |>
+na_tick_ebit = df |>
   group_by(ticker) |>
   summarise(avg_na = mean(is.na(ebitPerShare))) |>
   arrange(desc(avg_na)) |>
   filter(avg_na == 1) |> 
   select(ticker)
 
-summary(df[df$ticker %in% na_tick[['ticker']], ])
+summary(df[df$ticker %in% na_tick_ebit[['ticker']], ])
 # lots of companies have null in most of the features
 
+features_name = df %>%  names %>% setdiff(c('date_q', 'ticker', 'price'))
+df = df |> filter((!if_all(features_name, is.na)) & !(ticker %in% na_tick_ebit[['ticker']]))
 
 # find the features most correlated with the response variable
 cor_feats = cor(df |> select(- c('date_q', 'ticker', 'finnhubIndustry')) |> drop_na())
@@ -46,31 +50,31 @@ ggplot(cor_long, aes(x = x, y = y, fill = correlation)) +
 
 cor_feats[cor_feats_name, cor_feats_name]
 
-# delete recors with negative price
-df = df |> filter(price > 0)
 
 # scatter with the most correlaed feats with price
-
+# there are some outlier in both covariate and target variable, 
+# so some filter are necessary
+df = df |> filter(price > 0 & price < 10000)
 p1 = df |>
   filter(ebitPerShare > 0 & ebitPerShare < 30) |>
-  ggplot(aes(x = ebitPerShare, y = price)) + 
+  ggplot(aes(x = ebitPerShare, y = log(price))) + 
   geom_point() + 
   geom_smooth()
 
 p2 = df |>
   filter(eps > 0 & eps < 30) |>
-  ggplot(aes(x = eps, y = price)) + 
+  ggplot(aes(x = eps, y = log(price))) + 
   geom_point() + 
   geom_smooth()
 
 p3 = df |>
   filter(fcfPerShare > 0 & fcfPerShare < 30) |>
-  ggplot(aes(x = fcfPerShare, y = price)) + 
+  ggplot(aes(x = fcfPerShare, y = log(price))) + 
   geom_point() + 
   geom_smooth()
 
 p4 = df |>
-  filter(ev_sector_ratio > 0 & ev_sector_ratio < 30) |>
+  filter(salesPerShare > 0 & salesPerShare < 30) |>
   ggplot(aes(x = log(salesPerShare), y = log(price))) + 
   geom_point() + 
   geom_smooth()
@@ -84,10 +88,43 @@ p5 = df |>
 ggarrange(p1, p2, p3, p4, p5, ncol = 3, nrow = 2)
 
 
+# compute a simple linear model 
+df_filtered = df |> 
+  filter(
+    ev_sector_ratio > 0 & 
+    salesPerShare > 0 & 
+    ebitPerShare > 0 & ebitPerShare < 30 & 
+    eps > 0 & eps < 30 & 
+    fcfPerShare > 0 & fcfPerShare < 30
+)
+model = lm(
+  log(price) ~ ebitPerShare + eps + log(salesPerShare) +
+  fcfPerShare + log(ev_sector_ratio) + finnhubIndustry, 
+  data = df_filtered
+)
+summary(model)
 
+# boxplot of some features
+quartz()
+par(mfrow = c(4, 5))
+numeric_feats = names(df[, sapply(df, class) == "numeric"][1:20])
+for(feat in numeric_feats)
+  boxplot(df[,feat], xlab = as.character(feat))
 
+# density of price
+df |>
+  ggplot(aes(x = price)) +
+  geom_density()
 
+df |>
+  mutate(norm_price = rnorm(nrow(df), mean = mean(log(df$price)), sd = sd(log(df$price)))) |>
+  ggplot(aes(x = log(price))) +
+  geom_density() + 
+  geom_density(aes(x = norm_price, color='red'))
 
+ks.test(log(df$price), 'pnorm')
+kurtosis(log(df$price))
+skewness(log(df$price))
 
 
 

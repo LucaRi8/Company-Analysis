@@ -13,8 +13,8 @@ stock_price_df = (
     stock_price_df
     .melt(id_vars=["date"], var_name="ticker", value_name="price")
     .assign(
-        # create quartely reference date and scale the date 3 month back
-        date_q=lambda df: pd.to_datetime(df['date']) + pd.offsets.QuarterEnd(0) - pd.offsets.QuarterEnd(1),
+        # create quartely reference date and scale the date 6 month back
+        date_q=lambda df: pd.to_datetime(df['date']) + pd.offsets.QuarterEnd(0) - pd.offsets.QuarterEnd(2),
         price=lambda df: df['price'].astype(float)
     )
     .groupby(['date_q', 'ticker'])

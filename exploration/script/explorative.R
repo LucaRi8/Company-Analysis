@@ -104,6 +104,7 @@ model = lm(
 )
 summary(model)
 
+
 # boxplot of some features
 quartz()
 par(mfrow = c(4, 5))
@@ -126,6 +127,21 @@ ks.test(log(df$price), 'pnorm')
 kurtosis(log(df$price))
 skewness(log(df$price))
 
+# correlation between covariates
+cor_feats = cor(df |> dplyr::select(- c('date_q', 'ticker', 'finnhubIndustry')) |> drop_na())
+cor_feats_name = names(sort(cor_feats['price', ], decreasing = TRUE))
 
+cor_long <- as.data.frame(as.table(cor_feats[cor_feats_name, cor_feats_name])) %>%
+  rename(x = Var1, y = Var2, correlation = Freq)
+
+ggplot(cor_long, aes(x = x, y = y, fill = correlation)) +
+  geom_tile() +
+  scale_fill_viridis_c() +  
+  theme_minimal() +        
+  labs(title = "Heatmap of most most corr feats",
+       x = "",
+       y = "",
+       fill = "correlaion") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 
 

@@ -9,18 +9,20 @@ seniment_df = pd.read_csv('preprocessed_data/sentiment.csv')
 
 target_df = (
     target_df
-    .assign(date_q=lambda df: pd.to_datetime(df['date_q']))
+    .assign(date_q=lambda df: pd.to_datetime(df['date_q']).dt.date)
     .merge(
         fin_df
         .drop('date_y', axis=1)
-        .assign(date_q=lambda df: pd.to_datetime(df['date_q'])), 
+        .assign(date_q=lambda df: pd.to_datetime(df['date_q']).dt.date), 
         on=['date_q', 'ticker'], how='left'
     )
     .merge(
         seniment_df[['date_q', 'ticker', 'sentiment_avg_q', 'sentiment_sd_q', 'sentiment_num_q']]
-        .assign(date_q=lambda df: pd.to_datetime(df['date_q']).dt.normalize()), 
+        .assign(date_q=lambda df: pd.to_datetime(df['date_q']).dt.date), 
         on=['date_q', 'ticker'], how='left'
     )
 )
 
 target_df.to_csv('target_data/target_with_feats.csv', index=False)
+
+# %%

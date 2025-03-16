@@ -6,6 +6,7 @@ library(e1071)
 
 # load the data
 df = readr::read_csv("target_with_feats.csv")
+df = df |> distinct()
 df
 dim(df)
 summary(df)
@@ -23,7 +24,7 @@ na_tick_ebit = df |>
   summarise(avg_na = mean(is.na(ebitPerShare))) |>
   arrange(desc(avg_na)) |>
   filter(avg_na == 1) |> 
-  select(ticker)
+  dplyr::select(ticker)
 
 summary(df[df$ticker %in% na_tick_ebit[['ticker']], ])
 # lots of companies have null in most of the features
@@ -32,7 +33,7 @@ features_name = df %>%  names %>% setdiff(c('date_q', 'ticker', 'price'))
 df = df |> filter((!if_all(features_name, is.na)) & !(ticker %in% na_tick_ebit[['ticker']]))
 
 # find the features most correlated with the response variable
-cor_feats = cor(df |> select(- c('date_q', 'ticker', 'finnhubIndustry')) |> drop_na())
+cor_feats = cor(df |> dplyr::select(- c('date_q', 'ticker', 'finnhubIndustry')) |> drop_na())
 cor_feats_name = names(sort(cor_feats['price', ], decreasing = TRUE)[1:6])
 
 cor_long <- as.data.frame(as.table(cor_feats[cor_feats_name, cor_feats_name])) %>%
@@ -42,7 +43,7 @@ ggplot(cor_long, aes(x = x, y = y, fill = correlation)) +
   geom_tile() +
   scale_fill_viridis_c() +  
   theme_minimal() +        
-  labs(title = "Heatmap of most most corr feats",
+  labs(title = "Heatmap of most corr feats",
        x = "",
        y = "",
        fill = "correlaion") +
@@ -84,6 +85,7 @@ p5 = df |>
   ggplot(aes(x = log(ev_sector_ratio), y = log(price))) + 
   geom_point() + 
   geom_smooth()
+
 
 ggarrange(p1, p2, p3, p4, p5, ncol = 3, nrow = 2)
 
@@ -138,10 +140,41 @@ ggplot(cor_long, aes(x = x, y = y, fill = correlation)) +
   geom_tile() +
   scale_fill_viridis_c() +  
   theme_minimal() +        
-  labs(title = "Heatmap of most most corr feats",
+  labs(title = "Heatmap of feats corr",
        x = "",
        y = "",
        fill = "correlaion") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 
+# acf of price for some companies
+tk = df |> group_by(ticker) |> summarise(count=n()) |> arrange(desc(count)) 
+tk = tk[["ticker"]][1:9]
+df |>
+  filter(ticker %in% tk) |>
+  ggplot(aes(x = date_q, y = log(price), group = ticker, color = ticker)) +
+  geom_line()
 
+par(mfrow = c(3,3))
+for(i in tk)
+  df |> filter(ticker == i) |> dplyr::select(price) |> mutate(price=log(price)) %>%  acf
+
+par(mfrow = c(1,1))
+
+# use t-1 price to control for autocorreelated data
+df = df |>
+  left_join(
+    df |> 
+      dplyr::select(ticker, date_q, price) |>
+      mutate(date_q = as.Date(date_q)  %m-% months(3)) |>
+      rename(c('price_tm1' = price)),
+    join_by(ticker, date_q)
+  )
+
+
+model = lm(log(price) ~ #offset(1*log(price_tm1)) + 
+             log(price_tm1) + 
+             ebitPerShare + eps + cashRatio + 
+             `ebitPerShare__agg_linear_trend__attr_"slope"__chunk_len_1__f_agg_"mean"` +
+             roa + bookValue, data = df)
+summary(model)
+plot(model)

@@ -1,4 +1,4 @@
-#%%
+
 import pandas as pd
 import numpy as np
 
@@ -23,6 +23,10 @@ target_df = (
     )
 )
 
-target_df.to_csv('target_data/target_with_feats.csv', index=False)
+date_split = pd.to_datetime('2024-01-01')
+train_df = target_df[pd.to_datetime(target_df['date_q']) < date_split]
+test_df = target_df[pd.to_datetime(target_df['date_q']) >= date_split]
 
-# %%
+target_df.to_csv('target_data/target_with_feats.csv', index=False)
+train_df.to_csv('target_data/train_with_feats.csv', index=False)
+test_df.to_csv('target_data/test_with_feats.csv', index=False)

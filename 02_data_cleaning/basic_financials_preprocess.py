@@ -22,7 +22,7 @@ fin_df = (
         columns=fin_col_to_rename
     )
     .merge(
-        sect_df[['ticker', 'finnhubIndustry']],
+        sect_df[['ticker', 'finnhubIndustry', 'marketCapitalization', 'currency']],
         on = 'ticker',
         how = 'left'
     )

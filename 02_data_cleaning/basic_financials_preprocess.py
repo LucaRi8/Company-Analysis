@@ -22,11 +22,12 @@ fin_df = (
         columns=fin_col_to_rename
     )
     .merge(
-        sect_df[['ticker', 'finnhubIndustry', 'marketCapitalization', 'currency']],
+        sect_df[['ticker', 'finnhubIndustry']],
         on = 'ticker',
         how = 'left'
     )
 )
+
 
 # # exploratory o the columns
 # ncol = fin_df.shape[1]

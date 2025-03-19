@@ -42,7 +42,7 @@ def get_yahoo_finance_data(tickers, start_date, end_date):
     return data_dict
 
 # Load the data
-ticker_data = pd.read_json('company_tickers.json')
+ticker_data = pd.read_json('data/company_tickers.json')
 
 # Sample 2000 random ticker to download from ticker_data.loc['ticker']
 sampled_data = ticker_data.loc['ticker'].sample(n=2000, random_state=42).to_list()
@@ -52,7 +52,7 @@ data_dict = get_yahoo_finance_data(sampled_data, constants.sampled_ticker_date['
 # Combine all DataFrames into a single DataFrame
 combined_df = pd.concat(data_dict.values(), axis=1)
 # Save the combined DataFrame to a CSV file
-combined_df.to_csv('stocks_daily_sampled.csv')
+combined_df.to_csv('data/stocks_daily_sampled.csv')
 
 
 

@@ -165,15 +165,15 @@ df = df |>
   left_join(
     df |> 
       dplyr::select(ticker, date_q, price) |>
-      mutate(date_q = as.Date(date_q)  %m-% months(3)) |>
+      mutate(date_q = as.Date(date_q)  %m+% months(3)) |>
       rename(c('price_tm1' = price)),
     join_by(ticker, date_q)
   )
 
 
-model = lm(log(price) ~ #offset(1*log(price_tm1)) + 
-             log(price_tm1) + 
-             ebitPerShare + eps + cashRatio + 
+model = lm(log(price) ~ offset(1*log(price_tm1)) + 
+             #log(price_tm1) + 
+             ebitPerShare + eps + cashRatio + fcfPerShare +
              `ebitPerShare__agg_linear_trend__attr_"slope"__chunk_len_1__f_agg_"mean"` +
              roa + bookValue, data = df)
 summary(model)

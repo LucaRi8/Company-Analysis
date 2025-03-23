@@ -25,7 +25,7 @@ with open('data/company_tickers.json', 'r') as file:
     company_tickers = json.load(file)
 
 ticker_list = [value['ticker'] for key, value in company_tickers.items()]
-sampled_tickers = random.sample(ticker_list, 250)
+sampled_tickers = random.sample(ticker_list, 250, random_state=42)
 
 hist_mk = []
 for tk in tqdm(sampled_tickers):

@@ -101,8 +101,8 @@ df_filtered = df |>
 )
 model = lm(
   log(price) ~ ebitPerShare + eps + log(salesPerShare) +
-  fcfPerShare + log(ev_sector_ratio) + finnhubIndustry, 
-  data = df_filtered
+  fcfPerShare + finnhubIndustry, 
+  data = df_filtered |> filter(salesPerShare > 0)
 )
 summary(model)
 

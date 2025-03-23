@@ -211,3 +211,4 @@ mae_no_imp = mean(abs(log(df_test$price) - pred_no_imp))
 mse_imp_orig = mean(abs(df_test$price - exp(pred_imp)))
 mse_no_imp_orig = mean(abs(df_test$price - exp(pred_no_imp)))
 
+write.csv(df_no_na, "/Users/lucariotto/Documents/Personal/Gestione denaro/Company analysis/exploration/data/train_non_na.csv", row.names = FALSE)

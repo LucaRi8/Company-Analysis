@@ -47,6 +47,11 @@ for tk in tqdm(sampled_tickers, desc='Downloading annual_financial statement dat
 annual_fin_stmt_df = pd.concat([pd.DataFrame(stmt) for stmt in annual_fin_stmt], axis=0)
 annual_fin_stmt_df.to_csv('data/annual_financial_statement.csv', index=False)
 
+# Download balance sheet statement data
+annual_bal_stmt = []
+for tk in tqdm(sampled_tickers, desc='Downloading annual balance sheet statement data'):
+    url = (f"https://financialmodelingprep.com/api/v3/balance-sheet-statement/{tk}?period=annual&apikey={FMP_API_KEY}")
+    annual_bal_stmt.append(get_jsonparsed_data(url))
 
-
-
+annual_bal_stmt_df = pd.concat([pd.DataFrame(stmt) for stmt in annual_bal_stmt], axis=0)
+annual_bal_stmt_df.to_csv('data/annual_balance_sheet_statement.csv', index=False)

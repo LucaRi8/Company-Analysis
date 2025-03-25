@@ -25,11 +25,12 @@ with open('data/company_tickers.json', 'r') as file:
     company_tickers = json.load(file)
 
 ticker_list = [value['ticker'] for key, value in company_tickers.items()]
-sampled_tickers = random.sample(ticker_list, 250, random_state=42)
+random.seed(42)
+sampled_tickers = random.sample(ticker_list, 250)
 
 hist_mk = []
 for tk in tqdm(sampled_tickers):
-    url = (f"https://financialmodelingprep.com/api/v3/historical-market-capitalization/{tk}?limit=100&from={sampled_ticker_date['start_date']}&to={sampled_ticker_date['end_date']}&apikey={FMP_API_KEY}")
+    url = (f"https://financialmodelingprep.com/api/v3/historical-market-capitalization/{tk}?limit=10000&from={sampled_ticker_date['start_date']}&to={sampled_ticker_date['end_date']}&apikey={FMP_API_KEY}")
     hist_mk.append(get_jsonparsed_data(url))
 
 hist_mk_df = pd.concat([pd.DataFrame(mk) for mk in hist_mk], axis=0)

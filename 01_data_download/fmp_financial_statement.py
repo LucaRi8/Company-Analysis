@@ -28,24 +28,14 @@ ticker_list = [value['ticker'] for key, value in company_tickers.items()]
 random.seed(42)
 sampled_tickers = random.sample(ticker_list, 250)
 
-# Download historical market cap data
-hist_mk = []
-for tk in tqdm(sampled_tickers, desc='Downloading historical market cap data'):
-    url = (f"https://financialmodelingprep.com/api/v3/historical-market-capitalization/{tk}?limit=10000&from={sampled_ticker_date['start_date']}&to={sampled_ticker_date['end_date']}&apikey={FMP_API_KEY}")
-    hist_mk.append(get_jsonparsed_data(url))
-
-hist_mk_df = pd.concat([pd.DataFrame(mk) for mk in hist_mk], axis=0)
-hist_mk_df.to_csv('data/historical_market_cap.csv', index=False)
-
-
-# Download financial statement data
+# Download income statement data
 annual_fin_stmt = []
 for tk in tqdm(sampled_tickers, desc='Downloading annual_financial statement data'):
     url = (f"https://financialmodelingprep.com/api/v3/income-statement/{tk}?period=annual&apikey={FMP_API_KEY}")
     annual_fin_stmt.append(get_jsonparsed_data(url))
 
 annual_fin_stmt_df = pd.concat([pd.DataFrame(stmt) for stmt in annual_fin_stmt], axis=0)
-annual_fin_stmt_df.to_csv('data/annual_financial_statement.csv', index=False)
+annual_fin_stmt_df.to_csv('data/annual_income_statement.csv', index=False)
 
 # Download balance sheet statement data
 annual_bal_stmt = []
@@ -55,3 +45,15 @@ for tk in tqdm(sampled_tickers, desc='Downloading annual balance sheet statement
 
 annual_bal_stmt_df = pd.concat([pd.DataFrame(stmt) for stmt in annual_bal_stmt], axis=0)
 annual_bal_stmt_df.to_csv('data/annual_balance_sheet_statement.csv', index=False)
+
+
+# Download cash flow statement data
+annual_cash_stmt = []
+for tk in tqdm(sampled_tickers, desc='Downloading annual cash flow statement data'):
+    url = (f"https://financialmodelingprep.com/stable/cash-flow-statement?symbol={tk}&apikey={FMP_API_KEY}")
+    annual_cash_stmt.append(get_jsonparsed_data(url))
+
+annual_cash_stmt_df = pd.concat([pd.DataFrame(stmt) for stmt in annual_cash_stmt], axis=0)
+annual_cash_stmt_df.to_csv('data/annual_cash_statement.csv', index=False)
+
+

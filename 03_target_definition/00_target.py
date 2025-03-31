@@ -3,24 +3,21 @@ import numpy as np
 
 #%%
 # load financial stock price data
-stock_price_df = pd.read_csv('data/stocks_daily_sampled.csv')
+stock_price_df = pd.read_csv('data/historical_market_cap.csv')
 # 
-ticker = ['date'] + stock_price_df.iloc[0, 1:].to_list()
-stock_price_df = stock_price_df.iloc[2:, :]
-stock_price_df.columns = ticker
-
+stock_price_df = stock_price_df.sort_values(by=['symbol', 'date'])
+stock_price_df['rolling_mk'] = (
+    stock_price_df
+    .groupby('symbol')['marketCap']
+    .transform(lambda x: x.rolling(window=50, min_periods=1).mean())
+)
 stock_price_df = (
     stock_price_df
-    .melt(id_vars=["date"], var_name="ticker", value_name="price")
     .assign(
         # create quartely reference date and scale the date 6 month back
-        date_q=lambda df: pd.to_datetime(df['date']) + pd.offsets.QuarterEnd(0) - pd.offsets.QuarterEnd(2),
-        price=lambda df: df['price'].astype(float)
+        date_q=lambda df: pd.to_datetime(df['date']) + pd.offsets.QuarterEnd(0) - pd.offsets.QuarterEnd(2)
     )
-    .groupby(['date_q', 'ticker'])
-    .agg({'price': 'mean'})
-    .reset_index()
-    .dropna()
 )
-
-stock_price_df.to_csv('target_data/target.csv', index=False)
+stock_price_df['row_number'] = stock_price_df.groupby(['symbol', 'date_q'])['date'].rank(method='first').astype(int)
+stock_price_df['max_row_number'] = stock_price_df.groupby(['symbol', 'date_q'])['row_number'].transform('max')
+stock_price_df = stock_price_df[stock_price_df['row_number'] == stock_price_df['max_row_number']]

@@ -8,29 +8,24 @@ sampled_ticker_date = {
 
 # column renaming of financial basic data
 fin_col_to_rename = {
-    'assetTurnoverTTM' : 'assetTurnover',
-    'fcfPerShareTTM' : 'fcfPerShare',
-    'inventoryTurnoverTTM': 'inventoryTurnover', 
-    'payoutRatioTTM' : 'payoutRatio',
-    'peTTM' : 'pe', 
-    'pfcfTTM' : 'pfcf',
-    'psTTM' : 'ps', 
-    'receivablesTurnoverTTM' : 'receivablesTurnover',
-    'roaTTM' : 'roa', 
-    'roeTTM' : 'roe', 
-    'roicTTM' : 'roic', 
-    'rotcTTM' : 'rotc', 
-    "company": "ticker",
-    'Unnamed: 0': 'date_q',
+    
 }
 
 fin_cols_to_manipulate = [
-    'roa',
-    'roe',
-    'roic',
-    'rotc',
-    'ev',
-    'ebitPerShare',
+    'intangibleAssets',
+    'shortTermDebt',
+    'longTermDebt',
+    'ebitda',
+    'ebitdaratio',
+    'researchAndDevelopmentExpenses',
+    'revenue',
+    'costOfRevenue',
+    'grossProfit',
+    'operatingExpenses',
+    'operatingExpenses',
+    'operatingIncomeRatio',   
+    'netIncome',
+    'eps',
 ]
 
 # time series features extraction (tsfresh) param

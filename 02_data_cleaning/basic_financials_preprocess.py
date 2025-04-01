@@ -10,24 +10,39 @@ from tsfresh.utilities.dataframe_functions import roll_time_series
 from tsfresh.utilities.distribution import MultiprocessingDistributor
 
 
-
- #%%
 # Load the data
-fin_df = pd.read_csv('data/basic_financials.csv')
-sect_df = pd.read_csv('data/company_profile.csv')
- #%%
-fin_df = (
-    fin_df
-    .rename(
-        columns=fin_col_to_rename
+income_df = pd.read_csv('data/annual_income_statement.csv')
+bal_df = pd.read_csv('data/annual_balance_sheet_statement.csv')
+
+income_df = income_df[income_df['reportedCurrency'] == 'USD']
+income_df = (
+    income_df
+    .assign(
+        date_y=lambda df: pd.to_datetime(df['date']) + pd.offsets.YearEnd(0)
     )
-    .merge(
-        sect_df[['ticker', 'finnhubIndustry']],
-        on = 'ticker',
-        how = 'left'
-    )
+    .drop(columns=['reportedCurrency', 'date', 'cik', 'fillingDate', 'acceptedDate', 'period', 'link', 'finalLink', 'calendarYear'])
+    .rename(columns={'symbol': 'ticker'})
 )
 
+bal_df = bal_df[bal_df['reportedCurrency'] == 'USD']
+bal_df = (
+    bal_df
+    .assign(
+        date_y=lambda df: pd.to_datetime(df['date']) + pd.offsets.YearEnd(0)
+    )
+    .drop(columns=['reportedCurrency', 'date', 'cik', 'fillingDate', 'acceptedDate', 'period', 'link', 'finalLink', 'calendarYear'])
+    .rename(columns={'symbol': 'ticker'})
+)
+
+statment_df = (
+    income_df
+    .merge(
+        bal_df,
+        on = ['ticker', 'date_y'],
+        how = 'inner'
+    )
+    .rename(columns={'date_y': 'reference_date_y'})
+)
 
 # # exploratory o the columns
 # ncol = fin_df.shape[1]
@@ -50,89 +65,40 @@ fin_df = (
 # fin_df_summary = summary(fin_df)
 # print(fin_df_summary)
 
-# calculate sector yearly mean 
-fin_df['date_q'] = pd.to_datetime(fin_df['date_q'])
-
-sect_fin_df = (
-    fin_df
-    .assign(date_y=fin_df['date_q'].dt.year)
-    .groupby(['date_y', 'finnhubIndustry'])
-    .agg({col: "mean" for col in fin_cols_to_manipulate})  
-    .rename(columns={col: f"{col}_sector_avg" for col in fin_cols_to_manipulate}) 
-    .reset_index()  
-)
-
-# fill all the missing value with the nearest vaue
-min_date = fin_df['date_q'].dt.year.min()
-max_date = fin_df['date_q'].dt.year.max()
-date_sect_df = (
-    pd.DataFrame({"date_y" : range(min_date, max_date)})
-    .join(
-        pd.DataFrame({"finnhubIndustry": sect_df['finnhubIndustry'].unique()}), 
-        how='cross'
-    )
-)
-sect_fin_df = (
-    sect_fin_df
-    .sort_values("date_y")
-    .set_index(["finnhubIndustry", "date_y"])  
-    .groupby(level="finnhubIndustry")  
-    .ffill()  
-    .reset_index()  
-)
-
-fin_df = (
-    fin_df
-    .assign(date_y=fin_df['date_q'].dt.year)
-    .merge(
-        sect_fin_df,
-        on = ['date_y', 'finnhubIndustry'],
-        how = 'left'
-    )
-)
-
-# calculate ratio between company and sector
-fin_df = (
-    fin_df
-    .assign(
-        **{f'{col}_sector_ratio': fin_df[col] / fin_df[f'{col}_sector_avg'] for col in fin_cols_to_manipulate}
-    )
-    .drop(columns=[f'{col}_sector_avg' for col in fin_cols_to_manipulate])
-)
 
 # time series manipulations, calclation of basic features based on time series of original features
 # like linear model slope, weigthed mean of variations, etc.
  
  #%%
-fin_df_rolled = roll_time_series(
-    fin_df[fin_cols_to_manipulate + ['ticker', 'date_q']].dropna(axis=0), 
-    column_id="ticker", column_sort="date_q", max_timeshift = 20
+statment_df_rolled = roll_time_series(
+    statment_df[fin_cols_to_manipulate + ['ticker', 'reference_date_y']].dropna(axis=0), 
+    column_id="ticker", column_sort="reference_date_y", max_timeshift = 4
 )
-fin_ts_fs_df = (
+statement_ts_fs_df = (
     extract_features(
-        fin_df_rolled.dropna(axis=0).drop(columns='ticker'), 
-        column_id='id', column_sort='date_q', 
+        statment_df_rolled.dropna(axis=0).drop(columns='ticker'), 
+        column_id='id', column_sort='reference_date_y', 
         default_fc_parameters=fc_parameters)
         .reset_index()
-        .rename(columns={'level_0': 'ticker', 'level_1': 'date_q'})
+        .rename(columns={'level_0': 'ticker', 'level_1': 'reference_date_y'})
 )
 
-fin_df = (
-    fin_df
+statment_df = (
+    statment_df
     .merge(
-        fin_ts_fs_df,
-        on = ['ticker', 'date_q'],
+        statement_ts_fs_df,
+        on = ['ticker', 'reference_date_y'],
         how = 'left'
     )
 )
 
-p_val_cols = [col for col in fin_df.columns if 'pvalue' in col]
-fin_df = (
-    fin_df
+p_val_cols = [col for col in statment_df.columns if 'pvalue' in col]
+statment_df = (
+    statment_df
     .assign(
-        **{col: np.where(fin_df[col] == 0, 1, fin_df[col]) for col in p_val_cols},
-        date_q=pd.to_datetime(fin_df['date_q']) + pd.offsets.QuarterEnd(0)
+        **{col: np.where(fin_df[col] == 0, 1, statment_df[col]) for col in p_val_cols},
+        date_q=pd.to_datetime(fin_df['reference_date_y']) + pd.offsets.QuarterEnd(0)
     )
 )
 
-fin_df.to_csv('preprocessed_data/basic_financials_preproc.csv', index=False)
+reference_date_y.to_csv('preprocessed_data/basic_financials_preproc.csv', index=False)
